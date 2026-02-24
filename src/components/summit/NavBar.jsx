@@ -56,9 +56,11 @@ export default function NavBar() {
             }}
             className="flex items-center gap-2"
           >
-            <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#5E3BD4] to-[#E151FF] flex items-center justify-center">
-              <span className="text-white font-bold text-sm">N</span>
-            </div>
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
+              alt="Niural logo"
+              className="w-8 h-8 object-contain"
+            />
             <span
               className={`font-semibold text-lg tracking-tight transition-colors ${
                 scrolled ? "text-gray-900" : "text-white"

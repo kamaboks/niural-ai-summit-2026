@@ -8,28 +8,28 @@ const SPEAKERS = [
     company: "Marathon",
     linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
     alt: "Gokul Rajaram speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQFo_MwQ1EH2Vg/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1690496024657?e=1752710400&v=beta&t=placeholder",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFgT1s7XXvPSw/profile-displayphoto-shrink_800_800/B56ZXWI2iNGsAg-/0/1743054400521?e=1773273600&v=beta&t=KViHGxh84wwbFXXLBRefj8hYcaDoLuXG0zhvbyfR2PA",
   },
   {
     name: "Alexa von Tobel",
     company: "Inspired Capital",
     linkedin: "https://www.linkedin.com/in/alexavontobel/",
     alt: "Alexa von Tobel speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/placeholder/profile-displayphoto-shrink_400_400/0/1690496024657",
+    image: "https://media.licdn.com/dms/image/v2/C5603AQGYjs6BpW7jNQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517732904293?e=1773273600&v=beta&t=CDG5PYwNXcUFXQc0_v48oSDp5PPTqVBb8xh-AdDiga4",
   },
   {
     name: "Morgan Blumberg",
     company: "M13",
     linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
     alt: "Morgan Blumberg speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/placeholder2/profile-displayphoto-shrink_400_400/0/1690496024657",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1773273600&v=beta&t=o74q2UlwmqHjbsbP_3W3S_gBDGtQXIWmNCSDoyFRAE4",
   },
   {
     name: "Christine Choi",
     company: "M13",
     linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
     alt: "Christine Choi speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/placeholder3/profile-displayphoto-shrink_400_400/0/1690496024657",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQF-Cq4KPjGGHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706709053396?e=1773273600&v=beta&t=pR-HmYuPCEhJ0GrONe_OuxcTMboDEi4fIzyXsdH4EI8",
   },
 ];
 
