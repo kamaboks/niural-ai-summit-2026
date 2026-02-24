@@ -42,6 +42,23 @@ export default function Hero() {
       />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-28 pb-20">
+        {/* Niural Logo */}
+        <motion.div
+          initial={{ opacity: 0, y: 10 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="flex justify-center mb-10"
+        >
+          <div className="flex items-center gap-3">
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
+              alt="Niural logomark"
+              className="w-12 h-12 object-contain brightness-0 invert"
+            />
+            <span className="text-white text-2xl font-bold tracking-tight">Niural</span>
+          </div>
+        </motion.div>
+
         {/* Pre-NYC Tech Week Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}

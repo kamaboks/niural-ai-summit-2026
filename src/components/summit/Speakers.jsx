@@ -62,10 +62,16 @@ export default function Speakers() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="text-center group"
             >
-              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10 flex items-center justify-center">
-                <span className="text-4xl font-bold text-[#5E3BD4]/30">
-                  {speaker.name.charAt(0)}
-                </span>
+              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10">
+                <img
+                  src={speaker.image}
+                  alt={speaker.alt}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.style.display = "none";
+                    e.target.parentNode.innerHTML = `<div class="w-full h-full flex items-center justify-center"><span class="text-4xl font-bold text-[#5E3BD4]/30">${speaker.name.charAt(0)}</span></div>`;
+                  }}
+                />
               </div>
               <h3 className="text-lg font-semibold text-gray-900 mb-1">
                 {speaker.name}
