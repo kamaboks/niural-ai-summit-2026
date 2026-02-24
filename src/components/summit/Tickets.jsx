@@ -115,12 +115,12 @@ export default function Tickets() {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className={`relative rounded-2xl p-6 border transition-all duration-300 flex flex-col ${
                 tier.name === "VIP Access"
-                  ? "border-[#5E3BD4]/30 bg-[#5E3BD4]/[0.02] ring-1 ring-[#5E3BD4]/10"
+                  ? "border-[#714DFF]/30 bg-[#714DFF]/[0.02] ring-1 ring-[#714DFF]/10"
                   : "border-gray-200 bg-white hover:border-gray-300"
               }`}
             >
               {tier.badge && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center px-3 py-1 rounded-full bg-[#E151FF]/10 text-[#E151FF] text-xs font-semibold">
+                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center px-3 py-1 rounded-full text-white text-xs font-semibold" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
                   {tier.badge}
                 </span>
               )}
@@ -142,7 +142,7 @@ export default function Tickets() {
                 <ul className="space-y-2 mb-6 flex-1">
                   {tier.features.map((f, j) => (
                     <li key={j} className="flex items-start gap-2 text-sm text-gray-600">
-                      <Check className="w-4 h-4 text-[#5E3BD4] mt-0.5 flex-shrink-0" />
+                      <Check className="w-4 h-4 text-[#714DFF] mt-0.5 flex-shrink-0" />
                       <span>{f}</span>
                     </li>
                   ))}
@@ -171,7 +171,7 @@ export default function Tickets() {
                   rel="noopener noreferrer"
                   className={`mt-auto block w-full text-center px-4 py-3 text-sm font-semibold rounded-full transition-all duration-200 ${
                     tier.active
-                      ? "text-white bg-[#5E3BD4] hover:bg-[#4e2fc0] shadow-sm"
+                      ? "text-white shadow-sm hover:opacity-90"
                       : "text-gray-400 bg-gray-100 cursor-default"
                   }`}
                 >

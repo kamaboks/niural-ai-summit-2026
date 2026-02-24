@@ -53,8 +53,8 @@ export default function WhyAttend() {
                 transition={{ duration: 0.5, delay: i * 0.1 }}
                 className="bg-white rounded-2xl p-8 border border-gray-100 hover:border-[#5E3BD4]/20 transition-colors duration-300"
               >
-                <div className="w-12 h-12 rounded-xl bg-[#5E3BD4]/5 flex items-center justify-center mb-5">
-                  <Icon className="w-6 h-6 text-[#5E3BD4]" />
+                <div className="w-12 h-12 rounded-xl bg-[#714DFF]/5 flex items-center justify-center mb-5">
+                  <Icon className="w-6 h-6 text-[#714DFF]" />
                 </div>
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
                   {reason.title}

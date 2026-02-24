@@ -17,9 +17,9 @@ export default function FinalCTA() {
   return (
     <section className="relative py-24 sm:py-32 overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#1a0a3e] via-[#3a1a7e] to-[#5E3BD4]" />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1a0a3e 0%, #714DFF 60%, #E151FF 100%)" }} />
       <div className="absolute -top-40 -right-40 w-[500px] h-[500px] rounded-full bg-[#E151FF]/10 blur-3xl" />
-      <div className="absolute -bottom-40 -left-40 w-[400px] h-[400px] rounded-full bg-[#5E3BD4]/20 blur-3xl" />
+      <div className="absolute -bottom-40 -left-40 w-[400px] h-[400px] rounded-full bg-[#714DFF]/20 blur-3xl" />
 
       <div className="relative z-10 max-w-3xl mx-auto px-4 sm:px-6 text-center">
         <motion.div
