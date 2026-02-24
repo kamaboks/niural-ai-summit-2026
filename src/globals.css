@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
 @import url('https://api.fontshare.com/v2/css?f[]=switzer@300,400,500,600,700,800&display=swap');
 
@@ -6,8 +7,9 @@
 @tailwind utilities;
 
 :root {
-  --niural-purple: #5E3BD4;
+  --niural-purple: #714DFF;
   --niural-accent: #E151FF;
+  --niural-gradient: linear-gradient(135deg, #714DFF, #E151FF);
 }
 
 html {
