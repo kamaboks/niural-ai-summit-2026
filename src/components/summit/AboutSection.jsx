@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section className="py-20 sm:py-28 bg-white">
+    <section className="py-20 sm:py-28 bg-gradient-to-b from-white to-white">
       <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
