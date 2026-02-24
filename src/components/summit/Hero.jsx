@@ -22,13 +22,13 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1a0a3e 0%, #714DFF 60%, #E151FF 100%)" }} />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(160deg, #0d0520 0%, #1e0d45 20%, #3a1a7a 45%, #714DFF 72%, #c060f0 88%, #E151FF 100%)" }} />
       
       {/* Subtle abstract shapes */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-[#E151FF]/10 blur-3xl" />
-        <div className="absolute -bottom-60 -left-40 w-[500px] h-[500px] rounded-full bg-[#714DFF]/20 blur-3xl" />
-        <div className="absolute top-1/3 left-1/4 w-[300px] h-[300px] rounded-full bg-[#E151FF]/5 blur-2xl" />
+        <div className="absolute -top-60 -right-60 w-[800px] h-[800px] rounded-full bg-[#E151FF]/8 blur-[120px]" />
+        <div className="absolute -bottom-80 -left-60 w-[700px] h-[700px] rounded-full bg-[#714DFF]/15 blur-[100px]" />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-[#9B6FFF]/8 blur-[80px]" />
       </div>
 
       {/* Grid pattern overlay */}
