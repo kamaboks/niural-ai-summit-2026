@@ -22,12 +22,12 @@ export default function Hero() {
   return (
     <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background */}
-      <div className="absolute inset-0 bg-gradient-to-br from-[#1a0a3e] via-[#3a1a7e] to-[#5E3BD4]" />
+      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #1a0a3e 0%, #714DFF 60%, #E151FF 100%)" }} />
       
       {/* Subtle abstract shapes */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute -top-40 -right-40 w-[600px] h-[600px] rounded-full bg-[#E151FF]/10 blur-3xl" />
-        <div className="absolute -bottom-60 -left-40 w-[500px] h-[500px] rounded-full bg-[#5E3BD4]/20 blur-3xl" />
+        <div className="absolute -bottom-60 -left-40 w-[500px] h-[500px] rounded-full bg-[#714DFF]/20 blur-3xl" />
         <div className="absolute top-1/3 left-1/4 w-[300px] h-[300px] rounded-full bg-[#E151FF]/5 blur-2xl" />
       </div>
 
@@ -136,7 +136,7 @@ export default function Hero() {
             href={preserveUtms(TICKET_URL)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white bg-[#5E3BD4] border-2 border-[#E151FF]/50 rounded-full hover:bg-[#4e2fc0] hover:border-[#E151FF] transition-all duration-300 shadow-xl shadow-[#5E3BD4]/30"
+            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white rounded-full hover:opacity-90 transition-all duration-300 shadow-xl shadow-[#714DFF]/30 border-2 border-[#E151FF]/50 hover:border-[#E151FF]" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
           >
             Get Tickets
             <ArrowRight className="w-4 h-4" />
