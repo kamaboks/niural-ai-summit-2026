@@ -35,11 +35,11 @@ export default function Footer() {
                 value={email}
                 onChange={(e) => setEmail(e.target.value)}
                 placeholder="Enter your email"
-                className="flex-1 px-5 py-3 rounded-full bg-white/10 border border-white/10 text-white placeholder-white/40 text-sm focus:outline-none focus:border-[#5E3BD4] transition-colors"
+                className="flex-1 px-5 py-3 rounded-full bg-white/10 border border-white/10 text-white placeholder-white/40 text-sm focus:outline-none focus:border-[#714DFF] transition-colors"
               />
               <button
                 type="submit"
-                className="px-6 py-3 rounded-full bg-[#5E3BD4] text-white text-sm font-semibold hover:bg-[#4e2fc0] transition-colors whitespace-nowrap"
+                className="px-6 py-3 rounded-full text-white text-sm font-semibold hover:opacity-90 transition-colors whitespace-nowrap" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
               >
                 Be the First to Know!
               </button>

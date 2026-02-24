@@ -81,7 +81,7 @@ export default function Speakers() {
                 href={speaker.linkedin}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#5E3BD4] hover:bg-[#5E3BD4]/5 transition-colors duration-200"
+                className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
                 aria-label={`${speaker.name} LinkedIn profile`}
               >
                 <Linkedin className="w-4 h-4" />

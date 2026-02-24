@@ -78,7 +78,7 @@ export default function NavBar() {
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
                 className={`text-sm font-medium transition-colors hover:text-[#5E3BD4] ${
-                  scrolled ? "text-gray-600" : "text-white/80 hover:text-white"
+                  scrolled ? "text-gray-600 hover:text-[#714DFF]" : "text-white/80 hover:text-white"
                 }`}
               >
                 {link.label}
