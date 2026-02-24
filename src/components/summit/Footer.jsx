@@ -53,9 +53,11 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row items-center justify-between gap-6">
           {/* Brand */}
           <div className="flex items-center gap-2">
-            <div className="w-7 h-7 rounded-lg bg-gradient-to-br from-[#5E3BD4] to-[#E151FF] flex items-center justify-center">
-              <span className="text-white font-bold text-xs">N</span>
-            </div>
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
+              alt="Niural logo"
+              className="w-7 h-7 object-contain brightness-0 invert"
+            />
             <span className="text-white font-semibold text-sm">Niural</span>
           </div>
 
