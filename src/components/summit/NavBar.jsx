@@ -88,7 +88,7 @@ export default function NavBar() {
               href={preserveUtms(TICKET_URL)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white bg-[#5E3BD4] rounded-full hover:bg-[#4e2fc0] transition-all duration-200 shadow-lg shadow-[#5E3BD4]/25"
+              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white rounded-full hover:opacity-90 transition-all duration-200 shadow-lg shadow-[#714DFF]/25" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
             >
               Get Tickets
             </a>
@@ -116,7 +116,7 @@ export default function NavBar() {
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className="block px-4 py-3 text-base font-medium text-gray-700 hover:text-[#5E3BD4] hover:bg-gray-50 rounded-lg transition-colors"
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:text-[#714DFF] hover:bg-gray-50 rounded-lg transition-colors"
               >
                 {link.label}
               </a>
@@ -126,7 +126,7 @@ export default function NavBar() {
                 href={preserveUtms(TICKET_URL)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center px-5 py-3 text-base font-semibold text-white bg-[#5E3BD4] rounded-full hover:bg-[#4e2fc0] transition-all"
+                className="block w-full text-center px-5 py-3 text-base font-semibold text-white rounded-full hover:opacity-90 transition-all" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
               >
                 Get Tickets
               </a>
