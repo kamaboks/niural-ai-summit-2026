@@ -92,7 +92,7 @@ function SessionRow({ session }) {
   return (
     <div className="flex flex-col sm:flex-row gap-4 sm:gap-8 py-6 border-b border-gray-100 last:border-b-0">
       <div className="sm:w-32 flex-shrink-0">
-        <span className="text-sm font-semibold text-[#5E3BD4]">{session.time}</span>
+        <span className="text-sm font-semibold text-[#714DFF]">{session.time}</span>
       </div>
       <div className="flex-1 min-w-0">
         <div className="flex flex-wrap items-center gap-3 mb-1">
@@ -115,7 +115,7 @@ function SessionRow({ session }) {
               href={session.sponsor.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#5E3BD4] hover:underline"
+              className="text-[#714DFF] hover:underline"
             >
               {session.sponsor.name}
             </a>
@@ -158,9 +158,10 @@ export default function Agenda() {
                 onClick={() => setActiveTab(tab.id)}
                 className={`px-6 py-3 rounded-lg text-sm font-semibold transition-all duration-200 ${
                   activeTab === tab.id
-                    ? "bg-[#5E3BD4] text-white shadow-sm"
+                    ? "text-white shadow-sm"
                     : "text-gray-500 hover:text-gray-900"
                 }`}
+                style={activeTab === tab.id ? { background: "linear-gradient(135deg, #714DFF, #E151FF)" } : {}}
               >
                 {tab.label}
               </button>
@@ -187,7 +188,7 @@ export default function Agenda() {
                   href={preserveUtms(TICKET_URL)}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-[#5E3BD4] border-2 border-[#5E3BD4]/30 rounded-full hover:border-[#5E3BD4] hover:bg-[#5E3BD4]/5 transition-all duration-200"
+                  className="inline-flex items-center gap-2 px-6 py-3 text-sm font-semibold text-[#714DFF] border-2 border-[#714DFF]/30 rounded-full hover:border-[#714DFF] hover:bg-[#714DFF]/5 transition-all duration-200"
                 >
                   Get VIP Tickets
                   <ArrowRight className="w-4 h-4" />

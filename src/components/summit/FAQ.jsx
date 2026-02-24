@@ -139,14 +139,14 @@ function FAQItem({ faq, isOpen, onToggle }) {
         className="w-full flex items-start justify-between py-5 text-left group"
         aria-expanded={isOpen}
       >
-        <span className="text-base font-medium text-gray-900 pr-4 group-hover:text-[#5E3BD4] transition-colors">
+        <span className="text-base font-medium text-gray-900 pr-4 group-hover:text-[#714DFF] transition-colors">
           {faq.question}
         </span>
         <span className="flex-shrink-0 mt-0.5">
           {isOpen ? (
-            <Minus className="w-5 h-5 text-[#5E3BD4]" />
+            <Minus className="w-5 h-5 text-[#714DFF]" />
           ) : (
-            <Plus className="w-5 h-5 text-gray-400 group-hover:text-[#5E3BD4] transition-colors" />
+            <Plus className="w-5 h-5 text-gray-400 group-hover:text-[#714DFF] transition-colors" />
           )}
         </span>
       </button>
@@ -168,7 +168,7 @@ function FAQItem({ faq, isOpen, onToggle }) {
                   href={faq.link.url}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-block mt-3 text-sm font-medium text-[#5E3BD4] hover:underline"
+                  className="inline-block mt-3 text-sm font-medium text-[#714DFF] hover:underline"
                 >
                   {faq.link.text} →
                 </a>
@@ -251,7 +251,7 @@ export default function FAQ() {
               setShowAll(!showAll);
               setOpenIndex(null);
             }}
-            className="inline-flex items-center px-6 py-3 text-sm font-semibold text-[#5E3BD4] border border-[#5E3BD4]/20 rounded-full hover:border-[#5E3BD4]/40 hover:bg-[#5E3BD4]/5 transition-all duration-200"
+            className="inline-flex items-center px-6 py-3 text-sm font-semibold text-[#714DFF] border border-[#714DFF]/20 rounded-full hover:border-[#714DFF]/40 hover:bg-[#714DFF]/5 transition-all duration-200"
           >
             {showAll ? "Show Fewer Questions" : "View All Questions"}
           </button>
