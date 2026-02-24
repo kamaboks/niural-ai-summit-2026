@@ -98,7 +98,7 @@ export default function Tickets() {
 
         {/* Scarcity */}
         <div className="text-center mb-12">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#5E3BD4]/5 text-[#5E3BD4] text-sm font-medium">
+          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/5 text-[#714DFF] text-sm font-medium">
             <Sparkles className="w-4 h-4" />
             Capacity is limited to 200 executives
           </span>
@@ -160,7 +160,7 @@ export default function Tickets() {
               {tier.isTeam ? (
                 <a
                   href="mailto:events@niural.com"
-                  className="mt-auto block w-full text-center px-4 py-3 text-sm font-semibold text-[#5E3BD4] border border-[#5E3BD4]/30 rounded-full hover:border-[#5E3BD4] hover:bg-[#5E3BD4]/5 transition-all duration-200"
+                  className="mt-auto block w-full text-center px-4 py-3 text-sm font-semibold text-[#714DFF] border border-[#714DFF]/30 rounded-full hover:border-[#714DFF] hover:bg-[#714DFF]/5 transition-all duration-200"
                 >
                   {tier.cta}
                 </a>
@@ -174,6 +174,7 @@ export default function Tickets() {
                       ? "text-white shadow-sm hover:opacity-90"
                       : "text-gray-400 bg-gray-100 cursor-default"
                   }`}
+                  style={tier.active ? { background: "linear-gradient(135deg, #714DFF, #E151FF)" } : {}}
                 >
                   {tier.cta}
                 </a>
