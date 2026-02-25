@@ -24,15 +24,15 @@ export default function FinalCTA() {
       if (!btnRef.current) return;
       const { width, height } = btnRef.current.getBoundingClientRect();
       const r = height / 2;
-      // Rounded-rect path (pill shape)
-      const d = `
-        M ${r},0
-        L ${width - r},0
-        A ${r},${r} 0 0 1 ${width - r},${height}
-        L ${r},${height}
-        A ${r},${r} 0 0 1 ${r},0
-        Z
-      `.trim();
+      // Pill path: starts at left-center, goes clockwise
+      const d = [
+        `M ${r} 0`,
+        `L ${width - r} 0`,
+        `A ${r} ${r} 0 0 1 ${width - r} ${height}`,
+        `L ${r} ${height}`,
+        `A ${r} ${r} 0 0 1 ${r} 0`,
+        `Z`
+      ].join(" ");
       setPathD(d);
     }
     measure();
