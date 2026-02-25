@@ -27,7 +27,9 @@ const REASONS = [
 
 export default function WhyAttend() {
   return (
-    <section id="why-attend" className="py-20 sm:py-28 bg-gray-50">
+    <section id="why-attend" className="py-20 sm:py-28 relative bg-cover bg-center bg-fixed overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/fd9203df8_1mb.jpg')" }}>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/60" />
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
