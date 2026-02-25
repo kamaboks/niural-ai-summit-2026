@@ -87,7 +87,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.35 }}
-          className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-6 text-white/70"
+          className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-6 text-[#3d2d6e]/60"
         >
           <span className="flex items-center gap-2 text-sm sm:text-base">
             <Calendar className="w-4 h-4" />
