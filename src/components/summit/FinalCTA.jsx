@@ -16,7 +16,29 @@ function preserveUtms(baseUrl) {
 
 
 export default function FinalCTA() {
+  const btnRef = useRef(null);
+  const [pathD, setPathD] = useState("");
 
+  useEffect(() => {
+    function measure() {
+      if (!btnRef.current) return;
+      const { width, height } = btnRef.current.getBoundingClientRect();
+      const r = height / 2;
+      // Rounded-rect path (pill shape)
+      const d = `
+        M ${r},0
+        L ${width - r},0
+        A ${r},${r} 0 0 1 ${width - r},${height}
+        L ${r},${height}
+        A ${r},${r} 0 0 1 ${r},0
+        Z
+      `.trim();
+      setPathD(d);
+    }
+    measure();
+    window.addEventListener("resize", measure);
+    return () => window.removeEventListener("resize", measure);
+  }, []);
 
   return (
     <section className="relative py-24 sm:py-32 overflow-hidden">
