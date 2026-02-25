@@ -59,14 +59,14 @@ export default function NavBar() {
             <img
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
               alt="Niural logo"
-              className="w-8 h-8 object-contain"
+              className={`w-8 h-8 object-contain transition-all ${scrolled ? "" : "brightness-0 invert"}`}
             />
             <span
-              className={`font-semibold text-lg tracking-tight transition-colors ${
+              className={`font-bold text-lg tracking-tight transition-colors ${
                 scrolled ? "text-gray-900" : "text-white"
               }`}
             >
-              Niural
+              Niural AI
             </span>
           </a>
 
