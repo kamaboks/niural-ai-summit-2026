@@ -62,7 +62,7 @@ export default function FinalCTA() {
           </p>
 
           {/* Glow path button wrapper */}
-          <div className="inline-block relative">
+          <div className="inline-block relative" style={{ isolation: "isolate" }}>
             {pathD && (
               <svg
                 className="absolute pointer-events-none"
