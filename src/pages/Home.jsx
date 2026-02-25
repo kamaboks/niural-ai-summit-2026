@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import NavBar from "@/components/summit/NavBar";
+import BrandBar from "@/components/summit/BrandBar";
 import Hero from "@/components/summit/Hero";
 import AboutSection from "@/components/summit/AboutSection";
 import WhyAttend from "@/components/summit/WhyAttend";
