@@ -87,10 +87,9 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.45 }} className="text-base sm:text-lg text-[#3d2d6e]/70 max-w-36rm mx-auto mb-10 leading-relaxed">
-
-
-          The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders, and operators building modern finance and workforce systems.
+          transition={{ duration: 0.6, delay: 0.45 }}
+          className="text-base sm:text-lg text-[#3d2d6e]/55 max-w-xl mx-auto mb-10 leading-relaxed">
+          The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders,<br />and operators building modern finance and workforce systems.
         </motion.p>
 
         {/* CTAs */}
