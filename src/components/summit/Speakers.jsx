@@ -62,7 +62,7 @@ export default function Speakers() {
               transition={{ duration: 0.5, delay: i * 0.1 }}
               className="text-center group"
             >
-              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10">
+              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10 shadow-lg">
                 <img
                   src={speaker.image}
                   alt={speaker.alt}
