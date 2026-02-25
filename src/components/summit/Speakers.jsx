@@ -116,7 +116,7 @@ export default function Speakers() {
           className="mt-16 max-w-md mx-auto flex justify-center">
           <div className="sparkle-button">
             <button className="relative px-8 py-3 text-lg font-semibold rounded-full border-0 cursor-pointer flex items-center gap-2 whitespace-nowrap"
-              style={{ position: 'relative' }}>
+              style={{ '--active': 0, '--cut': '0.1em' }}>
               <span className="spark"></span>
               <span className="backdrop"></span>
               <svg className="sparkle" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '1.25em', height: '1.25em' }}>
