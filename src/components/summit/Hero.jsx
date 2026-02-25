@@ -20,7 +20,7 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-[115vh] flex items-center justify-center overflow-hidden">
+    <section className="relative flex items-center justify-center overflow-hidden">
       {/* Background - soft mesh/aurora */}
       <div className="absolute inset-0" style={{ background: "#faf8ff" }} />
       <div className="absolute inset-0 overflow-hidden">
