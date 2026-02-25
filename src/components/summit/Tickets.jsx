@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Check, Sparkles } from "lucide-react";
 
-const TICKET_URL = "https://luma.com/mggz3md1";
+const TICKET_URL = "https://luma.com/calendar/manage/cal-PcCUs2VNmNzlZMs";
 
 function preserveUtms(baseUrl) {
   const currentParams = new URLSearchParams(window.location.search);
