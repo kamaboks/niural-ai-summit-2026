@@ -30,11 +30,11 @@ function SparkleIcon() {
     <svg className="sparkle" style={{ width: "1.25em", translate: "-25% -5%", overflow: "visible" }} viewBox="0 0 24 24" fill="none">
       <path d="M12 3C12 3 12 8 8 10C12 12 12 21 12 21" strokeWidth="0" />
       <path d="M12 3L14 10L21 12L14 14L12 21L10 14L3 12L10 10L12 3Z" strokeWidth="0" />
-      <path className="sparkle-path" style={{ "--scale": 0.5, "--delay": 0.1, "--base": "40%" } as React.CSSProperties}
+      <path className="sparkle-path" style={{ "--scale": 0.5, "--delay": 0.1, "--base": "40%" }}
         d="M12 6L13 10L17 11L13 12L12 16L11 12L7 11L11 10Z" />
-      <path className="sparkle-path" style={{ "--scale": 1.5, "--delay": 0.2, "--base": "20%" } as React.CSSProperties}
+      <path className="sparkle-path" style={{ "--scale": 1.5, "--delay": 0.2, "--base": "20%" }}
         d="M12 4L13.5 9L18 10.5L13.5 12L12 17L10.5 12L6 10.5L10.5 9Z" />
-      <path className="sparkle-path" style={{ "--scale": 2.5, "--delay": 0.35, "--base": "30%" } as React.CSSProperties}
+      <path className="sparkle-path" style={{ "--scale": 2.5, "--delay": 0.35, "--base": "30%" }}
         d="M12 2L14 9L21 11L14 13L12 20L10 13L3 11L10 9Z" />
     </svg>
   );
