@@ -40,66 +40,37 @@ export default function NavBar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-[70px]">
-
-          {/* Logo */}
-          <a
-            href="#"
-            onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
-            className="flex items-center gap-2 flex-shrink-0"
-          >
-            <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
-              alt="Niural logo"
-              className="w-8 h-8 object-contain"
-            />
-            <span className="font-bold text-[17px] text-gray-900 tracking-tight">
-              Niural AI
-            </span>
-          </a>
-
-          {/* Desktop Nav Links — centered */}
-          <div className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
-            {NAV_LINKS.map((link) => (
-              <a
-                key={link.href}
-                href={link.href}
-                onClick={(e) => handleNavClick(e, link.href)}
-                className="px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 rounded-lg hover:bg-gray-50 transition-colors"
-              >
-                {link.label}
-              </a>
-            ))}
+  <div className="flex items-center justify-between h-14 px-6 bg-background/90 backdrop-blur-md border border-border rounded-full shadow-sm">
+          <div className="flex items-center gap-6">
+            <a href="#" className="flex items-center">
+              <img src={niuralLogo} alt="Niural AI" className="h-7" />
+            </a>
+            <div className="hidden md:block w-px h-6 bg-border" />
+            <div className="hidden md:flex items-center gap-6">
+              {navLinks.map((link) => (
+                <a
+                  key={link.href}
+                  href={link.href}
+                  className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors"
+                >
+                  {link.label}
+                </a>
+              ))}
+            </div>
           </div>
 
-          {/* Desktop Right Actions */}
-          <div className="hidden lg:flex items-center gap-3">
-            <a
-              href={preserveUtms(TICKET_URL)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors px-2"
-            >
-              Sign in
-            </a>
-            <a
-              href={preserveUtms(TICKET_URL)}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white rounded-lg hover:opacity-90 transition-all duration-200"
-              style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
-            >
-              Get Tickets
-            </a>
+          <div className="hidden md:flex items-center gap-4">
+            <Button size="sm" className="rounded-full px-5" asChild>
+              <a href={TICKET_URL} target="_blank" rel="noopener noreferrer">Get Tickets</a>
+            </Button>
           </div>
 
-          {/* Mobile Toggle */}
           <button
-            onClick={() => setMobileOpen(!mobileOpen)}
-            className="lg:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors"
+            className="md:hidden text-foreground"
+            onClick={() => setOpen(!open)}
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
+            {open ? <X size={24} /> : <Menu size={24} />}
           </button>
         </div>
       </div>
