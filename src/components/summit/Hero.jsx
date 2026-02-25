@@ -133,7 +133,7 @@ export default function Hero() {
           </a>
           <button
             onClick={scrollToTickets}
-            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white/90 bg-white/10 backdrop-blur-sm border border-white/20 rounded-full hover:bg-white/20 transition-all duration-300"
+            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-[#714DFF] bg-white/60 backdrop-blur-sm border border-[#714DFF]/20 rounded-full hover:bg-white/80 transition-all duration-300"
           >
             View Tickets
           </button>
