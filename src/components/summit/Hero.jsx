@@ -93,12 +93,12 @@ export default function Hero() {
             <Calendar className="w-4 h-4" />
             Thursday, May 28, 2026
           </span>
-          <span className="hidden sm:inline text-white/30">|</span>
+          <span className="hidden sm:inline text-[#714DFF]/30">|</span>
           <span className="flex items-center gap-2 text-sm sm:text-base">
             <MapPin className="w-4 h-4" />
             Midtown Manhattan
           </span>
-          <span className="hidden sm:inline text-white/30">|</span>
+          <span className="hidden sm:inline text-[#714DFF]/30">|</span>
           <span className="flex items-center gap-2 text-sm sm:text-base">
             <Users className="w-4 h-4" />
             200+ Curated Leaders
