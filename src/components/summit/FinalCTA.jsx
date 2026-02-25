@@ -63,44 +63,32 @@ export default function FinalCTA() {
 
           {/* Glow path button wrapper */}
           <div className="inline-block relative">
-            {/* SVG glow path that traces the button border */}
-            <svg
-              className="absolute pointer-events-none"
-              style={{
-                top: -2,
-                left: -2,
-                width: "calc(100% + 4px)",
-                height: "calc(100% + 4px)",
-                overflow: "visible",
-                zIndex: 2,
-              }}
-            >
-              <rect
-                id="btn-path"
-                x="2" y="2"
-                width="calc(100% - 4px)" height="calc(100% - 4px)"
-                rx="9999"
-                fill="none"
-              />
-              {/* Animated glow dot */}
-              <circle r="4" fill="white" filter="url(#glow-filter)" style={{ opacity: 0.95 }}>
-                <animateMotion dur="2.5s" repeatCount="indefinite" rotate="auto">
-                  <mpath href="#btn-path" />
-                </animateMotion>
-              </circle>
-              <defs>
-                <filter id="glow-filter" x="-200%" y="-200%" width="500%" height="500%">
-                  <feGaussianBlur stdDeviation="5" result="blur" />
-                  <feMerge>
-                    <feMergeNode in="blur" />
-                    <feMergeNode in="blur" />
-                    <feMergeNode in="SourceGraphic" />
-                  </feMerge>
-                </filter>
-              </defs>
-            </svg>
+            {pathD && (
+              <svg
+                className="absolute pointer-events-none"
+                style={{ top: 0, left: 0, width: "100%", height: "100%", overflow: "visible", zIndex: 2 }}
+              >
+                <defs>
+                  <filter id="glow-filter" x="-300%" y="-300%" width="700%" height="700%">
+                    <feGaussianBlur stdDeviation="6" result="blur" />
+                    <feMerge>
+                      <feMergeNode in="blur" />
+                      <feMergeNode in="blur" />
+                      <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                  </filter>
+                </defs>
+                <path id="glow-ring" d={pathD} fill="none" />
+                <circle r="5" fill="white" filter="url(#glow-filter)">
+                  <animateMotion dur="2.4s" repeatCount="indefinite">
+                    <mpath href="#glow-ring" />
+                  </animateMotion>
+                </circle>
+              </svg>
+            )}
 
             <a
+              ref={btnRef}
               href={preserveUtms(TICKET_URL)}
               target="_blank"
               rel="noopener noreferrer"
