@@ -53,7 +53,7 @@ export default function WhyAttend() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-[#5E3BD4]/40 transition-colors duration-300">
+                className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-[#5E3BD4]/40 transition-colors duration-300 shadow-xl">
 
                 <div className="w-12 h-12 rounded-xl bg-[#714DFF]/5 flex items-center justify-center mb-5">
                   <Icon className="w-6 h-6 text-[#714DFF]" />
