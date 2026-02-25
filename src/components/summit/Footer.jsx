@@ -119,7 +119,7 @@ export default function Footer() {
       </div>
 
       {/* Full-width "Niural Inc." watermark */}
-      <div className="w-full overflow-hidden" style={{ lineHeight: 0 }}>
+      <div className="max-w-4xl mx-auto px-4 overflow-hidden" style={{ lineHeight: 0 }}>
         <img
           src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/d1ca927ec_footer-text.png"
           alt="Niural Inc."
