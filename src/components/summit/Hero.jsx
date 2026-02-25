@@ -77,7 +77,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-lg sm:text-xl md:text-2xl text-white/80 font-light max-w-3xl mx-auto mb-4 leading-relaxed"
+          className="text-lg sm:text-xl md:text-2xl text-[#3d2d6e]/80 font-light max-w-3xl mx-auto mb-4 leading-relaxed"
         >
           Executive AI Conference in NYC for Finance, HR, and Operations Leaders
         </motion.p>
