@@ -119,17 +119,16 @@ export default function Tickets() {
                   : "border-gray-200 bg-white hover:border-gray-300"
               }`}
             >
-              {tier.badge && (
-                <span className="inline-flex items-center self-start px-3 py-1 rounded-full text-white text-xs font-semibold mb-3" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
-                  {tier.badge}
-                </span>
-              )}
-
-              <div className={`mb-4 ${!tier.badge ? "pt-1" : ""}`}>
+              <div className="mb-4 pt-1">
                 <h3 className="text-base font-semibold text-gray-900 mb-1">
                   {tier.name}
                 </h3>
                 <p className="text-3xl font-bold text-gray-900">{tier.price}</p>
+                {tier.badge && (
+                  <span className="inline-flex items-center mt-2 px-3 py-1 rounded-full text-white text-xs font-semibold" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
+                    {tier.badge}
+                  </span>
+                )}
               </div>
 
               {tier.description && (
