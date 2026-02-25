@@ -55,8 +55,7 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-lg sm:text-xl text-[#3d2d6e]/70 max-w-xl mx-auto mb-5 leading-relaxed">
-
+          className="text-lg md:text-xl text-[#3d2d6e]/80 max-w-2xl mx-auto mb-4 leading-relaxed font-medium">
           Executive AI Conference in NYC for Finance, HR, and Operations Leaders
         </motion.p>
 
@@ -65,20 +64,19 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.35 }}
-          className="flex flex-wrap items-center justify-center gap-2 sm:gap-4 mb-6 text-[#3d2d6e]/40 text-xs">
-
-          <span className="flex items-center gap-1">
-            <Calendar className="w-3 h-3" />
+          className="flex flex-wrap items-center justify-center gap-4 mb-4 text-[#3d2d6e]/50 text-sm">
+          <span className="flex items-center gap-1.5">
+            <Calendar className="w-4 h-4" />
             Thursday, May 28, 2026
           </span>
-          <span className="text-[#714DFF]/25">|</span>
-          <span className="flex items-center gap-1">
-            <MapPin className="w-3 h-3" />
+          <span className="hidden sm:inline text-[#714DFF]/25">|</span>
+          <span className="flex items-center gap-1.5">
+            <MapPin className="w-4 h-4" />
             Midtown Manhattan
           </span>
-          <span className="text-[#714DFF]/25">|</span>
-          <span className="flex items-center gap-1">
-            <Users className="w-3 h-3" />
+          <span className="hidden sm:inline text-[#714DFF]/25">|</span>
+          <span className="flex items-center gap-1.5">
+            <Users className="w-4 h-4" />
             200+ Curated Leaders
           </span>
         </motion.div>
@@ -87,8 +85,8 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.45 }} className="text-[#3d2d6e]/55 mb-10 mx-auto text-xs leading-relaxed sm:text-sm">
-
+          transition={{ duration: 0.6, delay: 0.45 }}
+          className="text-sm md:text-base text-[#3d2d6e]/50 max-w-2xl mx-auto mb-12 leading-relaxed">
           The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders,<br />and operators building modern finance and workforce systems.
         </motion.p>
 
