@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
+import { Button } from "@/components/ui/button";
 
 const NAV_LINKS = [
   { label: "Why Attend", href: "#why-attend" },
@@ -21,80 +22,94 @@ function preserveUtms(baseUrl) {
 }
 
 export default function NavBar() {
-  const [scrolled, setScrolled] = useState(false);
-  const [mobileOpen, setMobileOpen] = useState(false);
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll);
-    return () => window.removeEventListener("scroll", onScroll);
-  }, []);
+  const [open, setOpen] = useState(false);
 
   const handleNavClick = (e, href) => {
     e.preventDefault();
-    setMobileOpen(false);
+    setOpen(false);
     const el = document.querySelector(href);
     if (el) el.scrollIntoView({ behavior: "smooth" });
   };
 
   return (
-    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-sm">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-14 px-6 bg-background/90 backdrop-blur-md border border-border rounded-full shadow-sm">
-          <div className="flex items-center gap-6">
-            <a href="#" className="flex items-center">
-              <img src={niuralLogo} alt="Niural AI" className="h-7" />
-            </a>
-            <div className="hidden md:block w-px h-6 bg-border" />
-            <div className="hidden md:flex items-center gap-6">
-              {navLinks.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  className="text-muted-foreground hover:text-foreground text-sm font-medium transition-colors"
-                >
-                  {link.label}
-                </a>
-              ))}
-            </div>
-          </div>
-
-          <div className="hidden md:flex items-center gap-4">
-            <Button size="sm" className="rounded-full px-5" asChild>
-              <a href={TICKET_URL} target="_blank" rel="noopener noreferrer">Get Tickets</a>
-            </Button>
-          </div>
-
-          <button
-            className="md:hidden text-foreground"
-            onClick={() => setOpen(!open)}
-            aria-label="Toggle menu"
+    <nav className="fixed top-0 left-0 right-0 z-50 pt-4 px-4">
+      <div className="max-w-6xl mx-auto">
+        <div className="flex items-center justify-between h-14 px-5 bg-white/90 backdrop-blur-md border border-gray-200 rounded-full shadow-sm">
+          {/* Logo */}
+          <a
+            href="#"
+            onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+            className="flex items-center gap-2 flex-shrink-0"
           >
-            {open ? <X size={24} /> : <Menu size={24} />}
-          </button>
-        </div>
-      </div>
+            <img
+              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
+              alt="Niural AI"
+              className="h-7 w-7 object-contain"
+            />
+            <span className="font-bold text-[16px] text-gray-900 tracking-tight">Niural AI</span>
+          </a>
 
-      {/* Mobile Menu */}
-      {mobileOpen && (
-        <div className="lg:hidden bg-white border-t border-gray-100 shadow-xl">
-          <div className="px-4 py-5 space-y-1">
+          {/* Divider */}
+          <div className="hidden md:block w-px h-5 bg-gray-200 mx-2" />
+
+          {/* Desktop Nav Links */}
+          <div className="hidden md:flex items-center gap-1 flex-1">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className="block px-4 py-3 text-base font-medium text-gray-700 hover:text-[#714DFF] hover:bg-gray-50 rounded-lg transition-colors"
+                className="px-4 py-2 text-sm font-medium text-gray-500 hover:text-gray-900 rounded-full hover:bg-gray-100 transition-colors"
               >
                 {link.label}
               </a>
             ))}
-            <div className="pt-3 border-t border-gray-100 mt-3">
+          </div>
+
+          {/* Desktop CTA */}
+          <div className="hidden md:flex items-center">
+            <a
+              href={preserveUtms(TICKET_URL)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-2 text-sm font-semibold text-white rounded-full hover:opacity-90 transition-all"
+              style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
+            >
+              Get Tickets
+            </a>
+          </div>
+
+          {/* Mobile Toggle */}
+          <button
+            className="md:hidden text-gray-700 p-1"
+            onClick={() => setOpen(!open)}
+            aria-label="Toggle menu"
+          >
+            {open ? <X size={22} /> : <Menu size={22} />}
+          </button>
+        </div>
+      </div>
+
+      {/* Mobile Menu */}
+      {open && (
+        <div className="md:hidden max-w-6xl mx-auto mt-2">
+          <div className="bg-white/95 backdrop-blur-md border border-gray-200 rounded-2xl shadow-xl px-4 py-5 space-y-1">
+            {NAV_LINKS.map((link) => (
+              <a
+                key={link.href}
+                href={link.href}
+                onClick={(e) => handleNavClick(e, link.href)}
+                className="block px-4 py-3 text-base font-medium text-gray-700 hover:text-[#714DFF] hover:bg-gray-50 rounded-xl transition-colors"
+              >
+                {link.label}
+              </a>
+            ))}
+            <div className="pt-3 border-t border-gray-100 mt-2">
               <a
                 href={preserveUtms(TICKET_URL)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center px-5 py-3 text-base font-semibold text-white rounded-lg hover:opacity-90 transition-all"
+                className="block w-full text-center px-5 py-3 text-base font-semibold text-white rounded-full hover:opacity-90 transition-all"
                 style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
               >
                 Get Tickets
