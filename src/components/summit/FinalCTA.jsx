@@ -80,8 +80,27 @@ export default function FinalCTA() {
                 </defs>
                 {/* Visible border path */}
                 <path d={pathD} fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" />
-                {/* Glow dot on the border */}
+                {/* Glow dot with comet tail */}
                 <path id="glow-ring" d={pathD} fill="none" />
+                
+                {/* Tail particles */}
+                <g opacity="0.4">
+                  <circle r="3" fill="white" filter="url(#glow-filter)">
+                    <animateMotion dur="2.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1">
+                      <mpath href="#glow-ring" />
+                    </animateMotion>
+                  </circle>
+                </g>
+                
+                <g opacity="0.25">
+                  <circle r="2.5" fill="white" filter="url(#glow-filter)">
+                    <animateMotion dur="2.4s" repeatCount="indefinite" keyPoints="0;1" keyTimes="0;1">
+                      <mpath href="#glow-ring" />
+                    </animateMotion>
+                  </circle>
+                </g>
+
+                {/* Main glowing dot */}
                 <circle r="4" fill="white" filter="url(#glow-filter)">
                   <animateMotion dur="2.4s" repeatCount="indefinite">
                     <mpath href="#glow-ring" />
