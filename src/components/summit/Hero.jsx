@@ -90,7 +90,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.6, delay: 0.45 }} className="bg-[] text-[#171c26cc] mb-10 mx-auto text-base max-w-2xl">
+          transition={{ duration: 0.6, delay: 0.45 }} className="text-base text-[#3d2d6e]/50 max-w-2xl mx-auto mb-10">
 
 
           The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders, and operators building modern finance and workforce systems.
