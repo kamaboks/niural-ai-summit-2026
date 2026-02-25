@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowRight, Calendar, MapPin, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
-const TICKET_URL = "https://luma.com/mggz3md1";
+const TICKET_URL = "https://luma.com/calendar/manage/cal-PcCUs2VNmNzlZMs";
 
 function preserveUtms(baseUrl) {
   const currentParams = new URLSearchParams(window.location.search);
