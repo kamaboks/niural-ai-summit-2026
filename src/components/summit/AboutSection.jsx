@@ -3,19 +3,19 @@ import { motion } from "framer-motion";
 
 export default function AboutSection() {
   return (
-    <section className="py-20 sm:py-28 bg-gradient-to-b from-white to-white">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section className="py-20 sm:py-28 bg-white">
+      <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-8 tracking-tight text-center">
             Redefining How Modern Companies Run
           </h2>
 
-          <div className="space-y-5 text-lg text-gray-600 leading-relaxed">
+          <div className="space-y-5 text-lg text-gray-600 leading-relaxed text-center">
             <p>
               Niural AI Summit is the executive AI conference in NYC designed for leaders building in the age of automation.
             </p>
