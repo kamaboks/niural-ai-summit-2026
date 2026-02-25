@@ -99,8 +99,8 @@ export default function Tickets() {
         </motion.div>
 
         {/* Scarcity */}
-        <div className="text-center mb-12">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/5 text-[#714DFF] text-sm font-medium">
+         <div className="text-center mb-12">
+           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm font-medium">
             <Sparkles className="w-4 h-4" />
             Capacity is limited to 200 executives
           </span>
