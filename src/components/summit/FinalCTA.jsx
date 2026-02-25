@@ -13,20 +13,7 @@ function preserveUtms(baseUrl) {
   return url.toString();
 }
 
-const PARTICLES = [
-  { x: 10, y: 25, size: 0.3, delay: 0.0, duration: 2.4, alpha: 0.9, ox: 80, oy: 120 },
-  { x: 20, y: 60, size: 0.5, delay: 0.6, duration: 2.0, alpha: 0.7, ox: 120, oy: 80 },
-  { x: 35, y: 15, size: 0.4, delay: 1.1, duration: 2.8, alpha: 0.8, ox: 90, oy: 150 },
-  { x: 50, y: 80, size: 0.3, delay: 0.3, duration: 2.2, alpha: 0.6, ox: 110, oy: 70 },
-  { x: 65, y: 10, size: 0.5, delay: 0.9, duration: 2.6, alpha: 0.9, ox: 70, oy: 130 },
-  { x: 75, y: 70, size: 0.4, delay: 0.15, duration: 2.1, alpha: 0.7, ox: 130, oy: 90 },
-  { x: 88, y: 35, size: 0.3, delay: 0.75, duration: 2.5, alpha: 0.8, ox: 85, oy: 110 },
-  { x: 55, y: 50, size: 0.45, delay: 0.45, duration: 1.9, alpha: 0.6, ox: 100, oy: 100 },
-  { x: 5,  y: 80, size: 0.35, delay: 1.3, duration: 2.3, alpha: 0.9, ox: 115, oy: 85 },
-  { x: 92, y: 65, size: 0.5, delay: 0.55, duration: 2.7, alpha: 0.7, ox: 75, oy: 125 },
-  { x: 28, y: 90, size: 0.3, delay: 1.0, duration: 2.0, alpha: 0.8, ox: 95, oy: 105 },
-  { x: 72, y: 20, size: 0.4, delay: 0.2, duration: 2.4, alpha: 0.6, ox: 105, oy: 95 },
-];
+
 
 export default function FinalCTA() {
   const [hovered, setHovered] = useState(false);
