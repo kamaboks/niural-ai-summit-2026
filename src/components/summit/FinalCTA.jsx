@@ -135,7 +135,7 @@ export default function FinalCTA() {
                 transition: "box-shadow 0.25s, scale 0.25s, background 0.25s",
                 scale: active ? "1.05" : "1",
                 overflow: "visible",
-              } as React.CSSProperties}
+              }}
             >
               {/* Spark sweep */}
               <span
