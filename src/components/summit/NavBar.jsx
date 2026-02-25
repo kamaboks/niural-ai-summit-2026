@@ -42,11 +42,10 @@ export default function NavBar() {
             className="flex items-center gap-2 flex-shrink-0"
           >
             <img
-              src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
-              alt="Niural AI"
-              className="h-7 w-7 object-contain"
+              src="https://www.niural.com/assets/logo.svg"
+              alt="Niural"
+              className="h-7 object-contain"
             />
-            <span className="font-bold text-[16px] text-gray-900 tracking-tight">Niural AI</span>
           </a>
 
           {/* Divider */}
