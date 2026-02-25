@@ -22,7 +22,7 @@ const SPEAKERS = [
     company: "M13",
     linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
     alt: "Morgan Blumberg speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1773273600&v=beta&t=o74q2UlwmqHjbsbP_3W3S_gBDGtQXIWmNCSDoyFRAE4",
+    image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1773878400&v=beta&t=ibACTQRWLPsehRGy9ioWniwr4WgUMfZBo58qwaz-aBM",
   },
   {
     name: "Christine Choi",
