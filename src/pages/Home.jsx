@@ -58,6 +58,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white" style={{ fontFamily: "'Inter', system-ui, -apple-system, sans-serif" }}>
       <NavBar />
+      <BrandBar />
       <Hero />
       <AboutSection />
       <WhyAttend />
