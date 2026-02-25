@@ -97,7 +97,7 @@ export default function Speakers() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-16 max-w-md mx-auto">
-          <div className="bg-gradient-to-br p-8 rounded-[64px] from-[#714DFF]/15 via-[#714DFF]/10 to-[#E151FF]/15 border border-[#714DFF]/40 backdrop-blur-sm">
+          <div className="bg-gradient-to-r from-[#714DFF] to-[#E151FF] p-8 rounded-[64px] border-0 backdrop-blur-sm">
             <p className="text-gray-900 text-lg font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON
 
             </p>
