@@ -58,10 +58,10 @@ export default function WhyAttend() {
                 <div className="w-12 h-12 rounded-xl bg-[#714DFF]/5 flex items-center justify-center mb-5">
                   <Icon className="w-6 h-6 text-[#714DFF]" />
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900 mb-3">
+                <h3 className="text-lg font-semibold text-gray-900 mb-3 drop-shadow-sm">
                   {reason.title}
                 </h3>
-                <p className="text-sm text-gray-700 leading-relaxed">
+                <p className="text-sm text-gray-700 leading-relaxed drop-shadow-sm">
                   {reason.description}
                 </p>
               </motion.div>);
