@@ -1,6 +1,5 @@
 import React, { useEffect } from "react";
 import NavBar from "@/components/summit/NavBar";
-import BrandBar from "@/components/summit/BrandBar";
 import Hero from "@/components/summit/Hero";
 import AboutSection from "@/components/summit/AboutSection";
 import WhyAttend from "@/components/summit/WhyAttend";
@@ -58,7 +57,6 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white" style={{ fontFamily: "'Inter', system-ui, -apple-system, sans-serif" }}>
       <NavBar />
-      <BrandBar />
       <Hero />
       <AboutSection />
       <WhyAttend />
