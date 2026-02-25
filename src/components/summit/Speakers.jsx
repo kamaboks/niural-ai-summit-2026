@@ -90,16 +90,22 @@ export default function Speakers() {
           )}
         </div>
 
-        {/* Stay tuned */}
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
+        {/* Stay tuned card */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }} className="text-[#000000] text-lg font-normal text-center uppercase">
-
-
-          Stay tuned for more speaker reveals
-        </motion.p>
+          transition={{ duration: 0.6, delay: 0.4 }}
+          className="mt-16 max-w-md mx-auto">
+          <div className="p-8 rounded-2xl bg-gradient-to-br from-[#714DFF]/5 to-[#E151FF]/5 border border-[#714DFF]/20 backdrop-blur-sm">
+            <p className="text-center text-lg font-semibold text-[#714DFF] uppercase tracking-wide">
+              ✨ More Speakers Coming Soon
+            </p>
+            <p className="text-center text-gray-600 mt-3 text-sm">
+              Stay tuned for additional speaker announcements
+            </p>
+          </div>
+        </motion.div>
       </div>
     </section>);
 
