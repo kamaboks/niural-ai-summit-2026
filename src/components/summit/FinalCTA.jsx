@@ -34,11 +34,13 @@ export default function FinalCTA() {
           <p className="text-lg text-white/70 mb-10">
             Secure your seat as spots are limited!
           </p>
-          <a
+          <motion.a
             href={preserveUtms(TICKET_URL)}
             target="_blank"
             rel="noopener noreferrer"
             className="inline-flex items-center gap-2 px-10 py-4 text-base font-semibold text-[#5E3BD4] bg-white rounded-full hover:bg-gray-100 transition-all duration-200 shadow-xl"
+            animate={{ boxShadow: ["0 0 20px 4px rgba(255,255,255,0.2)", "0 0 40px 12px rgba(255,255,255,0.5)", "0 0 20px 4px rgba(255,255,255,0.2)"] }}
+            transition={{ duration: 2, repeat: Infinity, ease: "easeInOut" }}
           >
             Get Tickets
             <ArrowRight className="w-4 h-4" />
