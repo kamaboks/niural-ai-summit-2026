@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { ArrowRight, Check, Sparkles } from "lucide-react";
+import { Check, Sparkles } from "lucide-react";
 
 const TICKET_URL = "https://luma.com/mggz3md1";
 
@@ -120,12 +120,12 @@ export default function Tickets() {
               }`}
             >
               {tier.badge && (
-                <span className="absolute -top-3 left-1/2 -translate-x-1/2 inline-flex items-center px-3 py-1 rounded-full text-white text-xs font-semibold" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
+                <span className="inline-flex items-center self-start px-3 py-1 rounded-full text-white text-xs font-semibold mb-3" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
                   {tier.badge}
                 </span>
               )}
 
-              <div className="mb-4 pt-1">
+              <div className={`mb-4 ${!tier.badge ? "pt-1" : ""}`}>
                 <h3 className="text-base font-semibold text-gray-900 mb-1">
                   {tier.name}
                 </h3>
