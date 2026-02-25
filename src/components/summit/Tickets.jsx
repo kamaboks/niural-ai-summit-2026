@@ -78,10 +78,10 @@ export default function Tickets() {
           transition={{ duration: 0.6 }}
           className="text-center mb-6"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4">
             Tickets for Niural AI Summit 2026
           </h2>
-          <p className="text-gray-600 text-base max-w-2xl mx-auto">
+          <p className="text-white/80 text-base max-w-2xl mx-auto">
             Tickets are released in phases and increase as capacity fills.
           </p>
         </motion.div>
