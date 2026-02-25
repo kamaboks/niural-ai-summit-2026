@@ -74,7 +74,7 @@ export default function Hero() {
         <motion.p
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.7, delay: 0.2 }} className="text-[171c26cc] mb-4 mx-auto text-base font-light text-center normal-case leading-relaxed 25% 12% / 80%)] sm:text-xl md:text-2xl max-w-3xl">
+          transition={{ duration: 0.7, delay: 0.2 }} className="text-lg sm:text-xl md:text-2xl text-[#3d2d6e]/80 font-light max-w-3xl mx-auto mb-4 leading-relaxed">
 
 
           Executive AI Conference in NYC for Finance, HR, and Operations Leaders
