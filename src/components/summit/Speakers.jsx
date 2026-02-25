@@ -8,7 +8,7 @@ const SPEAKERS = [
     company: "Marathon",
     linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
     alt: "Gokul Rajaram speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQFgT1s7XXvPSw/profile-displayphoto-shrink_800_800/B56ZXWI2iNGsAg-/0/1743054400521?e=1773273600&v=beta&t=KViHGxh84wwbFXXLBRefj8hYcaDoLuXG0zhvbyfR2PA",
+    image: "https://media.licdn.com/dms/image/v2/D5603AQFgT1s7XXvPSw/profile-displayphoto-shrink_800_800/B56ZXWI2iNGsAg-/0/1743054400521?e=1773878400&v=beta&t=juatA2lJa1bXl2vRYsxjDnIddoCyAdgWtzCQZIejtl0",
   },
   {
     name: "Alexa von Tobel",
