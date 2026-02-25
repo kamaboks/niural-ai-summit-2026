@@ -93,7 +93,7 @@ export default function Tickets() {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="text-center mb-12"
         >
-          <p className="text-sm text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm text-white/70 max-w-2xl mx-auto leading-relaxed">
             All registrations are subject to approval to maintain a curated executive audience. Your card will be authorized at checkout, but payment will only be captured if your registration is approved. If not approved, the authorization hold will be automatically released. Approved attendees will receive confirmation via email.
           </p>
         </motion.div>
