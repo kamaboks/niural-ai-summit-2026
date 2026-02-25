@@ -44,7 +44,7 @@ export default function FinalCTA() {
           >
             Get Tickets
             <ArrowRight className="w-4 h-4" />
-          </a>
+          </motion.a>
         </motion.div>
       </div>
     </section>
