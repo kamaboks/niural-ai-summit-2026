@@ -125,7 +125,7 @@ export default function Tickets() {
                 </h3>
                 <p className="text-3xl font-bold text-gray-900">{tier.price}</p>
                 {tier.badge && (
-                  <span className="inline-flex items-center mt-2 px-3 py-1 rounded-full text-white text-xs font-semibold" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
+                  <span className="inline-flex items-center mt-2 px-3 py-1 rounded-full text-white text-xs font-semibold" style={{ background: "#714DFF" }}>
                     {tier.badge}
                   </span>
                 )}
