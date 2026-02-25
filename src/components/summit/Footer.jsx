@@ -113,6 +113,16 @@ export default function Footer() {
           © 2026 Niural. All rights reserved.
         </div>
       </div>
+
+      {/* Large "Niural Inc." watermark at the very bottom */}
+      <div className="w-full overflow-hidden" style={{ lineHeight: 0 }}>
+        <img
+          src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/d1ca927ec_footer-text.png"
+          alt="Niural Inc."
+          className="w-full object-cover opacity-60"
+          style={{ display: "block" }}
+        />
+      </div>
     </footer>
   );
 }
