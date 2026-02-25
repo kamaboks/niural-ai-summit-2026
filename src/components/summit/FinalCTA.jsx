@@ -66,11 +66,11 @@ export default function FinalCTA() {
             {pathD && (
               <svg
                 className="absolute pointer-events-none"
-                style={{ top: 0, left: 0, width: "100%", height: "100%", overflow: "visible", zIndex: 2 }}
+                style={{ top: 0, left: 0, width: "100%", height: "100%", overflow: "visible", zIndex: 10 }}
               >
                 <defs>
-                  <filter id="glow-filter" x="-300%" y="-300%" width="700%" height="700%">
-                    <feGaussianBlur stdDeviation="6" result="blur" />
+                  <filter id="glow-filter" x="-500%" y="-500%" width="1100%" height="1100%">
+                    <feGaussianBlur stdDeviation="4" result="blur" />
                     <feMerge>
                       <feMergeNode in="blur" />
                       <feMergeNode in="blur" />
@@ -78,8 +78,11 @@ export default function FinalCTA() {
                     </feMerge>
                   </filter>
                 </defs>
+                {/* Visible border path */}
+                <path d={pathD} fill="none" stroke="rgba(255,255,255,0.15)" strokeWidth="1.5" />
+                {/* Glow dot on the border */}
                 <path id="glow-ring" d={pathD} fill="none" />
-                <circle r="5" fill="white" filter="url(#glow-filter)">
+                <circle r="4" fill="white" filter="url(#glow-filter)">
                   <animateMotion dur="2.4s" repeatCount="indefinite">
                     <mpath href="#glow-ring" />
                   </animateMotion>
