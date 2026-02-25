@@ -21,25 +21,15 @@ export default function Hero() {
 
   return (
     <section className="relative min-h-[115vh] flex items-center justify-center overflow-hidden">
-      {/* Background */}
-      <div className="absolute inset-0" style={{ background: "linear-gradient(135deg, #3A2884 0%, #5434B9 35%, #714DFF 65%, #C060F0 85%, #E151FF 100%)" }} />
-      
-      {/* Subtle abstract shapes */}
+      {/* Background - soft mesh/aurora */}
+      <div className="absolute inset-0" style={{ background: "#faf8ff" }} />
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute -top-60 -right-60 w-[800px] h-[800px] rounded-full bg-[#E151FF]/8 blur-[120px]" />
-        <div className="absolute -bottom-80 -left-60 w-[700px] h-[700px] rounded-full bg-[#714DFF]/15 blur-[100px]" />
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[500px] h-[500px] rounded-full bg-[#9B6FFF]/8 blur-[80px]" />
+        <div className="absolute -top-32 -left-32 w-[650px] h-[650px] rounded-full" style={{ background: "radial-gradient(circle, rgba(113,77,255,0.45) 0%, transparent 65%)", filter: "blur(80px)" }} />
+        <div className="absolute top-0 right-0 w-[500px] h-[500px] rounded-full" style={{ background: "radial-gradient(circle, rgba(225,81,255,0.35) 0%, transparent 65%)", filter: "blur(90px)" }} />
+        <div className="absolute bottom-10 left-1/3 w-[550px] h-[450px] rounded-full" style={{ background: "radial-gradient(circle, rgba(196,181,253,0.5) 0%, transparent 65%)", filter: "blur(100px)" }} />
+        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[400px] h-[400px] rounded-full" style={{ background: "radial-gradient(circle, rgba(240,171,252,0.3) 0%, transparent 65%)", filter: "blur(70px)" }} />
+        <div className="absolute -bottom-10 right-10 w-[450px] h-[450px] rounded-full" style={{ background: "radial-gradient(circle, rgba(113,77,255,0.3) 0%, transparent 65%)", filter: "blur(110px)" }} />
       </div>
-
-      {/* Grid pattern overlay */}
-      <div
-        className="absolute inset-0 opacity-[0.03]"
-        style={{
-          backgroundImage:
-            "linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)",
-          backgroundSize: "60px 60px",
-        }}
-      />
 
       <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-28 pb-20">
         {/* Niural Logo */}
