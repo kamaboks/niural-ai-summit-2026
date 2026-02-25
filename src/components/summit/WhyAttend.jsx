@@ -30,7 +30,7 @@ export default function WhyAttend() {
     <section id="why-attend" className="py-20 sm:py-28 relative bg-cover bg-center bg-fixed overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/fd9203df8_1mb.jpg')" }}>
       {/* Dark overlay */}
       <div className="absolute inset-0 bg-black/60" />
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -38,7 +38,7 @@ export default function WhyAttend() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
             Why Attend the Niural AI Summit
           </h2>
         </motion.div>
@@ -53,7 +53,7 @@ export default function WhyAttend() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: i * 0.1 }}
-                className="bg-white rounded-2xl p-8 border border-gray-100 hover:border-[#5E3BD4]/20 transition-colors duration-300"
+                className="bg-white/90 backdrop-blur-sm rounded-2xl p-8 border border-white/20 hover:border-[#5E3BD4]/40 transition-colors duration-300"
               >
                 <div className="w-12 h-12 rounded-xl bg-[#714DFF]/5 flex items-center justify-center mb-5">
                   <Icon className="w-6 h-6 text-[#714DFF]" />
@@ -61,7 +61,7 @@ export default function WhyAttend() {
                 <h3 className="text-lg font-semibold text-gray-900 mb-3">
                   {reason.title}
                 </h3>
-                <p className="text-sm text-gray-600 leading-relaxed">
+                <p className="text-sm text-gray-700 leading-relaxed">
                   {reason.description}
                 </p>
               </motion.div>
