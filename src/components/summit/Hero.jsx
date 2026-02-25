@@ -29,35 +29,15 @@ export default function Hero() {
         <div className="absolute bottom-10 left-1/3 w-[300px] h-[250px] rounded-full" style={{ background: "radial-gradient(circle, rgba(196,181,253,0.25) 0%, transparent 65%)", filter: "blur(100px)" }} />
       </div>
 
-      <div className="relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-28 pb-20">
-        {/* Niural Logo */}
-        <motion.div
-          initial={{ opacity: 0, y: 10 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5 }}
-          className="flex justify-center mb-10">
-
-          <div className="flex items-center gap-3">
-            
-
-
-
-
-            
-          </div>
-        </motion.div>
-
-        {/* Pre-NYC Tech Week Badge */}
+      <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-32 pb-24">
+        {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/10 backdrop-blur-sm border border-[#714DFF]/20 mb-8">
-
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/10 border border-[#714DFF]/20 mb-6">
           <Calendar className="w-3.5 h-3.5 text-[#714DFF]" />
-          <span className="text-sm font-medium text-[#714DFF] tracking-wide">NYC Tech Week Pre-Summit
-
-          </span>
+          <span className="text-sm font-medium text-[#714DFF] tracking-wide">NYC Tech Week Pre-Summit</span>
         </motion.div>
 
         {/* H1 */}
