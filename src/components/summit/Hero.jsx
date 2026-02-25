@@ -43,9 +43,9 @@ export default function Hero() {
             <img
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
               alt="Niural logomark"
-              className="w-12 h-12 object-contain brightness-0 invert"
+              className="w-12 h-12 object-contain"
             />
-            <span className="text-white text-2xl font-bold tracking-tight">Niural AI</span>
+            <span className="text-[#1a0e3d] text-2xl font-bold tracking-tight">Niural AI</span>
           </div>
         </motion.div>
 
