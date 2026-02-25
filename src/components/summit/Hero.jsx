@@ -55,7 +55,7 @@ export default function Hero() {
               alt="Niural logomark"
               className="w-12 h-12 object-contain brightness-0 invert"
             />
-            <span className="text-white text-2xl font-bold tracking-tight">Niural</span>
+            <span className="text-white text-2xl font-bold tracking-tight">Niural AI</span>
           </div>
         </motion.div>
 
