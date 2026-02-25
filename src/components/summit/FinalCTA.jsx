@@ -92,11 +92,7 @@ export default function FinalCTA() {
         </motion.div>
       </div>
 
-      <style>{`
-        @keyframes flt-out {
-          to { rotate: 360deg; }
-        }
-      `}</style>
+
     </section>
   );
 }
