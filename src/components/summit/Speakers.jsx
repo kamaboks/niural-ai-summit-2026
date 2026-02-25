@@ -15,7 +15,7 @@ const SPEAKERS = [
     company: "Inspired Capital",
     linkedin: "https://www.linkedin.com/in/alexavontobel/",
     alt: "Alexa von Tobel speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/C5603AQGYjs6BpW7jNQ/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1517732904293?e=1773273600&v=beta&t=CDG5PYwNXcUFXQc0_v48oSDp5PPTqVBb8xh-AdDiga4",
+    image: "https://cdn.prod.website-files.com/6550dbbd729040d7cd658fef/65de5562354cd0fcf1e39c29_team-alexa.avif",
   },
   {
     name: "Morgan Blumberg",
