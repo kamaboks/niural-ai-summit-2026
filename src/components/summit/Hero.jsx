@@ -107,12 +107,12 @@ export default function Hero() {
             Get Tickets
             <ArrowRight className="w-4 h-4" />
           </a>
-          <button
-            onClick={scrollToTickets}
-            className="inline-flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-[#714DFF] bg-white/70 backdrop-blur-sm border border-[#714DFF]/15 rounded-full hover:bg-white transition-all duration-300">
+          
 
-            View Tickets
-          </button>
+
+
+
+
         </motion.div>
       </div>
 
