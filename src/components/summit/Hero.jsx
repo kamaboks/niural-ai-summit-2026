@@ -54,10 +54,10 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
-          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 backdrop-blur-sm border border-white/10 mb-8"
+          className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/10 backdrop-blur-sm border border-[#714DFF]/20 mb-8"
         >
-          <span className="w-2 h-2 rounded-full bg-[#E151FF] animate-pulse" />
-          <span className="text-sm font-medium text-white/90 tracking-wide">
+          <span className="w-2 h-2 rounded-full bg-[#714DFF] animate-pulse" />
+          <span className="text-sm font-medium text-[#714DFF] tracking-wide">
             Pre-NYC Tech Week Flagship Event
           </span>
         </motion.div>
