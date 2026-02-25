@@ -97,9 +97,9 @@ export default function Speakers() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-16 max-w-md mx-auto">
-          <div className="p-8 rounded-2xl bg-gradient-to-br from-[#714DFF]/5 to-[#E151FF]/5 border border-[#714DFF]/20 backdrop-blur-sm">
-            <p className="text-center text-lg font-semibold text-[#714DFF] uppercase tracking-wide">
-              ✨ More Speakers Coming Soon
+          <div className="bg-gradient-to-br p-8 rounded-[64px] from-[#714DFF]/5 to-[#E151FF]/5 border border-[#714DFF]/20 backdrop-blur-sm">
+            <p className="text-gray-900 text-lg font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON
+
             </p>
             <p className="text-center text-gray-600 mt-3 text-sm">
               Stay tuned for additional speaker announcements
