@@ -98,10 +98,10 @@ export default function Speakers() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-16 max-w-md mx-auto">
           <div className="bg-gradient-to-r from-[#714DFF] to-[#E151FF] p-8 rounded-[64px] border-0 backdrop-blur-sm">
-            <p className="text-slate-50 text-lg font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON
+            <p className="text-slate-50 text-xl font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON
 
             </p>
-            <p className="text-slate-50 mt-3 text-sm text-center">Stay tuned for additional speaker announcements
+            <p className="text-slate-50 mt-1 text-sm font-light text-center">Stay tuned for additional speaker announcements
 
             </p>
           </div>
