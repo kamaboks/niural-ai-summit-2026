@@ -45,8 +45,8 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.1 }}
-          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#1a0e3d] tracking-tight leading-[1.1] mb-6">
-
+          className="text-5xl sm:text-6xl md:text-7xl font-bold text-[#1a0e3d] tracking-tight leading-[1.08] mb-5"
+        >
           Niural AI Summit 2026
         </motion.h1>
 
@@ -55,8 +55,8 @@ export default function Hero() {
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7, delay: 0.2 }}
-          className="text-lg sm:text-xl md:text-2xl text-[#3d2d6e]/80 font-light max-w-3xl mx-auto mb-4 leading-relaxed">
-
+          className="text-lg sm:text-xl text-[#3d2d6e]/70 max-w-xl mx-auto mb-5 leading-relaxed"
+        >
           Executive AI Conference in NYC for Finance, HR, and Operations Leaders
         </motion.p>
 
@@ -65,20 +65,20 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.35 }}
-          className="flex flex-wrap items-center justify-center gap-4 sm:gap-6 mb-6 text-[#3d2d6e]/60">
-
-          <span className="flex items-center gap-2 text-sm sm:text-base">
-            <Calendar className="w-4 h-4" />
+          className="flex flex-wrap items-center justify-center gap-3 sm:gap-5 mb-5 text-[#3d2d6e]/50 text-sm"
+        >
+          <span className="flex items-center gap-1.5">
+            <Calendar className="w-3.5 h-3.5" />
             Thursday, May 28, 2026
           </span>
-          <span className="hidden sm:inline text-[#714DFF]/30">|</span>
-          <span className="flex items-center gap-2 text-sm sm:text-base">
-            <MapPin className="w-4 h-4" />
+          <span className="text-[#714DFF]/30">|</span>
+          <span className="flex items-center gap-1.5">
+            <MapPin className="w-3.5 h-3.5" />
             Midtown Manhattan
           </span>
-          <span className="hidden sm:inline text-[#714DFF]/30">|</span>
-          <span className="flex items-center gap-2 text-sm sm:text-base">
-            <Users className="w-4 h-4" />
+          <span className="text-[#714DFF]/30">|</span>
+          <span className="flex items-center gap-1.5">
+            <Users className="w-3.5 h-3.5" />
             200+ Curated Leaders
           </span>
         </motion.div>
@@ -88,8 +88,8 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.45 }}
-          className="text-base text-[#3d2d6e]/50 max-w-2xl mx-auto mb-10">
-
+          className="text-sm text-[#3d2d6e]/45 max-w-lg mx-auto mb-10"
+        >
           The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders, and operators building modern finance and workforce systems.
         </motion.p>
 
@@ -98,21 +98,22 @@ export default function Hero() {
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6, delay: 0.55 }}
-          className="flex flex-col sm:flex-row items-center justify-center gap-4">
-
+          className="flex flex-col sm:flex-row items-center justify-center gap-3"
+        >
           <a
             href={preserveUtms(TICKET_URL)}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-white rounded-full hover:opacity-90 transition-all duration-300 shadow-xl shadow-[#714DFF]/30 border-2 border-[#E151FF]/50 hover:border-[#E151FF]" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
-
+            className="inline-flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-white rounded-full hover:opacity-90 transition-all duration-300 shadow-lg shadow-[#714DFF]/25"
+            style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
+          >
             Get Tickets
             <ArrowRight className="w-4 h-4" />
           </a>
           <button
             onClick={scrollToTickets}
-            className="inline-flex items-center gap-2 px-8 py-4 text-base font-semibold text-[#714DFF] bg-white/60 backdrop-blur-sm border border-[#714DFF]/20 rounded-full hover:bg-white/80 transition-all duration-300">
-
+            className="inline-flex items-center gap-2 px-7 py-3.5 text-base font-semibold text-[#714DFF] bg-white/70 backdrop-blur-sm border border-[#714DFF]/15 rounded-full hover:bg-white transition-all duration-300"
+          >
             View Tickets
           </button>
         </motion.div>
