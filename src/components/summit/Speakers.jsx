@@ -29,7 +29,7 @@ const SPEAKERS = [
     company: "M13",
     linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
     alt: "Christine Choi speaking at AI Conference NYC",
-    image: "https://media.licdn.com/dms/image/v2/D5603AQF-Cq4KPjGGHg/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1706709053396?e=1773273600&v=beta&t=pR-HmYuPCEhJ0GrONe_OuxcTMboDEi4fIzyXsdH4EI8",
+    image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/66e20d43a98407aa276c8fb5_Christine02%20(1).jpg",
   },
 ];
 
