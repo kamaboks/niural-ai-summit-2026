@@ -67,8 +67,10 @@ const TIERS = [
 
 export default function Tickets() {
   return (
-    <section id="tickets" className="py-20 sm:py-28 bg-white">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="tickets" className="py-20 sm:py-28 relative bg-cover bg-center bg-fixed overflow-hidden" style={{ backgroundImage: "url('https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/fd9203df8_1mb.jpg')" }}>
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/60" />
+      <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -76,10 +78,10 @@ export default function Tickets() {
           transition={{ duration: 0.6 }}
           className="text-center mb-6"
         >
-          <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 tracking-tight mb-4">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight mb-4">
             Tickets for Niural AI Summit 2026
           </h2>
-          <p className="text-gray-600 text-base max-w-2xl mx-auto">
+          <p className="text-white/80 text-base max-w-2xl mx-auto">
             Tickets are released in phases and increase as capacity fills.
           </p>
         </motion.div>
@@ -91,14 +93,14 @@ export default function Tickets() {
           transition={{ duration: 0.4, delay: 0.2 }}
           className="text-center mb-12"
         >
-          <p className="text-sm text-gray-400 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-sm text-white/70 max-w-2xl mx-auto leading-relaxed">
             All registrations are subject to approval to maintain a curated executive audience. Your card will be authorized at checkout, but payment will only be captured if your registration is approved. If not approved, the authorization hold will be automatically released. Approved attendees will receive confirmation via email.
           </p>
         </motion.div>
 
         {/* Scarcity */}
-        <div className="text-center mb-12">
-          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/5 text-[#714DFF] text-sm font-medium">
+         <div className="text-center mb-12">
+           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/10 text-white text-sm font-medium">
             <Sparkles className="w-4 h-4" />
             Capacity is limited to 200 executives
           </span>
@@ -115,8 +117,8 @@ export default function Tickets() {
               transition={{ duration: 0.5, delay: i * 0.08 }}
               className={`relative rounded-2xl p-6 border transition-all duration-300 flex flex-col ${
                 tier.name === "VIP Access"
-                  ? "border-[#714DFF]/30 bg-[#714DFF]/[0.02] ring-1 ring-[#714DFF]/10"
-                  : "border-gray-200 bg-white hover:border-gray-300"
+                  ? "border-[#714DFF]/40 bg-white/95 backdrop-blur-sm ring-1 ring-[#714DFF]/10 hover:border-[#714DFF]/60"
+                  : "border-white/20 bg-white/90 backdrop-blur-sm hover:border-white/40"
               }`}
             >
               <div className="mb-4 pt-1">
