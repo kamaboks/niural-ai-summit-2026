@@ -90,7 +90,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.45 }}
           className="text-base sm:text-lg text-[#3d2d6e]/55 max-w-xl mx-auto mb-10 leading-relaxed"
         >
-          The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders, and operators building modern finance and workforce systems.
+          The pre-NYC Tech Week AI summit brings together founders, CFOs, HR leaders,<br />and operators building modern finance and workforce systems.
         </motion.p>
 
         {/* CTAs */}
