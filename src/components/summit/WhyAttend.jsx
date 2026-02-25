@@ -38,7 +38,7 @@ export default function WhyAttend() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16">
 
-          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight">
+          <h2 className="text-3xl sm:text-4xl font-bold text-white tracking-tight drop-shadow-lg">
             Why Attend the Niural AI Summit
           </h2>
         </motion.div>
