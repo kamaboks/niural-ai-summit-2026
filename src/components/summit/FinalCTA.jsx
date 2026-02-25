@@ -39,64 +39,49 @@ export default function FinalCTA() {
             Secure your seat as spots are limited!
           </p>
 
-          {/* Particle button wrapper */}
+          {/* Glow path button wrapper */}
           <div className="inline-block relative">
-            {/* Particle container */}
-            <div
+            {/* SVG glow path that traces the button border */}
+            <svg
               className="absolute pointer-events-none"
               style={{
-                width: "200%",
-                aspectRatio: "1",
-                top: "50%",
-                left: "50%",
-                transform: "translate(-50%, -50%)",
-                WebkitMask: "radial-gradient(white, transparent 65%)",
-                zIndex: 0,
-                opacity: hovered ? 1 : 0,
-                transition: "opacity 0.4s ease",
+                top: -2,
+                left: -2,
+                width: "calc(100% + 4px)",
+                height: "calc(100% + 4px)",
+                overflow: "visible",
+                zIndex: 2,
               }}
             >
-              {PARTICLES.map((p, i) => (
-                <svg
-                  key={i}
-                  viewBox="0 0 15 15"
-                  style={{
-                    width: `${p.size}rem`,
-                    position: "absolute",
-                    top: `${p.y}%`,
-                    left: `${p.x}%`,
-                    opacity: hovered ? p.alpha : 0,
-                    transformOrigin: `${p.ox}% ${p.oy}%`,
-                    animation: `flt-out ${p.duration}s ${-p.delay}s infinite linear`,
-                    animationDirection: i % 2 === 0 ? "normal" : "reverse",
-                    animationPlayState: hovered ? "running" : "paused",
-                    transition: "opacity 0.3s ease",
-                  }}
-                >
-                  <path d="M6.937 3.846L7.5 1 8.063 3.846a.361.361 0 00.27.303l2.848.672-2.17 1.837a.361.361 0 00-.112.35l.606 2.888-2.302-1.493a.36.36 0 00-.386 0L4.515 9.896l.606-2.888a.36.36 0 00-.112-.35L2.84 4.821l2.847-.672a.36.36 0 00.27-.303z" fill="hsl(0 0% 90%)" stroke="none" />
-                </svg>
-              ))}
-            </div>
-
-            {/* Glow */}
-            <div
-              className="absolute inset-0 rounded-full pointer-events-none"
-              style={{
-                background: "radial-gradient(circle, rgba(255,255,255,0.35) 0%, transparent 70%)",
-                opacity: hovered ? 1 : 0,
-                transition: "opacity 0.4s ease",
-                filter: "blur(12px)",
-                transform: "scale(1.3)",
-                zIndex: 0,
-              }}
-            />
+              <rect
+                id="btn-path"
+                x="2" y="2"
+                width="calc(100% - 4px)" height="calc(100% - 4px)"
+                rx="9999"
+                fill="none"
+              />
+              {/* Animated glow dot */}
+              <circle r="4" fill="white" filter="url(#glow-filter)" style={{ opacity: 0.95 }}>
+                <animateMotion dur="2.5s" repeatCount="indefinite" rotate="auto">
+                  <mpath href="#btn-path" />
+                </animateMotion>
+              </circle>
+              <defs>
+                <filter id="glow-filter" x="-200%" y="-200%" width="500%" height="500%">
+                  <feGaussianBlur stdDeviation="5" result="blur" />
+                  <feMerge>
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="blur" />
+                    <feMergeNode in="SourceGraphic" />
+                  </feMerge>
+                </filter>
+              </defs>
+            </svg>
 
             <a
               href={preserveUtms(TICKET_URL)}
               target="_blank"
               rel="noopener noreferrer"
-              onMouseEnter={() => setHovered(true)}
-              onMouseLeave={() => setHovered(false)}
               className="relative inline-flex items-center gap-2 px-10 py-4 text-base font-semibold text-[#5E3BD4] bg-white rounded-full hover:bg-gray-50 transition-all duration-200 shadow-xl"
               style={{ zIndex: 1 }}
             >
