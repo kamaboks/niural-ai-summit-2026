@@ -54,7 +54,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/10 backdrop-blur-sm border border-[#714DFF]/20 mb-8">
 
-          <span className="w-2 h-2 rounded-full bg-[#714DFF] animate-pulse" />
+          <Calendar className="w-3.5 h-3.5 text-[#714DFF]" />
           <span className="text-sm font-medium text-[#714DFF] tracking-wide">NYC Tech Week Pre-Summit
 
           </span>
