@@ -95,7 +95,7 @@ export default function Speakers() {
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }} className="text-slate-950 text-sm font-medium text-center uppercase tracking-wide">
+          transition={{ duration: 0.6, delay: 0.4 }} className="text-[#714DFF] text-lg font-semibold text-center">
 
 
           Stay tuned for more speaker reveals
