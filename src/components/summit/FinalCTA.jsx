@@ -93,7 +93,7 @@ export default function FinalCTA() {
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center gap-2 px-10 py-4 text-base font-semibold text-[#5E3BD4] bg-white rounded-full hover:bg-gray-50 transition-all duration-200 shadow-xl"
-              style={{ zIndex: 1 }}
+              style={{ zIndex: 1, display: "inline-flex" }}
             >
               Get Tickets
               <ArrowRight className="w-4 h-4" />
