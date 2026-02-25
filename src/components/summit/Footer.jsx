@@ -7,7 +7,7 @@ const FOOTER_LINKS = [
   { label: "Contact", href: "mailto:events@niural.com" },
   { label: "Niural Website", href: "https://niural.com", external: true },
   { label: "LinkedIn", href: "https://linkedin.com/company/niural", external: true },
-  { label: "X", href: "https://twitter.com/niural", external: true },
+  { label: "X", href: "https://x.com/niuralHQ ", external: true },
   { label: "Luma Events Calendar", href: "https://luma.com/niuralaievents", external: true },
 ];
 
