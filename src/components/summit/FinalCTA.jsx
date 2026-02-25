@@ -16,7 +16,7 @@ function preserveUtms(baseUrl) {
 
 
 export default function FinalCTA() {
-  const [hovered, setHovered] = useState(false);
+
 
   return (
     <section className="relative py-24 sm:py-32 overflow-hidden">
