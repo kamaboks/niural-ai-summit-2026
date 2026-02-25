@@ -25,7 +25,7 @@ export default function NavBar() {
   const [mobileOpen, setMobileOpen] = useState(false);
 
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 40);
+    const onScroll = () => setScrolled(window.scrollY > 20);
     window.addEventListener("scroll", onScroll);
     return () => window.removeEventListener("scroll", onScroll);
   }, []);
@@ -38,57 +38,56 @@ export default function NavBar() {
   };
 
   return (
-    <nav
-      className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled
-          ? "bg-white/95 backdrop-blur-md shadow-sm border-b border-gray-100"
-          : "bg-transparent"
-      }`}
-    >
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white border-b border-gray-100 shadow-sm">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex items-center justify-between h-16 lg:h-20">
-          {/* Logo / Brand */}
+        <div className="flex items-center justify-between h-16 lg:h-[70px]">
+
+          {/* Logo */}
           <a
             href="#"
-            onClick={(e) => {
-              e.preventDefault();
-              window.scrollTo({ top: 0, behavior: "smooth" });
-            }}
-            className="flex items-center gap-2"
+            onClick={(e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: "smooth" }); }}
+            className="flex items-center gap-2 flex-shrink-0"
           >
             <img
               src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/2a9e777ab_logomark.png"
               alt="Niural logo"
-              className={`w-8 h-8 object-contain transition-all ${scrolled ? "" : "brightness-0 invert"}`}
+              className="w-8 h-8 object-contain"
             />
-            <span
-              className={`font-bold text-lg tracking-tight transition-colors ${
-                scrolled ? "text-gray-900" : "text-white"
-              }`}
-            >
+            <span className="font-bold text-[17px] text-gray-900 tracking-tight">
               Niural AI
             </span>
           </a>
 
-          {/* Desktop Nav */}
-          <div className="hidden lg:flex items-center gap-8">
+          {/* Desktop Nav Links — centered */}
+          <div className="hidden lg:flex items-center gap-1 absolute left-1/2 -translate-x-1/2">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
                 href={link.href}
                 onClick={(e) => handleNavClick(e, link.href)}
-                className={`text-sm font-medium transition-colors hover:text-[#5E3BD4] ${
-                  scrolled ? "text-gray-600 hover:text-[#714DFF]" : "text-white/80 hover:text-white"
-                }`}
+                className="px-4 py-2 text-sm font-medium text-gray-600 hover:text-gray-900 rounded-lg hover:bg-gray-50 transition-colors"
               >
                 {link.label}
               </a>
             ))}
+          </div>
+
+          {/* Desktop Right Actions */}
+          <div className="hidden lg:flex items-center gap-3">
             <a
               href={preserveUtms(TICKET_URL)}
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white rounded-full hover:opacity-90 transition-all duration-200 shadow-lg shadow-[#714DFF]/25" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
+              className="text-sm font-medium text-gray-600 hover:text-gray-900 transition-colors px-2"
+            >
+              Sign in
+            </a>
+            <a
+              href={preserveUtms(TICKET_URL)}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center px-5 py-2.5 text-sm font-semibold text-white rounded-lg hover:opacity-90 transition-all duration-200"
+              style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
             >
               Get Tickets
             </a>
@@ -97,12 +96,10 @@ export default function NavBar() {
           {/* Mobile Toggle */}
           <button
             onClick={() => setMobileOpen(!mobileOpen)}
-            className={`lg:hidden p-2 rounded-lg transition-colors ${
-              scrolled ? "text-gray-900" : "text-white"
-            }`}
+            className="lg:hidden p-2 rounded-lg text-gray-700 hover:bg-gray-100 transition-colors"
             aria-label="Toggle menu"
           >
-            {mobileOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+            {mobileOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
           </button>
         </div>
       </div>
@@ -110,7 +107,7 @@ export default function NavBar() {
       {/* Mobile Menu */}
       {mobileOpen && (
         <div className="lg:hidden bg-white border-t border-gray-100 shadow-xl">
-          <div className="px-4 py-6 space-y-1">
+          <div className="px-4 py-5 space-y-1">
             {NAV_LINKS.map((link) => (
               <a
                 key={link.href}
@@ -121,12 +118,13 @@ export default function NavBar() {
                 {link.label}
               </a>
             ))}
-            <div className="pt-4">
+            <div className="pt-3 border-t border-gray-100 mt-3">
               <a
                 href={preserveUtms(TICKET_URL)}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="block w-full text-center px-5 py-3 text-base font-semibold text-white rounded-full hover:opacity-90 transition-all" style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
+                className="block w-full text-center px-5 py-3 text-base font-semibold text-white rounded-lg hover:opacity-90 transition-all"
+                style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
               >
                 Get Tickets
               </a>
