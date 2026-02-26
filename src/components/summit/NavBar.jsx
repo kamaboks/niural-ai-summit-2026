@@ -44,7 +44,7 @@ export default function NavBar() {
             <img
               src="https://www.niural.com/assets/logo.svg"
               alt="Niural"
-              className="h-7 object-contain" />
+              className="h-5 object-contain" />
 
           </a>
 
