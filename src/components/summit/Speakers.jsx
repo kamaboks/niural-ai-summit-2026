@@ -81,10 +81,21 @@ export default function Speakers() {
                 }} />
 
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-1">
+              <h3 className="text-lg font-semibold text-gray-900 mb-2">
                 {speaker.name}
               </h3>
-              <p className="text-sm text-gray-500 mb-3">{speaker.company}</p>
+              <a
+                href={speaker.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block mb-3 hover:opacity-75 transition-opacity"
+              >
+                <img
+                  src={speaker.companyLogo}
+                  alt={speaker.company}
+                  className="h-7 object-contain mx-auto"
+                />
+              </a>
               <a
               href={speaker.linkedin}
               target="_blank"
