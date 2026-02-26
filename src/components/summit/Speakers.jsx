@@ -95,7 +95,7 @@ export default function Speakers() {
                   <img
                     src={speaker.companyLogo}
                     alt={speaker.company}
-                    className="h-10 w-28 object-contain"
+                    className={speaker.logoScale ? "h-10 w-28 object-contain scale-[2]" : "h-10 w-28 object-contain"}
                   />
                 </a>
                 <a
