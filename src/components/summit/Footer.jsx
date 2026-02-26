@@ -32,7 +32,7 @@ export default function Footer() {
       <div className="border-b border-gray-100">
         <div className="max-w-md mx-auto px-4 py-16 text-center">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Join the Niural Mailing List</h3>
-          <p className="text-gray-500 mb-6 text-sm text-center">Be the first to know: receive exclusive insights and event updates
+          <p className="text-gray-500 mb-6 text-sm text-center whitespace-nowrap">Be the first to know: receive exclusive insights and event updates
 
           </p>
           {submitted ?
