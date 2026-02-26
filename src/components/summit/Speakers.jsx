@@ -6,6 +6,8 @@ const SPEAKERS = [
 {
   name: "Gokul Rajaram",
   company: "Marathon",
+  companyLogo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/6a14e4513ef74a50bd7564fd4f0a919b",
+  companyUrl: "https://marathonmp.com/",
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
   image: "https://media.licdn.com/dms/image/v2/D5603AQFgT1s7XXvPSw/profile-displayphoto-shrink_800_800/B56ZXWI2iNGsAg-/0/1743054400521?e=1773878400&v=beta&t=juatA2lJa1bXl2vRYsxjDnIddoCyAdgWtzCQZIejtl0"
@@ -13,6 +15,8 @@ const SPEAKERS = [
 {
   name: "Alexa von Tobel",
   company: "Inspired Capital",
+  companyLogo: "https://cdn.prod.website-files.com/6550ccd8f224407ac9f2ebb0/6550d8d62950cf2d2f89c22b_logo.svg",
+  companyUrl: "https://www.inspiredcapital.com/",
   linkedin: "https://www.linkedin.com/in/alexavontobel/",
   alt: "Alexa von Tobel speaking at AI Conference NYC",
   image: "https://cdn.prod.website-files.com/6550dbbd729040d7cd658fef/65de5562354cd0fcf1e39c29_team-alexa.avif"
@@ -20,6 +24,8 @@ const SPEAKERS = [
 {
   name: "Morgan Blumberg",
   company: "M13",
+  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
+  companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
   alt: "Morgan Blumberg speaking at AI Conference NYC",
   image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1773878400&v=beta&t=ibACTQRWLPsehRGy9ioWniwr4WgUMfZBo58qwaz-aBM"
@@ -27,6 +33,8 @@ const SPEAKERS = [
 {
   name: "Christine Choi",
   company: "M13",
+  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
+  companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
   alt: "Christine Choi speaking at AI Conference NYC",
   image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/66e20d43a98407aa276c8fb5_Christine02%20(1).jpg"
