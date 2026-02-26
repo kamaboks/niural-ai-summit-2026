@@ -26,13 +26,13 @@ export default function FinalCTA() {
       const r = height / 2;
       // Pill path: starts at left-center, goes clockwise
       const d = [
-        `M ${r} 0`,
-        `L ${width - r} 0`,
-        `A ${r} ${r} 0 0 1 ${width - r} ${height}`,
-        `L ${r} ${height}`,
-        `A ${r} ${r} 0 0 1 ${r} 0`,
-        `Z`
-      ].join(" ");
+      `M ${r} 0`,
+      `L ${width - r} 0`,
+      `A ${r} ${r} 0 0 1 ${width - r} ${height}`,
+      `L ${r} ${height}`,
+      `A ${r} ${r} 0 0 1 ${r} 0`,
+      `Z`].
+      join(" ");
       setPathD(d);
     }
     measure();
@@ -52,22 +52,22 @@ export default function FinalCTA() {
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           viewport={{ once: true }}
-          transition={{ duration: 0.6 }}
-        >
+          transition={{ duration: 0.6 }}>
+
           <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-6 leading-tight">
             Secure Your Seat at the Leading Executive AI Summit in NYC
           </h2>
-          <p className="text-lg text-white/70 mb-10">
-            Secure your seat as spots are limited!
+          <p className="text-lg text-white/70 mb-10">Join NYC’s Premier AI Summit for Finance, HR, and Ops Leaders
+
           </p>
 
           {/* Glow path button wrapper */}
           <div className="inline-block relative" style={{ isolation: "isolate" }}>
-            {pathD && (
-              <svg
-                className="absolute pointer-events-none"
-                style={{ top: 0, left: 0, width: "100%", height: "100%", overflow: "visible", zIndex: 10 }}
-              >
+            {pathD &&
+            <svg
+              className="absolute pointer-events-none"
+              style={{ top: 0, left: 0, width: "100%", height: "100%", overflow: "visible", zIndex: 10 }}>
+
                 <defs>
                   <filter id="glow-filter" x="-500%" y="-500%" width="1100%" height="1100%">
                     <feGaussianBlur stdDeviation="4" result="blur" />
@@ -107,7 +107,7 @@ export default function FinalCTA() {
                   </animateMotion>
                 </circle>
               </svg>
-            )}
+            }
 
             <a
               ref={btnRef}
@@ -115,8 +115,8 @@ export default function FinalCTA() {
               target="_blank"
               rel="noopener noreferrer"
               className="relative inline-flex items-center gap-2 px-10 py-4 text-base font-semibold text-[#5E3BD4] bg-white rounded-full hover:bg-gray-50 transition-all duration-200 shadow-xl"
-              style={{ zIndex: 1, display: "inline-flex" }}
-            >
+              style={{ zIndex: 1, display: "inline-flex" }}>
+
               Get Tickets
               <ArrowRight className="w-4 h-4" />
             </a>
@@ -125,6 +125,6 @@ export default function FinalCTA() {
       </div>
 
 
-    </section>
-  );
+    </section>);
+
 }
