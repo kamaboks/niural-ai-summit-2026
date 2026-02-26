@@ -118,7 +118,7 @@ function SessionRow({ session }) {
               className="hover:opacity-80 transition-opacity"
             >
               <img
-                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/017cabffa_ShayCPALogo.png"
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/3ddda20a0_ShayCPALogodark.png"
                 alt="ShayCPA"
                 className="h-6 object-contain"
               />
