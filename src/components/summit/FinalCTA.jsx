@@ -54,8 +54,8 @@ export default function FinalCTA() {
           viewport={{ once: true }}
           transition={{ duration: 0.6 }}>
 
-          <h2 className="text-3xl sm:text-4xl md:text-5xl font-bold text-white tracking-tight mb-6 leading-tight">
-            Secure Your Seat at the Leading Executive AI Summit in NYC
+          <h2 className="text-white mb-6 text-4xl font-bold tracking-tight leading-tight sm:text-4xl md:text-4xl">Join NYC’s Premier AI Summit for Finance, HR, and Ops Leaders
+
           </h2>
           <p className="text-lg text-white/70 mb-10">Join NYC’s Premier AI Summit for Finance, HR, and Ops Leaders
 
