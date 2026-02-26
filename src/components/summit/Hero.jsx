@@ -37,7 +37,7 @@ export default function Hero() {
           transition={{ duration: 0.6 }}
           className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#714DFF]/10 border border-[#714DFF]/20 mb-6">
           <Calendar className="w-3.5 h-3.5 text-[#714DFF]" />
-          <span className="text-sm font-medium text-[#714DFF] tracking-wide">NYC Tech Week Pre-Summit</span>
+          <span className="text-sm font-medium text-[#714DFF] tracking-wide">NYC Pre-Tech Week Summit</span>
         </motion.div>
 
         {/* H1 */}
