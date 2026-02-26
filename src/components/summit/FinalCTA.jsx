@@ -57,7 +57,7 @@ export default function FinalCTA() {
           <h2 className="text-white mb-6 text-4xl font-bold tracking-tight leading-tight sm:text-4xl md:text-4xl">Join NYC’s Premier AI Summit for Finance, HR, and Ops Leaders
 
           </h2>
-          <p className="text-lg text-white/70 mb-10">Join NYC’s Premier AI Summit for Finance, HR, and Ops Leaders
+          <p className="text-lg text-white/70 mb-10">Thursday, May 28, 2026. Midtown Manhattan.
 
           </p>
 
