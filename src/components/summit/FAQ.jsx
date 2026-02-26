@@ -30,7 +30,7 @@ const DEFAULT_FAQS = [
     category: "GENERAL",
     question: "Is this event part of NYC Tech Week?",
     answer:
-      "Niural AI Summit is the executive AI gathering that takes place just before NYC Tech Week, bringing leaders together ahead of the broader week of programming.",
+      "Niural AI Summit is an AI gathering that takes place just before NYC Tech Week, bringing leaders together ahead of the broader week of programming.",
   },
 ];
 
