@@ -109,17 +109,21 @@ function SessionRow({ session }) {
           <p className="text-sm text-gray-500 leading-relaxed mt-1">{session.description}</p>
         )}
         {session.sponsor && (
-          <p className="text-sm text-gray-400 mt-2">
-            Brought to you by{" "}
+          <div className="flex items-center gap-2 mt-2">
+            <span className="text-sm text-gray-400">Brought to you by</span>
             <a
               href={session.sponsor.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="text-[#714DFF] hover:underline"
+              className="hover:opacity-80 transition-opacity"
             >
-              {session.sponsor.name}
+              <img
+                src="https://qtrypzzcjebvfcihiynt.supabase.co/storage/v1/object/public/base44-prod/public/699dd0c3a7954b36d829e748/017cabffa_ShayCPALogo.png"
+                alt="ShayCPA"
+                className="h-6 object-contain"
+              />
             </a>
-          </p>
+          </div>
         )}
       </div>
     </div>
