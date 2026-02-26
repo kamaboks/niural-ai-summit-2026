@@ -81,19 +81,19 @@ export default function Speakers() {
                 }} />
 
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-2">
+              <h3 className="text-lg font-semibold text-gray-900 mb-3">
                 {speaker.name}
               </h3>
               <a
                 href={speaker.companyUrl}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block mb-3 hover:opacity-75 transition-opacity"
+                className="inline-flex items-center justify-center mb-3 hover:opacity-75 transition-opacity h-10"
               >
                 <img
                   src={speaker.companyLogo}
                   alt={speaker.company}
-                  className="h-7 object-contain mx-auto"
+                  className="h-10 w-28 object-contain mx-auto"
                 />
               </a>
               <a
@@ -102,7 +102,6 @@ export default function Speakers() {
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
               aria-label={`${speaker.name} LinkedIn profile`}>
-
                 <Linkedin className="w-4 h-4" />
               </a>
             </motion.div>
