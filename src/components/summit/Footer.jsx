@@ -1,15 +1,15 @@
 import React, { useState } from "react";
 
 const FOOTER_LINKS = [
-  { label: "Terms of Service", href: "https://niural.com/terms", external: true },
-  { label: "Privacy Policy", href: "https://niural.com/privacy", external: true },
-  { label: "Cookie Policy", href: "https://niural.com/cookies", external: true },
-  { label: "Contact", href: "mailto:events@niural.com" },
-  { label: "Niural Website", href: "https://niural.com", external: true },
-  { label: "LinkedIn", href: "https://linkedin.com/company/niural", external: true },
-  { label: "X", href: "https://x.com/niuralHQ ", external: true },
-  { label: "Luma Events Calendar", href: "https://luma.com/niuralaievents", external: true },
-];
+{ label: "Terms of Service", href: "https://niural.com/terms", external: true },
+{ label: "Privacy Policy", href: "https://niural.com/privacy", external: true },
+{ label: "Cookie Policy", href: "https://niural.com/cookies", external: true },
+{ label: "Contact", href: "mailto:events@niural.com" },
+{ label: "Niural Website", href: "https://niural.com", external: true },
+{ label: "LinkedIn", href: "https://linkedin.com/company/niural", external: true },
+{ label: "X", href: "https://x.com/niuralHQ ", external: true },
+{ label: "Luma Events Calendar", href: "https://luma.com/niuralaievents", external: true }];
+
 
 const MAILING_LIST_URL = "https://share.hsforms.com/1GHpNjc5RTCikP6O4gElZFge3b02";
 
@@ -32,30 +32,30 @@ export default function Footer() {
       <div className="border-b border-gray-100">
         <div className="max-w-md mx-auto px-4 py-16 text-center">
           <h3 className="text-xl font-bold text-gray-900 mb-2">Join the Niural Mailing List</h3>
-          <p className="text-gray-500 text-sm mb-6">
-            Receive executive insights and event updates.
+          <p className="text-gray-500 mb-6 text-sm text-center">Be the first to know: receive exclusive insights and event updates
+
           </p>
-          {submitted ? (
-            <p className="text-[#714DFF] font-medium">You're on the list!</p>
-          ) : (
-            <form onSubmit={handleSubmit} className="flex gap-2">
+          {submitted ?
+          <p className="text-[#714DFF] font-medium">You're on the list!</p> :
+
+          <form onSubmit={handleSubmit} className="flex gap-2">
               <input
-                type="email"
-                required
-                value={email}
-                onChange={(e) => setEmail(e.target.value)}
-                placeholder="Enter your email"
-                className="flex-1 px-4 py-2.5 rounded-full border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:border-[#714DFF] transition-colors"
-              />
+              type="email"
+              required
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
+              placeholder="Enter your email"
+              className="flex-1 px-4 py-2.5 rounded-full border border-gray-200 text-sm text-gray-900 placeholder-gray-400 focus:outline-none focus:border-[#714DFF] transition-colors" />
+
               <button
-                type="submit"
-                className="px-5 py-2.5 rounded-full text-white text-sm font-semibold hover:opacity-90 transition-all shrink-0"
-                style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}
-              >
+              type="submit"
+              className="px-5 py-2.5 rounded-full text-white text-sm font-semibold hover:opacity-90 transition-all shrink-0"
+              style={{ background: "linear-gradient(135deg, #714DFF, #E151FF)" }}>
+
                 Be the First to Know!
               </button>
             </form>
-          )}
+          }
         </div>
       </div>
 
@@ -64,17 +64,17 @@ export default function Footer() {
         <div className="max-w-5xl mx-auto px-4 py-6">
           <div className="flex flex-col md:flex-row items-center justify-center gap-4 text-sm text-gray-500">
             <span className="font-medium text-gray-700">© 2026 Niural Inc.</span>
-            {FOOTER_LINKS.slice(0, 3).map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                target={link.external ? "_blank" : undefined}
-                rel={link.external ? "noopener noreferrer" : undefined}
-                className="hover:text-[#714DFF] transition-colors"
-              >
+            {FOOTER_LINKS.slice(0, 3).map((link) =>
+            <a
+              key={link.label}
+              href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
+              className="hover:text-[#714DFF] transition-colors">
+
                 {link.label}
               </a>
-            ))}
+            )}
           </div>
         </div>
       </div>
@@ -83,17 +83,17 @@ export default function Footer() {
       <div className="border-b border-gray-100">
         <div className="max-w-5xl mx-auto px-4 py-4">
           <div className="flex flex-wrap items-center justify-center gap-x-6 gap-y-2 text-sm text-gray-400">
-            {FOOTER_LINKS.slice(3).map((link) => (
-              <a
-                key={link.label}
-                href={link.href}
-                target={link.external ? "_blank" : undefined}
-                rel={link.external ? "noopener noreferrer" : undefined}
-                className="hover:text-[#714DFF] transition-colors"
-              >
+            {FOOTER_LINKS.slice(3).map((link) =>
+            <a
+              key={link.label}
+              href={link.href}
+              target={link.external ? "_blank" : undefined}
+              rel={link.external ? "noopener noreferrer" : undefined}
+              className="hover:text-[#714DFF] transition-colors">
+
                 {link.label}
               </a>
-            ))}
+            )}
           </div>
         </div>
       </div>
@@ -125,9 +125,9 @@ export default function Footer() {
           alt="Niural Inc."
           aria-hidden="true"
           className="w-full object-cover"
-          style={{ display: "block" }}
-        />
+          style={{ display: "block" }} />
+
       </div>
-    </footer>
-  );
+    </footer>);
+
 }
