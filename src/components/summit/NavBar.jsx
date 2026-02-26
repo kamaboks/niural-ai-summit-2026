@@ -49,7 +49,7 @@ export default function NavBar() {
           </a>
 
           {/* Divider */}
-          <div className="hidden md:block w-px h-5 bg-gray-200 mx-2" />
+          <div className="hidden md:block w-px h-5 bg-gray-200 mx-4" />
 
           {/* Desktop Nav Links */}
           <div className="hidden md:flex items-center gap-1 flex-1">
