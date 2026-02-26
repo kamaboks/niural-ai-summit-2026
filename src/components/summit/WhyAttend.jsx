@@ -11,12 +11,12 @@ const REASONS = [
 {
   icon: Users,
   title: "Curated Access to 200+ Leaders",
-  description: "Executive decision-makers — founders, CFOs, HR leaders, and investors — shaping the next generation of modern companies."
+  description: "Executive decision-makers: founders, CFOs, HR leaders, and investors shaping the next generation of modern companies."
 },
 {
   icon: Presentation,
   title: "Live Demos & Product Showcase",
-  description: "Cutting-edge AI tools transforming payroll, compliance, treasury, and workforce infrastructure. No fluff — just practical solutions."
+  description: "Cutting-edge AI tools transforming payroll, compliance, treasury, and workforce infrastructure. No fluff, just practical solutions."
 },
 {
   icon: Target,
