@@ -84,26 +84,28 @@ export default function Speakers() {
               <h3 className="text-lg font-semibold text-gray-900 mb-3">
                 {speaker.name}
               </h3>
-              <a
-                href={speaker.companyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center mb-3 hover:opacity-75 transition-opacity h-10"
-              >
-                <img
-                  src={speaker.companyLogo}
-                  alt={speaker.company}
-                  className="h-10 w-28 object-contain mx-auto"
-                />
-              </a>
-              <a
-              href={speaker.linkedin}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
-              aria-label={`${speaker.name} LinkedIn profile`}>
-                <Linkedin className="w-4 h-4" />
-              </a>
+              <div className="flex flex-col items-center gap-3">
+                <a
+                  href={speaker.companyUrl}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center hover:opacity-75 transition-opacity h-10"
+                >
+                  <img
+                    src={speaker.companyLogo}
+                    alt={speaker.company}
+                    className="h-10 w-28 object-contain"
+                  />
+                </a>
+                <a
+                  href={speaker.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
+                  aria-label={`${speaker.name} LinkedIn profile`}>
+                  <Linkedin className="w-4 h-4" />
+                </a>
+              </div>
             </motion.div>
           )}
         </div>
