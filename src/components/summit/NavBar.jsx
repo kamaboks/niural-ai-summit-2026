@@ -34,7 +34,7 @@ export default function NavBar() {
   return (
     <nav className="fixed top-0 left-0 right-0 z-50 pt-4 px-4">
       <div className="max-w-6xl mx-auto">
-        <div className="bg-white/90 px-5 rounded-2xl flex items-center justify-between h-14 backdrop-blur-md border border-gray-200 shadow-sm">
+        <div className="bg-white/60 px-5 rounded-2xl flex items-center justify-between h-14 backdrop-blur-xl border border-white/40 shadow-sm">
           {/* Logo */}
           <a
             href="#"
