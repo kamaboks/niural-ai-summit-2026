@@ -19,8 +19,8 @@ export default function AboutSection() {
           </h2>
 
           <div className="space-y-5 text-base text-gray-500 leading-relaxed">
-            <p>
-              Niural AI Summit is the executive AI conference in NYC designed for leaders building in the age of automation.
+            <p>Niural AI Summit is an AI conference in NYC designed for leaders building in the age of automation.
+
             </p>
             <p>AI is not just automating tasks. It is reshaping leadership across finance, HR, and operations. The leaders driving this shift are not asking if they will adopt AI. They decide how it changes their org structure, risk posture, talent model, and long-term strategy.
 
