@@ -19,8 +19,8 @@ export default function AboutSection() {
           </h2>
 
           <div className="space-y-5 text-base text-gray-500 leading-relaxed">
-            <p>Automation is no longer incremental rather it is rewriting how organizations are built. Across finance, HR, and operations, AI is collapsing org charts, compressing decision cycles, redefining risk, and reshaping the economics of talent. The question is no longer whether to adopt AI. The real question is: what does your company become because of it?
-
+            <p>Automation is no longer incremental rather it is rewriting how organizations are built. Across finance, HR, 
+and operations, AI is collapsing org charts, compressing decision cycles, redefining risk, and reshaping the economics of talent. The question is no longer whether to adopt AI. The real question is: what does your company become because of it?
             </p>
             <p>At Niural AI Summit, 200+ curated founders and executive operators gather in New York City to confront that question head-on. This is not a theoretical AI conference. It is a working session for leaders redesigning their companies in real time  sharing inflection points, structural rewrites, failures, breakthroughs, and the blueprint for what an AI-native organization truly looks like.
 
