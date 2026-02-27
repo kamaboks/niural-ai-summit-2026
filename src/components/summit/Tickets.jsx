@@ -61,7 +61,7 @@ const TIERS = [
   description:
   "Save 40% when registering 3+ executives from the same company.",
   subtext:
-  "Designed for leadership teams implementing AI across business systems. For more information email events@niural.com."
+  "Designed for leadership teams implementing AI across business systems. For more information, email events@niural.com."
 }];
 
 
