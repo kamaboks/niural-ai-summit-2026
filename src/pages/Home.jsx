@@ -61,6 +61,7 @@ export default function Home() {
       <Hero />
       <AboutSection />
       <WhyAttend />
+      <WhoShouldAttend />
       <Speakers />
       <Agenda />
       <Tickets />
