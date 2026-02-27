@@ -49,7 +49,7 @@ const THURSDAY = [
   time: "12:30 PM",
   title: "Lunch & Headline Keynote Fireside Chat",
   description:
-  "An intimate conversation with one of today's most respected business leaders. From scaling teams and navigating market shifts to building culture under pressure — this session blends inspiration with real-world operating insight. Insightful. Candid. Unfiltered. Keynote revealed soon.",
+  "An intimate conversation with one of today's most respected business leaders. From scaling teams and navigating market shifts to building culture under pressure, this session blends inspiration with real-world operating insight. Candid. Unfiltered. Keynote revealed soon.",
   tag: "Keynote"
 },
 {
