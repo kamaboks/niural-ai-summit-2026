@@ -16,7 +16,7 @@ function preserveUtms(baseUrl) {
 const TIERS = [
   {
     name: "Early Bird",
-    price: "$199",
+    price: "$299",
     badge: "Limited Release",
     cta: "Get Early Bird Ticket",
     active: true,
@@ -24,7 +24,7 @@ const TIERS = [
   },
   {
     name: "Priority Access",
-    price: "$299",
+    price: "$399",
     badge: null,
     cta: "Get Priority Access",
     active: false,
