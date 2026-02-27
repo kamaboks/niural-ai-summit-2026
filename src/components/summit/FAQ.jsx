@@ -121,7 +121,7 @@ const HIDDEN_FAQS = [
     category: "TRAVEL & ACCOMMODATIONS",
     question: "I'm traveling to NYC for Tech Week. Do you offer hotel recommendations or a booking code?",
     answer:
-      "Yes! If you are planning to travel to New York City for NYC Tech Week and the Niural AI Summit, we have secured preferred hotel partnerships and booking codes for our attendees.\n\nTo receive recommended hotels and access to our discounted booking code, please email events@niural.com. Our team will share curated accommodations located in Manhattan.\n\nAvailability is limited and codes are provided on a first-come basis.",
+      "Yes! If you are planning to travel to New York City for NYC Tech Week and the Niural AI Summit, we have secured preferred hotel partnerships and booking codes for our attendees.\n\nTo receive recommended hotels and access to our discounted booking code, please email events@niural.com. Our team will share curated accommodations located in Manhattan.\n\nAvailability is limited, and codes are provided on a first-come basis.",
   },
   {
     category: "SPONSORSHIPS",
