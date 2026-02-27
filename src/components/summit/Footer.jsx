@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 
 const FOOTER_LINKS = [
-{ label: "Terms of Service", href: "https://niural.com/terms", external: true },
-{ label: "Privacy Policy", href: "https://niural.com/privacy", external: true },
-{ label: "Cookie Policy", href: "https://niural.com/cookies", external: true },
+{ label: "Terms of Service", href: "https://www.niural.com/legal/customer-terms-of-service", external: true },
+{ label: "Privacy Policy", href: "https://www.niural.com/legal/privacy-policy", external: true },
+{ label: "Cookie Policy", href: "https://www.niural.com/legal/cookie-policy", external: true },
 { label: "Contact", href: "mailto:events@niural.com" },
 { label: "Niural Website", href: "https://niural.com", external: true },
 { label: "LinkedIn", href: "https://linkedin.com/company/niural", external: true },
