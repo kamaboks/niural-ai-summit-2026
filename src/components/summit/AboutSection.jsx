@@ -14,7 +14,7 @@ export default function AboutSection() {
           <p className="text-xs font-bold tracking-widest text-[#714DFF] uppercase mb-3">
             About the Summit
           </p>
-          <h2 className="text-[#1a0e3d] mb-3 tracking-tight text-3xl sm:text-4xl">
+          <h2 className="text-[#1a0e3d] mb-3 tracking-tight text-3xl sm:text-4xl leading-tight">
             <span className="font-bold">Niural AI Summit</span><span className="text-gray-500 mx-1 font-normal tracking-wide" style={{fontSize: "15px"}}> is where the architects of the AI-native era convene.</span>
           </h2>
 
