@@ -22,10 +22,10 @@ export default function AboutSection() {
             <p>Niural AI Summit is an AI conference in NYC designed for leaders building in the age of automation.
 
             </p>
-            <p>AI is not just automating tasks. It is reshaping leadership across finance, HR, and operations. The leaders driving this shift are not asking if they will adopt AI. They decide how it changes their org structure, risk posture, talent model, and long-term strategy.
+            <p>AI is reshaping leadership by automating tasks across finance, HR, and operations.
 
             </p>
-            <p>Join 200+ curated founders and executive operators at Niural AI Summit; a high-signal gathering where leaders unpack their journeys, share inflection moments, and discuss what the AI-native organization truly looks like.
+            <p>Join 200+ curated founders and executive operators at Niural AI Summit; an incredible gathering where leaders unpack their journeys, share inflection moments, and discuss what the AI-native organization truly looks like.
 
             </p>
             <p className="font-bold text-gray-800">
