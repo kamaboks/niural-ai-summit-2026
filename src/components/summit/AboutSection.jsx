@@ -14,23 +14,23 @@ export default function AboutSection() {
           <p className="text-xs font-bold tracking-widest text-[#714DFF] uppercase mb-3">
             About the Summit
           </p>
-          <h2 className="text-3xl sm:text-4xl font-bold text-[#1a0e3d] mb-8 tracking-tight">
-            Redefining How Modern Companies Run
+          <h2 className="text-3xl sm:text-4xl font-bold text-[#1a0e3d] mb-8 tracking-tight">Niural AI Summit is where the architects of the AI-native era convene.
+
           </h2>
 
           <div className="space-y-5 text-base text-gray-500 leading-relaxed">
-            <p>Niural AI Summit is an AI conference in NYC designed for leaders building in the age of automation.
+            <p>Automation is no longer incremental rather it is rewriting how organizations are built. Across finance, HR, and operations, AI is collapsing org charts, compressing decision cycles, redefining risk, and reshaping the economics of talent. The question is no longer whether to adopt AI. The real question is: what does your company become because of it?
 
             </p>
-            <p>AI is reshaping leadership by automating tasks across finance, HR, and operations.
+            <p>At Niural AI Summit, 200+ curated founders and executive operators gather in New York City to confront that question head-on. This is not a theoretical AI conference. It is a working session for leaders redesigning their companies in real time  sharing inflection points, structural rewrites, failures, breakthroughs, and the blueprint for what an AI-native organization truly looks like.
 
-The leaders driving this shift are not asking if they will adopt AI. They decide how it changes their organization structure, risk posture, talent model, and long-term strategy. 
-            </p>
-            <p>Join 200+ curated founders and executive operators at Niural AI Summit; an incredible gathering where leaders unpack their journeys, share inflection moments, and discuss what the AI-native organization truly looks like.
 
             </p>
-            <p className="font-bold text-gray-800">
-              Before Tech Week begins, the real conversation starts here.
+            <p>If you’re building for the next decade not the last one this is where you need to be.
+
+            </p>
+            <p className="text-gray-800 text-xl font-bold">Redefining How Modern Companies Run
+
             </p>
           </div>
         </motion.div>
