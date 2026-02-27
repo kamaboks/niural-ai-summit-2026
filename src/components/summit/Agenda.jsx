@@ -71,7 +71,7 @@ const THURSDAY = [
     title: "Coffee Break & Networking",
     description: null,
     tag: "Break",
-    sponsor: { name: "ShayCPA", link: "https://shaycpa.com/" },
+
   },
   {
     time: "3:30 PM",
