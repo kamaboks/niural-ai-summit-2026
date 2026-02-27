@@ -3,6 +3,7 @@ import NavBar from "@/components/summit/NavBar";
 import Hero from "@/components/summit/Hero";
 import AboutSection from "@/components/summit/AboutSection";
 import WhyAttend from "@/components/summit/WhyAttend";
+import WhoShouldAttend from "@/components/summit/WhoShouldAttend";
 import Speakers from "@/components/summit/Speakers";
 import Agenda from "@/components/summit/Agenda";
 import Tickets from "@/components/summit/Tickets";
