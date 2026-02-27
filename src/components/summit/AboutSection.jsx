@@ -24,6 +24,7 @@ export default function AboutSection() {
             </p>
             <p>AI is reshaping leadership by automating tasks across finance, HR, and operations.
 
+The leaders driving this shift are not asking if they will adopt AI. They decide how it changes their organization structure, risk posture, talent model, and long-term strategy. 
             </p>
             <p>Join 200+ curated founders and executive operators at Niural AI Summit; an incredible gathering where leaders unpack their journeys, share inflection moments, and discuss what the AI-native organization truly looks like.
 
@@ -35,5 +36,4 @@ export default function AboutSection() {
         </motion.div>
       </div>
     </section>);
-
 }
