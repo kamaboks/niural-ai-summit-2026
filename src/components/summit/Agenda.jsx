@@ -110,7 +110,7 @@ function SessionRow({ session }) {
         }
         {session.sponsor &&
         <div className="flex items-center gap-2 mt-2">
-            <span className="text-sm text-gray-400">Brought to you by</span>
+            
             <a
             href={session.sponsor.link}
             target="_blank"
