@@ -12,7 +12,7 @@ const DEFAULT_FAQS = [
   {
     category: "GENERAL",
     question: "Who should attend this AI conference in NYC?",
-    answer: `The Niural AI Summit is designed for senior operators actively building and scaling modern companies.\n\nThis summit is ideal for:\n• Founders & Co-Founders\n• CFOs & Heads of Finance\n• COOs & Operations Leaders\n• Heads of HR & People Operations\n• Controllers & Finance Directors\n• Venture Investors & Infrastructure Leaders\n• Technology executives implementing AI across business systems\n\nIf you're responsible for how your company runs, from payroll and treasury to compliance, automation, and workforce infrastructure, this room is built for you.`,
+    answer: `The Niural AI Summit is designed for senior operators actively building and scaling modern companies.\n\nThis summit is ideal for:\n• Founders & Co-Founders (Series A+)\n• CFOs & Heads of Finance\n• COOs & Operations Leaders\n• Heads of HR & People Operations\n• Controllers & Finance Directors\n• Venture Investors & Infrastructure Leaders\n• Technology executives implementing AI across business systems\n\nIf you're responsible for how your company runs, from payroll and treasury to compliance, automation, and workforce infrastructure, this room is built for you.`,
   },
   {
     category: "GENERAL",
