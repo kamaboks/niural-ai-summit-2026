@@ -68,15 +68,6 @@ const SPEAKERS = [
   alt: "Lowell Putnam speaking at AI Conference NYC",
   fitContain: true,
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e740d3b4d_Lowell-SupperCo-founderCEO.png"
-},
-{
-  name: "Madhuri",
-  company: "",
-  companyLogo: "",
-  companyUrl: "",
-  linkedin: "",
-  alt: "Madhuri speaking at AI Conference NYC",
-  image: ""
 }];
 
 
