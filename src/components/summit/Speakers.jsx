@@ -62,8 +62,8 @@ const SPEAKERS = [
 {
   name: "Lowell Putnam",
   company: "Supper",
-  companyLogo: "",
-  companyUrl: "https://supperco.com/",
+  companyLogo: "https://www.supper.co/hubfs/Supper%20Wordmark%20Black.svg",
+  companyUrl: "https://www.supper.co/",
   linkedin: "",
   alt: "Lowell Putnam speaking at AI Conference NYC",
   fitContain: true,
