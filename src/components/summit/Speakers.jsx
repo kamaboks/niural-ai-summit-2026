@@ -4,13 +4,13 @@ import { Linkedin } from "lucide-react";
 
 const SPEAKERS = [
 {
-  name: "Joshua Reeves",
-  company: "ZenHR",
-  companyLogo: "",
-  companyUrl: "",
+  name: "Joshua Waldron",
+  company: "Scale AI",
+  companyLogo: "https://scale.com/favicon.ico",
+  companyUrl: "https://scale.com/",
   linkedin: "",
-  alt: "Joshua Reeves speaking at AI Conference NYC",
-  image: ""
+  alt: "Joshua Waldron speaking at AI Conference NYC",
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/1258293de_JoshuaWaldron_21049.jpg"
 },
 {
   name: "Gokul Rajaram",
