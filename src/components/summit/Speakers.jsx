@@ -51,6 +51,7 @@ const SPEAKERS = [
 {
   name: "Matt Hoffman",
   title: "Partner",
+  objectPosition: "top",
   company: "M13",
   companyUrl: "https://www.m13.co/",
   linkedin: "",
@@ -102,6 +103,7 @@ export default function Speakers() {
                 src={speaker.image}
                 alt={speaker.alt}
                 className={speaker.fitContain ? "w-full h-full object-contain" : "w-full h-full object-cover"}
+                style={speaker.objectPosition ? {objectPosition: speaker.objectPosition} : {}}
                 onError={(e) => {
                   e.target.style.display = "none";
                   e.target.parentNode.innerHTML = `<div class="w-full h-full flex items-center justify-center"><span class="text-4xl font-bold text-[#5E3BD4]/30">${speaker.name.charAt(0)}</span></div>`;
