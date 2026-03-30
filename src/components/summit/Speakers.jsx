@@ -4,6 +4,15 @@ import { Linkedin } from "lucide-react";
 
 const SPEAKERS = [
 {
+  name: "Joshua Reeves",
+  company: "ZenHR",
+  companyLogo: "",
+  companyUrl: "",
+  linkedin: "",
+  alt: "Joshua Reeves speaking at AI Conference NYC",
+  image: ""
+},
+{
   name: "Gokul Rajaram",
   company: "Marathon",
   companyLogo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/6a14e4513ef74a50bd7564fd4f0a919b",
@@ -24,6 +33,15 @@ const SPEAKERS = [
   image: "https://cdn.prod.website-files.com/6550dbbd729040d7cd658fef/65de5562354cd0fcf1e39c29_team-alexa.avif"
 },
 {
+  name: "Christine Choi",
+  company: "M13",
+  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
+  companyUrl: "https://www.m13.co/",
+  linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
+  alt: "Christine Choi speaking at AI Conference NYC",
+  image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/66e20d43a98407aa276c8fb5_Christine02%20(1).jpg"
+},
+{
   name: "Morgan Blumberg",
   company: "M13",
   companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
@@ -33,13 +51,31 @@ const SPEAKERS = [
   image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1776297600&v=beta&t=xfDGzAWx8q-H2RIc6_fZbLDuqkZetU64u9eK0z1ZJSc"
 },
 {
-  name: "Christine Choi",
-  company: "M13",
-  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
-  companyUrl: "https://www.m13.co/",
-  linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
-  alt: "Christine Choi speaking at AI Conference NYC",
-  image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/66e20d43a98407aa276c8fb5_Christine02%20(1).jpg"
+  name: "Matt",
+  company: "",
+  companyLogo: "",
+  companyUrl: "",
+  linkedin: "",
+  alt: "Matt speaking at AI Conference NYC",
+  image: ""
+},
+{
+  name: "Lowell",
+  company: "",
+  companyLogo: "",
+  companyUrl: "",
+  linkedin: "",
+  alt: "Lowell speaking at AI Conference NYC",
+  image: ""
+},
+{
+  name: "Madhuri",
+  company: "",
+  companyLogo: "",
+  companyUrl: "",
+  linkedin: "",
+  alt: "Madhuri speaking at AI Conference NYC",
+  image: ""
 }];
 
 
