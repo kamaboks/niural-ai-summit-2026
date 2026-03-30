@@ -12,7 +12,7 @@ const SPEAKERS = [
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
   fitContain: true,
-  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/c78ba9b48_Gokulpng.jpg"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/4d812826c_Gokulpng.jpg"
 },
 {
   name: "Alexa von Tobel",
