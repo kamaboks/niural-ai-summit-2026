@@ -11,6 +11,7 @@ const SPEAKERS = [
   logoScale: true,
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
+  fitContain: true,
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8f255faf5_Gokul.png"
 },
 {
@@ -75,7 +76,7 @@ export default function Speakers() {
                 <img
                 src={speaker.image}
                 alt={speaker.alt}
-                className="w-full h-full object-cover"
+                className={speaker.fitContain ? "w-full h-full object-contain" : "w-full h-full object-cover"}
                 onError={(e) => {
                   e.target.style.display = "none";
                   e.target.parentNode.innerHTML = `<div class="w-full h-full flex items-center justify-center"><span class="text-4xl font-bold text-[#5E3BD4]/30">${speaker.name.charAt(0)}</span></div>`;
