@@ -11,7 +11,7 @@ const SPEAKERS = [
   logoScale: true,
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
-  image: "https://media.licdn.com/dms/image/v2/D5603AQFgT1s7XXvPSw/profile-displayphoto-shrink_800_800/B56ZXWI2iNGsAg-/0/1743054400521?e=1773878400&v=beta&t=juatA2lJa1bXl2vRYsxjDnIddoCyAdgWtzCQZIejtl0"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8f255faf5_Gokul.png"
 },
 {
   name: "Alexa von Tobel",
@@ -119,12 +119,8 @@ export default function Speakers() {
           transition={{ duration: 0.6, delay: 0.4 }}
           className="mt-16 max-w-md mx-auto">
           <div className="bg-gradient-to-r from-[#714DFF] to-[#E151FF] p-8 rounded-[64px] border-0 backdrop-blur-sm">
-            <p className="text-slate-50 text-xl font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON
-
-            </p>
-            <p className="text-slate-50 mt-1 text-sm font-light text-center">Stay tuned for additional speaker announcements
-
-            </p>
+            <p className="text-slate-50 text-xl font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON</p>
+            <p className="text-slate-50 mt-1 text-sm font-light text-center">Stay tuned for additional speaker announcements</p>
           </div>
         </motion.div>
       </div>
