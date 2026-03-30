@@ -82,28 +82,28 @@ export default function Speakers() {
                 }} />
 
               </div>
-              <h3 className="text-lg font-semibold text-gray-900 mb-3">
+              <h3 className="text-gray-900 mb-5 text-lg font-semibold">
                 {speaker.name}
               </h3>
               <div className="flex flex-col items-center gap-3">
                 <a
-                  href={speaker.companyUrl}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center hover:opacity-75 transition-opacity h-10"
-                >
+                href={speaker.companyUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center hover:opacity-75 transition-opacity h-10">
+                
                   <img
-                    src={speaker.companyLogo}
-                    alt={speaker.company}
-                    className={speaker.logoScale ? "h-10 w-28 object-contain scale-[2]" : "h-10 w-28 object-contain"}
-                  />
+                  src={speaker.companyLogo}
+                  alt={speaker.company}
+                  className={speaker.logoScale ? "h-10 w-28 object-contain scale-[2]" : "h-10 w-28 object-contain"} />
+                
                 </a>
                 <a
-                  href={speaker.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
-                  aria-label={`${speaker.name} LinkedIn profile`}>
+                href={speaker.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
+                aria-label={`${speaker.name} LinkedIn profile`}>
                   <Linkedin className="w-4 h-4" />
                 </a>
               </div>
