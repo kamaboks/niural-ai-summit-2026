@@ -51,13 +51,13 @@ const SPEAKERS = [
   image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1776297600&v=beta&t=xfDGzAWx8q-H2RIc6_fZbLDuqkZetU64u9eK0z1ZJSc"
 },
 {
-  name: "Matt",
-  company: "",
-  companyLogo: "",
-  companyUrl: "",
+  name: "Matt Hoffman",
+  company: "M13",
+  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
+  companyUrl: "https://www.m13.co/",
   linkedin: "",
-  alt: "Matt speaking at AI Conference NYC",
-  image: ""
+  alt: "Matt Hoffman speaking at AI Conference NYC",
+  image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/670e6cbeabda9a943a410601_matt-hoffman%20(1).webp"
 },
 {
   name: "Lowell",
