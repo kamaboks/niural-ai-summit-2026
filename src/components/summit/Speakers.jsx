@@ -5,8 +5,8 @@ import { Linkedin } from "lucide-react";
 const SPEAKERS = [
 {
   name: "Joshua Waldron",
+  title: "VP of Strategic Partnerships",
   company: "Scale AI",
-  companyLogo: "https://scale.com/favicon.ico",
   companyUrl: "https://scale.com/",
   linkedin: "",
   alt: "Joshua Waldron speaking at AI Conference NYC",
@@ -14,19 +14,17 @@ const SPEAKERS = [
 },
 {
   name: "Gokul Rajaram",
+  title: "Investor & Board Member",
   company: "Marathon",
-  companyLogo: "https://images.crunchbase.com/image/upload/c_pad,h_160,w_160,f_auto,b_white,q_auto:eco,dpr_1/6a14e4513ef74a50bd7564fd4f0a919b",
   companyUrl: "https://marathonmp.com/",
-  logoScale: true,
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
-  fitContain: true,
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f8169160b_Gokul.jpg"
 },
 {
   name: "Alexa von Tobel",
+  title: "Founder & Managing Partner",
   company: "Inspired Capital",
-  companyLogo: "https://cdn.prod.website-files.com/6550ccd8f224407ac9f2ebb0/6550d8d62950cf2d2f89c22b_logo.svg",
   companyUrl: "https://www.inspiredcapital.com/",
   linkedin: "https://www.linkedin.com/in/alexavontobel/",
   alt: "Alexa von Tobel speaking at AI Conference NYC",
@@ -34,8 +32,8 @@ const SPEAKERS = [
 },
 {
   name: "Christine Choi",
+  title: "Partner",
   company: "M13",
-  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
   alt: "Christine Choi speaking at AI Conference NYC",
@@ -43,8 +41,8 @@ const SPEAKERS = [
 },
 {
   name: "Morgan Blumberg",
+  title: "Partner",
   company: "M13",
-  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
   alt: "Morgan Blumberg speaking at AI Conference NYC",
@@ -52,8 +50,8 @@ const SPEAKERS = [
 },
 {
   name: "Matt Hoffman",
+  title: "Partner",
   company: "M13",
-  companyLogo: "https://mms.businesswire.com/media/20220303005263/en/838256/4/M13_logos_Black.jpg",
   companyUrl: "https://www.m13.co/",
   linkedin: "",
   alt: "Matt Hoffman speaking at AI Conference NYC",
@@ -61,12 +59,11 @@ const SPEAKERS = [
 },
 {
   name: "Lowell Putnam",
+  title: "Co-Founder & CEO",
   company: "Supper",
-  companyLogo: "https://www.supper.co/hubfs/Supper%20Wordmark%20Black.svg",
   companyUrl: "https://www.supper.co/",
   linkedin: "",
   alt: "Lowell Putnam speaking at AI Conference NYC",
-  fitContain: true,
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e740d3b4d_Lowell-SupperCo-founderCEO.png"
 }];
 
@@ -115,20 +112,10 @@ export default function Speakers() {
                 {speaker.name}
               </h3>
               <div className="flex flex-col items-center gap-3">
-                <a
-                href={speaker.companyUrl}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center hover:opacity-75 transition-opacity h-10">
-                  {speaker.companyLogo ? (
-                    <img
-                    src={speaker.companyLogo}
-                    alt={speaker.company}
-                    className={speaker.logoScale ? "h-10 w-28 object-contain scale-[2]" : "h-10 w-28 object-contain"} />
-                  ) : (
-                    <span className="text-gray-700 font-semibold text-base">{speaker.company}</span>
-                  )}
-                </a>
+                <div className="text-center">
+                  <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
+                  <p className="text-gray-400 text-sm">{speaker.company}</p>
+                </div>
                 <a
                 href={speaker.linkedin}
                 target="_blank"
