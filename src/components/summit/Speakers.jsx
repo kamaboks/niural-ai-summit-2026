@@ -61,6 +61,7 @@ const SPEAKERS = [
 {
   name: "Lowell Putnam",
   title: "Co-Founder & CEO",
+  objectPosition: "60% center",
   company: "Supper",
   companyUrl: "https://www.supper.co/",
   linkedin: "",
