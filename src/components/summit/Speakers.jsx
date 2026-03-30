@@ -60,13 +60,14 @@ const SPEAKERS = [
   image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/670e6cbeabda9a943a410601_matt-hoffman%20(1).webp"
 },
 {
-  name: "Lowell",
-  company: "",
+  name: "Lowell Putnam",
+  company: "Supper",
   companyLogo: "",
-  companyUrl: "",
+  companyUrl: "https://supperco.com/",
   linkedin: "",
-  alt: "Lowell speaking at AI Conference NYC",
-  image: ""
+  alt: "Lowell Putnam speaking at AI Conference NYC",
+  fitContain: true,
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e740d3b4d_Lowell-SupperCo-founderCEO.png"
 },
 {
   name: "Madhuri",
