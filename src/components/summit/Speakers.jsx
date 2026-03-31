@@ -51,7 +51,7 @@ const SPEAKERS = [
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
   alt: "Morgan Blumberg speaking at AI Conference NYC",
-  image: "https://media.licdn.com/dms/image/v2/C4E03AQFzOvjccnv7VA/profile-displayphoto-shrink_800_800/profile-displayphoto-shrink_800_800/0/1541436680437?e=1776297600&v=beta&t=xfDGzAWx8q-H2RIc6_fZbLDuqkZetU64u9eK0z1ZJSc"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/5a05f055e_MorganBlumberg.png"
 },
 {
   name: "Matt Hoffman",
