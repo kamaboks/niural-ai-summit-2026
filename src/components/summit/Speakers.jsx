@@ -56,11 +56,21 @@ const SPEAKERS = [
 {
   name: "Matt Hoffman",
   title: "Partner",
+  company: "M13",
+  description: "Partner at M13 focused on talent and people strategy. Former VP of Talent at MongoDB and advisor to high-growth startups on building exceptional teams.",
+  companyUrl: "https://www.m13.co/",
+  linkedin: "https://www.linkedin.com/in/mphoffman/",
+  alt: "Matt Hoffman speaking at AI Conference NYC",
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
 },
 {
   name: "Lowell Putnam",
   title: "Co-Founder & CEO",
+  company: "Niural",
+  description: "Co-Founder & CEO of Niural. Pioneer in AI-driven global payroll and workforce management, helping companies hire and pay teams worldwide.",
+  companyUrl: "https://niural.com/",
+  linkedin: "https://www.linkedin.com/in/lowell-putnam/",
+  alt: "Lowell Putnam speaking at AI Conference NYC",
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
 }];
 
