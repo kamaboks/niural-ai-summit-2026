@@ -18,7 +18,7 @@ const DEFAULT_FAQS = [
     category: "GENERAL",
     question: "How much does it cost to attend?",
     answer:
-      "Tickets are released in phases and increase as capacity fills:\n\n• Early Bird — $299\n• Priority Access — $399\n• General Admission — $499\n• VIP Access — $799\n• Executive Team Pass — Save 40% when registering 3+ executives from the same company\n\nAll registrations are subject to approval.",
+      "Tickets are released in phases and increase as capacity fills:\n\n• Early Bird — $199\n• Priority Access — $299\n• General Admission — $399\n• VIP Access — $599\n• Executive Team Pass — Save 40% when registering 3+ executives from the same company\n\nAll registrations are subject to approval.",
   },
   {
     category: "GENERAL",
