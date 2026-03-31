@@ -7,6 +7,7 @@ const SPEAKERS = [
   name: "Joshua Waldron",
   title: "VP of Strategic Partnerships",
   company: "Scale AI",
+  description: "Leading strategic partnerships at Scale AI, the data infrastructure company powering AI development for leading enterprises and government agencies.",
   companyUrl: "https://scale.com/",
   linkedin: "",
   alt: "Joshua Waldron speaking at AI Conference NYC",
@@ -14,8 +15,9 @@ const SPEAKERS = [
 },
 {
   name: "Gokul Rajaram",
-  title: "Investor & Board Member",
+  title: "Founding Partner",
   company: "Marathon",
+  description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Former product exec at Google, Facebook, and Square.",
   companyUrl: "https://marathonmp.com/",
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
@@ -25,6 +27,7 @@ const SPEAKERS = [
   name: "Alexa von Tobel",
   title: "Founder & Managing Partner",
   company: "Inspired Capital",
+  description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
   companyUrl: "https://www.inspiredcapital.com/",
   linkedin: "https://www.linkedin.com/in/alexavontobel/",
   alt: "Alexa von Tobel speaking at AI Conference NYC",
@@ -34,6 +37,7 @@ const SPEAKERS = [
   name: "Christine Choi",
   title: "Partner",
   company: "M13",
+  description: "Partner at M13, investing in consumer and enterprise technology. Previously at Goldman Sachs and co-founder of tech-enabled ventures.",
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
   alt: "Christine Choi speaking at AI Conference NYC",
@@ -43,6 +47,7 @@ const SPEAKERS = [
   name: "Morgan Blumberg",
   title: "Partner",
   company: "M13",
+  description: "Partner at M13 focused on founder-market fit and go-to-market strategy. Operator-turned-investor with experience scaling high-growth startups.",
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
   alt: "Morgan Blumberg speaking at AI Conference NYC",
@@ -53,6 +58,7 @@ const SPEAKERS = [
   title: "Partner",
   objectPosition: "top",
   company: "M13",
+  description: "Partner at M13 and former Chief People Officer at MongoDB. Expert in building people-first cultures and scaling organizations through hypergrowth.",
   companyUrl: "https://www.m13.co/",
   linkedin: "",
   alt: "Matt Hoffman speaking at AI Conference NYC",
@@ -63,6 +69,7 @@ const SPEAKERS = [
   title: "Co-Founder & CEO",
   objectPosition: "60% center",
   company: "Supper",
+  description: "Co-Founder & CEO of Supper. Previously co-founded Quovo, the financial data platform acquired by Plaid, powering data connectivity for leading fintech companies.",
   companyUrl: "https://www.supper.co/",
   linkedin: "",
   alt: "Lowell Putnam speaking at AI Conference NYC",
@@ -118,6 +125,7 @@ export default function Speakers() {
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
+                  {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px]">{speaker.description}</p>}
                 </div>
                 <a
                 href={speaker.linkedin}
