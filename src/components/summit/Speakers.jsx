@@ -56,24 +56,12 @@ const SPEAKERS = [
 {
   name: "Matt Hoffman",
   title: "Partner",
-  objectPosition: "top",
-  company: "M13",
-  description: "Partner at M13 and former Chief People Officer at MongoDB. Expert in building people-first cultures and scaling organizations through hypergrowth.",
-  companyUrl: "https://www.m13.co/",
-  linkedin: "",
-  alt: "Matt Hoffman speaking at AI Conference NYC",
-  image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/670e6cbeabda9a943a410601_matt-hoffman%20(1).webp"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
 },
 {
   name: "Lowell Putnam",
   title: "Co-Founder & CEO",
-  objectPosition: "60% center",
-  company: "Supper",
-  description: "Co-Founder & CEO of Supper. Previously co-founded Quovo, the financial data platform acquired by Plaid, powering data connectivity for leading fintech companies.",
-  companyUrl: "https://www.supper.co/",
-  linkedin: "",
-  alt: "Lowell Putnam speaking at AI Conference NYC",
-  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e740d3b4d_Lowell-SupperCo-founderCEO.png"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
 }];
 
 
