@@ -11,7 +11,7 @@ const SPEAKERS = [
   companyUrl: "https://scale.com/",
   linkedin: "",
   alt: "Joshua Waldron speaking at AI Conference NYC",
-  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/21159afe5_JoshuaWaldron_21049.png"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/6cea18730_JoshuaWaldron_21049.jpg"
 },
 {
   name: "Gokul Rajaram",
