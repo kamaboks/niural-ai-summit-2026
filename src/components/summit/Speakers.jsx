@@ -125,7 +125,7 @@ export default function Speakers() {
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
-                  {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px] line-clamp-2">{speaker.description}</p>}
+                  {speaker.description && <p className="text-gray-400 mx-2 py-1 text-xs leading-relaxed max-w-[200px] line-clamp-2">{speaker.description}</p>}
                 </div>
                 <a
                 href={speaker.linkedin}
