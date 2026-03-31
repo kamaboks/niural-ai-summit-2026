@@ -46,13 +46,12 @@ const SPEAKERS = [
 {
   name: "Morgan Blumberg",
   title: "Partner",
-  objectPosition: "center 30%",
   company: "M13",
   description: "Partner at M13 focused on founder-market fit and go-to-market strategy. Operator-turned-investor with experience scaling high-growth startups.",
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
   alt: "Morgan Blumberg speaking at AI Conference NYC",
-  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/5a05f055e_MorganBlumberg.png"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
 },
 {
   name: "Matt Hoffman",
