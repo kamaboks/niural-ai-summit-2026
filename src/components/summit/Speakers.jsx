@@ -113,7 +113,7 @@ export default function Speakers() {
                     e.target.style.display = "none";
                     e.target.parentNode.innerHTML = `<div class="w-full h-full flex items-center justify-center"><span class="text-4xl font-bold text-[#5E3BD4]/30">${speaker.name.charAt(0)}</span></div>`;
                   }} />
-                <div className="absolute inset-0 bg-[#5E3BD4]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+                <div className="absolute inset-0 bg-[#231650]/90 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
                   <p className="text-white text-xs text-center leading-relaxed">{speaker.description}</p>
                 </div>
               </div>
