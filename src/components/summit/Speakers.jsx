@@ -46,6 +46,7 @@ const SPEAKERS = [
 {
   name: "Morgan Blumberg",
   title: "Partner",
+  objectPosition: "center 30%",
   company: "M13",
   description: "Partner at M13 focused on founder-market fit and go-to-market strategy. Operator-turned-investor with experience scaling high-growth startups.",
   companyUrl: "https://www.m13.co/",
