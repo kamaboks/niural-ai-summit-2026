@@ -118,14 +118,16 @@ export default function Speakers() {
                 }} />
 
               </div>
-              <h3 className="text-gray-900 mb-5 text-lg font-semibold">
+              <h3 className="text-gray-900 mb-2 text-lg font-semibold">
                 {speaker.name}
               </h3>
               <div className="flex flex-col items-center gap-3">
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
-                  {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px]">{speaker.description}</p>}
+                  <div className="overflow-hidden transition-all duration-300 ease-in-out max-h-0 group-hover:max-h-20">
+                    {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px]">{speaker.description}</p>}
+                  </div>
                 </div>
                 <a
                 href={speaker.linkedin}
