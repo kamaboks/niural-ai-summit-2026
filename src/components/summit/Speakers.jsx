@@ -125,7 +125,9 @@ export default function Speakers() {
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
-                  {speaker.description && <p className="text-gray-400 mx-2 pt-1 pb-32 text-xs leading-relaxed max-w-[200px] line-clamp-2">{speaker.description}</p>}
+                  <div className="overflow-hidden max-h-0 opacity-0 group-hover:max-h-24 group-hover:opacity-100 transition-all duration-500 ease-in-out">
+                    {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px]">{speaker.description}</p>}
+                  </div>
                 </div>
                 <a
                 href={speaker.linkedin}
