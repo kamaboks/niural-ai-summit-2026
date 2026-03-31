@@ -31,7 +31,7 @@ const SPEAKERS = [
   companyUrl: "https://www.inspiredcapital.com/",
   linkedin: "https://www.linkedin.com/in/alexavontobel/",
   alt: "Alexa von Tobel speaking at AI Conference NYC",
-  image: "https://cdn.prod.website-files.com/6550dbbd729040d7cd658fef/65de5562354cd0fcf1e39c29_team-alexa.avif"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
 },
 {
   name: "Christine Choi",
@@ -41,7 +41,7 @@ const SPEAKERS = [
   companyUrl: "https://www.m13.co/",
   linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
   alt: "Christine Choi speaking at AI Conference NYC",
-  image: "https://cdn.prod.website-files.com/65d4f8a1a62c18a502877cfe/66e20d43a98407aa276c8fb5_Christine02%20(1).jpg"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
 },
 {
   name: "Morgan Blumberg",
