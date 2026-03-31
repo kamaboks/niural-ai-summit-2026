@@ -106,11 +106,11 @@ export default function Speakers() {
             transition={{ duration: 0.5, delay: i * 0.1 }} className="text-center group">
             
 
-              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-white shadow-xl">
+              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10 shadow-xl">
                 <img
                 src={speaker.image}
                 alt={speaker.alt}
-                className={speaker.fitContain ? "w-full h-full object-contain mix-blend-multiply" : "w-full h-full object-cover mix-blend-multiply"}
+                className={speaker.fitContain ? "w-full h-full object-contain" : "w-full h-full object-cover"}
                 style={speaker.objectPosition ? { objectPosition: speaker.objectPosition } : {}}
                 onError={(e) => {
                   e.target.style.display = "none";
