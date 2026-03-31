@@ -21,7 +21,7 @@ const SPEAKERS = [
   companyUrl: "https://marathonmp.com/",
   linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
   alt: "Gokul Rajaram speaking at AI Conference NYC",
-  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f8169160b_Gokul.jpg"
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
 },
 {
   name: "Alexa von Tobel",
