@@ -103,7 +103,7 @@ export default function Speakers() {
             initial={{ opacity: 0, y: 30 }}
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
-            transition={{ duration: 0.5, delay: i * 0.1 }} className="py-1 text-center group">
+            transition={{ duration: 0.5, delay: i * 0.1 }} className="text-center group">
             
 
               <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10 shadow-xl">
@@ -125,7 +125,7 @@ export default function Speakers() {
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
-                  {speaker.description && <p className="text-gray-400 mx-2 py-2 text-xs leading-relaxed max-w-[200px] line-clamp-2">{speaker.description}</p>}
+                  {speaker.description && <p className="text-gray-400 mx-2 pt-2 pb-2 text-xs leading-relaxed max-w-[200px] line-clamp-2">{speaker.description}</p>}
                 </div>
                 <a
                 href={speaker.linkedin}
