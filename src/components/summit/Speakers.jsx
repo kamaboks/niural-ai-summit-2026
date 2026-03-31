@@ -104,17 +104,18 @@ export default function Speakers() {
             transition={{ duration: 0.5, delay: i * 0.1 }} className="text-center group">
             
 
-              <div className="w-36 h-36 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10 shadow-xl">
+              <div className="w-52 h-52 mx-auto mb-5 rounded-2xl overflow-hidden bg-gradient-to-br from-[#5E3BD4]/10 to-[#E151FF]/10 shadow-xl relative">
                 <img
-                src={speaker.image}
-                alt={speaker.alt}
-                className={speaker.fitContain ? "w-full h-full object-contain" : "w-full h-full object-cover"}
-                style={speaker.objectPosition ? { objectPosition: speaker.objectPosition } : {}}
-                onError={(e) => {
-                  e.target.style.display = "none";
-                  e.target.parentNode.innerHTML = `<div class="w-full h-full flex items-center justify-center"><span class="text-4xl font-bold text-[#5E3BD4]/30">${speaker.name.charAt(0)}</span></div>`;
-                }} />
-
+                  src={speaker.image}
+                  alt={speaker.alt}
+                  className="w-full h-full object-cover"
+                  onError={(e) => {
+                    e.target.style.display = "none";
+                    e.target.parentNode.innerHTML = `<div class="w-full h-full flex items-center justify-center"><span class="text-4xl font-bold text-[#5E3BD4]/30">${speaker.name.charAt(0)}</span></div>`;
+                  }} />
+                <div className="absolute inset-0 bg-[#5E3BD4]/80 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-center justify-center p-4">
+                  <p className="text-white text-xs text-center leading-relaxed">{speaker.description}</p>
+                </div>
               </div>
               <h3 className="text-gray-900 mb-5 text-lg font-semibold">
                 {speaker.name}
@@ -123,16 +124,13 @@ export default function Speakers() {
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
-                  <div className="overflow-hidden max-h-0 opacity-0 group-hover:max-h-40 group-hover:opacity-100 transition-all duration-700 ease-in-out">
-                    {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px]">{speaker.description}</p>}
-                  </div>
                 </div>
                 <a
-                href={speaker.linkedin}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
-                aria-label={`${speaker.name} LinkedIn profile`}>
+                  href={speaker.linkedin}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
+                  aria-label={`${speaker.name} LinkedIn profile`}>
                   <Linkedin className="w-4 h-4" />
                 </a>
               </div>
