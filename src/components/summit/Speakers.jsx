@@ -121,13 +121,11 @@ export default function Speakers() {
               <h3 className="text-gray-900 mb-5 text-lg font-semibold">
                 {speaker.name}
               </h3>
-              <div className="my-1 flex flex-col items-center gap-3">
+              <div className="my-1 pb-2 flex flex-col items-center gap-3">
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
-                  <div className="overflow-hidden max-h-0 opacity-0 group-hover:max-h-24 group-hover:opacity-100 transition-all duration-500 ease-in-out">
-                    {speaker.description && <p className="text-gray-400 text-xs mt-2 leading-relaxed max-w-[200px]">{speaker.description}</p>}
-                  </div>
+                  {speaker.description && <p className="text-gray-400 mx-2 pt-1 pb-16 text-xs leading-relaxed max-w-[200px] line-clamp-2">{speaker.description}</p>}
                 </div>
                 <a
                 href={speaker.linkedin}
