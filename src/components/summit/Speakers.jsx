@@ -36,17 +36,7 @@ const SPEAKERS = [
   alt: "Alexa von Tobel speaking at AI Conference NYC",
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
 },
-{
-  name: "Christine Choi",
-  title: "Partner & Head of Brand/Communications",
-  subtitle: "Former Head of Communications, Virgin Galactic",
-  company: "M13",
-  description: "Partner & Head of Brand/Communications at M13. Former Head of Communications at Virgin Galactic and Virgin Orbit. Worked with Sir Richard Branson to launch Virgin Group's North American portfolio.",
-  companyUrl: "https://www.m13.co/",
-  linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
-  alt: "Christine Choi speaking at AI Conference NYC",
-  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
-},
+
 {
   name: "Morgan Blumberg",
   title: "Partner",
@@ -79,6 +69,17 @@ const SPEAKERS = [
   linkedin: "https://www.linkedin.com/in/lowell-putnam/",
   alt: "Lowell Putnam speaking at AI Conference NYC",
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
+},
+{
+  name: "Christine Choi",
+  title: "Partner & Head of Brand/Communications",
+  subtitle: "Former Head of Communications, Virgin Galactic",
+  company: "M13",
+  description: "Partner & Head of Brand/Communications at M13. Former Head of Communications at Virgin Galactic and Virgin Orbit. Worked with Sir Richard Branson to launch Virgin Group's North American portfolio.",
+  companyUrl: "https://www.m13.co/",
+  linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
+  alt: "Christine Choi speaking at AI Conference NYC",
+  image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
 }];
 
 
