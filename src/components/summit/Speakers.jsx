@@ -5,8 +5,8 @@ import { Linkedin } from "lucide-react";
 const SPEAKERS = [
 {
   name: "Joshua Waldron",
-  title: "VP of Strategic Partnerships",
-  subtitle: "Former Director of Partnerships, Palantir",
+  title: "CAO and SVP, Head of Finance",
+  subtitle: "Board Member of Careem",
   company: "Scale AI",
   description: "Leading strategic partnerships at Scale AI, the data infrastructure company powering AI development for leading enterprises and government agencies.",
   companyUrl: "https://scale.com/",
