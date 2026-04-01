@@ -17,7 +17,7 @@ const SPEAKERS = [
 {
   name: "Gokul Rajaram",
   title: "Founding Partner",
-  subtitle: "Former Product Lead, Facebook & Google",
+  subtitle: "Board Member of Coinbase & Pinterest",
   company: "Marathon",
   description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Former product exec at Google, Facebook, and Square.",
   companyUrl: "https://marathonmp.com/",
