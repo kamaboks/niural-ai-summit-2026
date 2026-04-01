@@ -50,7 +50,7 @@ const SPEAKERS = [
 },
 {
   name: "Matt Hoffman",
-  title: "Partner & Head of Talent",
+  title: "Head of Talent",
   subtitle: "Former VP of People, DigitalOcean",
   company: "M13",
   description: "Partner & Head of Talent at M13. Former VP of People at DigitalOcean, where he scaled the org from under 100 to 500+ employees. Coaches founders on hiring, culture, and people operations.",
@@ -72,7 +72,7 @@ const SPEAKERS = [
 },
 {
   name: "Christine Choi",
-  title: "Partner & Head of Brand/Communications",
+  title: "Head of Brand & Communications",
   subtitle: "Former Head of Communications, Virgin Galactic",
   company: "M13",
   description: "Partner & Head of Brand/Communications at M13. Former Head of Communications at Virgin Galactic and Virgin Orbit. Worked with Sir Richard Branson to launch Virgin Group's North American portfolio.",
