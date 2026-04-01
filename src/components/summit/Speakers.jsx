@@ -6,6 +6,7 @@ const SPEAKERS = [
 {
   name: "Joshua Waldron",
   title: "VP of Strategic Partnerships",
+  subtitle: "Former Director of Partnerships, Palantir",
   company: "Scale AI",
   description: "Leading strategic partnerships at Scale AI, the data infrastructure company powering AI development for leading enterprises and government agencies.",
   companyUrl: "https://scale.com/",
@@ -16,6 +17,7 @@ const SPEAKERS = [
 {
   name: "Gokul Rajaram",
   title: "Founding Partner",
+  subtitle: "Former Product Lead, Facebook & Google",
   company: "Marathon",
   description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Former product exec at Google, Facebook, and Square.",
   companyUrl: "https://marathonmp.com/",
@@ -26,6 +28,7 @@ const SPEAKERS = [
 {
   name: "Alexa von Tobel",
   title: "Founder & Managing Partner",
+  subtitle: "Founder of LearnVest, acquired by Northwestern Mutual",
   company: "Inspired Capital",
   description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
   companyUrl: "https://www.inspiredcapital.com/",
@@ -36,6 +39,7 @@ const SPEAKERS = [
 {
   name: "Christine Choi",
   title: "Partner & Head of Brand/Communications",
+  subtitle: "Former Head of Communications, Virgin Galactic",
   company: "M13",
   description: "Partner & Head of Brand/Communications at M13. Former Head of Communications at Virgin Galactic and Virgin Orbit. Worked with Sir Richard Branson to launch Virgin Group's North American portfolio.",
   companyUrl: "https://www.m13.co/",
@@ -46,6 +50,7 @@ const SPEAKERS = [
 {
   name: "Morgan Blumberg",
   title: "Partner",
+  subtitle: "Former Investment Banking, Morgan Stanley",
   company: "M13",
   description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Former Principal at M13 and investment banking at Morgan Stanley. Invests in AI replacing painful, regulated workflows.",
   companyUrl: "https://www.m13.co/",
@@ -56,6 +61,7 @@ const SPEAKERS = [
 {
   name: "Matt Hoffman",
   title: "Partner & Head of Talent",
+  subtitle: "Former VP of People, DigitalOcean",
   company: "M13",
   description: "Partner & Head of Talent at M13. Former VP of People at DigitalOcean, where he scaled the org from under 100 to 500+ employees. Coaches founders on hiring, culture, and people operations.",
   companyUrl: "https://www.m13.co/",
@@ -66,6 +72,7 @@ const SPEAKERS = [
 {
   name: "Lowell Putnam",
   title: "Co-Founder & CEO",
+  subtitle: "Founder of Quovo, acquired by Plaid",
   company: "Supper",
   description: "Co-Founder & CEO of Supper, an AI-native data platform. Previously founded Quovo, acquired by Plaid. Pioneer in making business data effortless, fast, and reliable for modern enterprises.",
   companyUrl: "https://www.supperdata.com/",
@@ -124,6 +131,7 @@ export default function Speakers() {
                 <div className="text-center">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
+                  {speaker.subtitle && <p className="text-gray-400 text-xs mt-1 italic">{speaker.subtitle}</p>}
                 </div>
                 <a
                   href={speaker.linkedin}
