@@ -10,7 +10,7 @@ const SPEAKERS = [
   company: "Scale AI",
   description: "Leading strategic partnerships at Scale AI, the data infrastructure company powering AI development for leading enterprises and government agencies.",
   companyUrl: "https://scale.com/",
-  linkedin: "",
+  linkedin: "https://www.linkedin.com/in/joshua-waldron-5151bb/",
   alt: "Joshua Waldron speaking at AI Conference NYC",
   image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/0234fdde9_JoshuaWaldron_21049.png"
 },
