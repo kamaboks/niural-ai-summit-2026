@@ -16,7 +16,7 @@ const SPEAKERS = [
   {
     name: "Gokul Rajaram",
     title: "Founding Partner",
-    subtitle: "Board Member of Coinbase, Pinterest & The Trade Desk",
+    subtitle: "Board Member of Coinbase,\nPinterest & The Trade Desk",
     company: "Marathon",
     description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Ex product exec at Google, Facebook, and Square.",
     linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
@@ -105,7 +105,7 @@ function SpeakerCard({ speaker, index }) {
           <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
           <p className="text-gray-400 text-sm">{speaker.company}</p>
           {speaker.subtitle && (
-            <p className="text-gray-400 text-xs mt-1 italic leading-tight">{speaker.subtitle}</p>
+            <p className="text-gray-400 text-xs mt-1 italic leading-tight whitespace-pre-line">{speaker.subtitle}</p>
           )}
         </div>
 
