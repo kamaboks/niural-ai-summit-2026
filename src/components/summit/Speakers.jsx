@@ -34,14 +34,14 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
   },
   {
-    name: "Morgan Blumberg",
-    title: "Partner",
-    subtitle: "Former Investment Banking, Morgan Stanley",
-    company: "M13",
-    description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Former Principal at M13 and investment banking at Morgan Stanley.",
-    linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
-    alt: "Morgan Blumberg speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
+    name: "Lowell Putnam",
+    title: "Co-Founder & CEO",
+    subtitle: "Founder of Quovo, acquired by Plaid",
+    company: "Supper",
+    description: "Co-Founder & CEO of Supper, an AI-native data platform. Previously founded Quovo, acquired by Plaid.",
+    linkedin: "https://www.linkedin.com/in/lowell-putnam/",
+    alt: "Lowell Putnam speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
   },
   {
     name: "Matt Hoffman",
@@ -54,14 +54,14 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
   },
   {
-    name: "Lowell Putnam",
-    title: "Co-Founder & CEO",
-    subtitle: "Founder of Quovo, acquired by Plaid",
-    company: "Supper",
-    description: "Co-Founder & CEO of Supper, an AI-native data platform. Previously founded Quovo, acquired by Plaid.",
-    linkedin: "https://www.linkedin.com/in/lowell-putnam/",
-    alt: "Lowell Putnam speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
+    name: "Morgan Blumberg",
+    title: "Partner",
+    subtitle: "Former Investment Banking, Morgan Stanley",
+    company: "M13",
+    description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Former Principal at M13 and investment banking at Morgan Stanley.",
+    linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
+    alt: "Morgan Blumberg speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
   },
   {
     name: "Christine Choi",
