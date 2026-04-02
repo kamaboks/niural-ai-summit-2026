@@ -8,7 +8,7 @@ const SPEAKERS = [
     title: "CAO and SVP, Head of Finance",
     subtitle: "Board Member of Careem",
     company: "Scale AI",
-    description: "Leading strategic partnerships at Scale AI, the data infrastructure company powering AI development for leading enterprises and government agencies.",
+    description: "CAO and SVP, Head of Finance at Scale AI. Board Member. Previously at Uber and Thumbtack. Leads finance, accounting, and business operations for one of the world's leading AI companies.",
     linkedin: "https://www.linkedin.com/in/joshua-waldron-5151bb/",
     alt: "Joshua Waldron speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/0234fdde9_JoshuaWaldron_21049.png"
