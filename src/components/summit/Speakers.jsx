@@ -129,21 +129,12 @@ export default function Speakers() {
                 {speaker.name}
               </h3>
               <div className="my-1 flex flex-col items-center gap-3">
-                <div className="text-center">
+                <div className="text-center min-h-[56px]">
                   <p className="text-gray-700 font-medium text-sm">{speaker.title}</p>
                   <p className="text-gray-400 text-sm">{speaker.company}</p>
                   {speaker.subtitle && <p className="text-gray-400 text-xs mt-1 italic">{speaker.subtitle}</p>}
                 </div>
-                <a
-                  href={speaker.linkedin}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="inline-flex items-center justify-center w-8 h-8 rounded-full bg-gray-100 text-gray-400 hover:text-[#714DFF] hover:bg-[#714DFF]/5 transition-colors duration-200"
-                  aria-label={`${speaker.name} LinkedIn profile`}>
-                  <Linkedin className="w-4 h-4" />
-                </a>
-              </div>
-            </motion.div>
+                </motion.div>
           )}
         </div>
 
