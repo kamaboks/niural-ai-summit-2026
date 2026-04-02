@@ -26,7 +26,7 @@ const SPEAKERS = [
   {
     name: "Alexa von Tobel",
     title: "Founder & Managing Partner",
-    subtitle: "Ex CIO, Northwestern Mutual",
+    subtitle: "Ex CIO - Northwestern Mutual",
     company: "Inspired Capital",
     description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Ex CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
     linkedin: "https://www.linkedin.com/in/alexavontobel/",
