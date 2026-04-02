@@ -26,9 +26,9 @@ const SPEAKERS = [
   {
     name: "Alexa von Tobel",
     title: "Founder & Managing Partner",
-    subtitle: "Founder of LearnVest, acquired by Northwestern Mutual",
+    subtitle: "Ex CIO, Northwestern Mutual",
     company: "Inspired Capital",
-    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
+    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Ex CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
     linkedin: "https://www.linkedin.com/in/alexavontobel/",
     alt: "Alexa von Tobel speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
