@@ -18,7 +18,7 @@ const SPEAKERS = [
     title: "Founding Partner",
     subtitle: "Board Member of Coinbase,\nPinterest & The Trade Desk",
     company: "Marathon",
-    description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Ex product exec at Google, Facebook, and Square.",
+    description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Former product exec at Google, Facebook, and Square.",
     linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
     alt: "Gokul Rajaram speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
@@ -26,9 +26,9 @@ const SPEAKERS = [
   {
     name: "Sruthi Lanka",
     title: "CFO",
-    subtitle: "Ex VP Strategic Finance, MoneyLion",
+    subtitle: "Former VP Strategic Finance, MoneyLion",
     company: "Public",
-    description: "CFO at Public, the multi-asset investing platform. Ex VP of Strategic Finance at MoneyLion (first finance hire post-Series A). Previously M&A at RBC and Goldman Sachs. Board member of Women Creating Change.",
+    description: "CFO at Public, the multi-asset investing platform. Former VP of Strategic Finance at MoneyLion (first finance hire post-Series A). Previously M&A at RBC and Goldman Sachs. Board member of Women Creating Change.",
     linkedin: "https://www.linkedin.com/in/sruthilanka/",
     alt: "Sruthi Lanka CFO at Public",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/c221388f7_SruthiLankaCFO.jpg"
@@ -46,9 +46,9 @@ const SPEAKERS = [
   {
     name: "Alexa von Tobel",
     title: "Founder & Managing Partner",
-    subtitle: "Ex CIO - Northwestern Mutual",
+    subtitle: "Former CIO - Northwestern Mutual",
     company: "Inspired Capital",
-    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Ex CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
+    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Former CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
     linkedin: "https://www.linkedin.com/in/alexavontobel/",
     alt: "Alexa von Tobel speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
@@ -56,9 +56,9 @@ const SPEAKERS = [
   {
     name: "Morgan Blumberg",
     title: "Partner",
-    subtitle: "Ex Investment Banking, Morgan Stanley",
+    subtitle: "Former Investment Banking, Morgan Stanley",
     company: "M13",
-    description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Ex Principal at M13 and investment banking at Morgan Stanley.",
+    description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Former Principal at M13 and investment banking at Morgan Stanley.",
     linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
     alt: "Morgan Blumberg speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
@@ -66,9 +66,9 @@ const SPEAKERS = [
   {
     name: "Matt Hoffman",
     title: "Head of Talent",
-    subtitle: "Ex VP of People, DigitalOcean",
+    subtitle: "Former VP of People, DigitalOcean",
     company: "M13",
-    description: "Partner & Head of Talent at M13. Ex VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
+    description: "Partner & Head of Talent at M13. Former VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
     linkedin: "https://www.linkedin.com/in/mphoffman/",
     alt: "Matt Hoffman speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
@@ -76,9 +76,9 @@ const SPEAKERS = [
   {
     name: "Christine Choi",
     title: "Head of Brand & Communications",
-    subtitle: "Ex Head of Communications, Virgin Galactic",
+    subtitle: "Former Head of Communications, Virgin Galactic",
     company: "M13",
-    description: "Partner & Head of Brand/Communications at M13. Ex Head of Communications at Virgin Galactic and Virgin Orbit.",
+    description: "Partner & Head of Brand/Communications at M13. Former Head of Communications at Virgin Galactic and Virgin Orbit.",
     linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
     alt: "Christine Choi speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
