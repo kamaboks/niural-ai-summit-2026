@@ -24,14 +24,14 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
   },
   {
-    name: "Alexa von Tobel",
-    title: "Founder & Managing Partner",
-    subtitle: "Ex CIO - Northwestern Mutual",
-    company: "Inspired Capital",
-    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Ex CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
-    linkedin: "https://www.linkedin.com/in/alexavontobel/",
-    alt: "Alexa von Tobel speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
+    name: "Sruthi Lanka",
+    title: "CFO",
+    subtitle: "Ex VP Strategic Finance, MoneyLion",
+    company: "Public",
+    description: "CFO at Public, the multi-asset investing platform. Ex VP of Strategic Finance at MoneyLion (first finance hire post-Series A). Previously M&A at RBC and Goldman Sachs. Board member of Women Creating Change.",
+    linkedin: "https://www.linkedin.com/in/sruthilanka/",
+    alt: "Sruthi Lanka CFO at Public",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/c221388f7_SruthiLankaCFO.jpg"
   },
   {
     name: "Lowell Putnam",
@@ -44,14 +44,14 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
   },
   {
-    name: "Matt Hoffman",
-    title: "Head of Talent",
-    subtitle: "Ex VP of People, DigitalOcean",
-    company: "M13",
-    description: "Partner & Head of Talent at M13. Ex VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
-    linkedin: "https://www.linkedin.com/in/mphoffman/",
-    alt: "Matt Hoffman speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
+    name: "Alexa von Tobel",
+    title: "Founder & Managing Partner",
+    subtitle: "Ex CIO - Northwestern Mutual",
+    company: "Inspired Capital",
+    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Ex CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
+    linkedin: "https://www.linkedin.com/in/alexavontobel/",
+    alt: "Alexa von Tobel speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
   },
   {
     name: "Morgan Blumberg",
@@ -62,6 +62,16 @@ const SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
     alt: "Morgan Blumberg speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
+  },
+  {
+    name: "Matt Hoffman",
+    title: "Head of Talent",
+    subtitle: "Ex VP of People, DigitalOcean",
+    company: "M13",
+    description: "Partner & Head of Talent at M13. Ex VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
+    linkedin: "https://www.linkedin.com/in/mphoffman/",
+    alt: "Matt Hoffman speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
   },
   {
     name: "Christine Choi",
