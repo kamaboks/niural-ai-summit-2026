@@ -126,11 +126,11 @@ export default function Hero() {
           <div className="absolute right-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to left, #faf8ff, transparent)" }} />
           <motion.div
             animate={{ x: ["0%", "-50%"] }}
-            transition={{ duration: 12, repeat: Infinity, ease: "linear" }}
-            className="flex items-center gap-16 whitespace-nowrap"
+            transition={{ duration: 16, repeat: Infinity, ease: "linear" }}
+            className="flex items-center gap-20 whitespace-nowrap"
           >
-            {[...Array(4)].flatMap(() => ["PwC", "Basis Capital"]).map((name, i) => (
-              <span key={i} className="text-xl font-bold text-[#3d2d6e]/20 tracking-tight shrink-0">
+            {[...Array(2)].flatMap(() => ["PwC", "Basis Capital", "Maximore"]).map((name, i) => (
+              <span key={i} className="text-lg font-bold text-[#3d2d6e]/25 tracking-widest uppercase shrink-0">
                 {name}
               </span>
             ))}
