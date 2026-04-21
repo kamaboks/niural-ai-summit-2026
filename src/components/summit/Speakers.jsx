@@ -31,7 +31,7 @@ const SPEAKERS = [
     description: "CFO at Public, the multi-asset investing platform. Ex VP of Strategic Finance at MoneyLion (first finance hire post-Series A). Previously M&A at RBC and Goldman Sachs. Board member of Women Creating Change.",
     linkedin: "https://www.linkedin.com/in/sruthilanka/",
     alt: "Sruthi Lanka CFO at Public",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/c221388f7_SruthiLankaCFO.jpg"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/6964c4b16_sruthi.png"
   },
   {
     name: "Lowell Putnam",

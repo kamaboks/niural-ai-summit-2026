@@ -9,6 +9,7 @@ import Agenda from "@/components/summit/Agenda";
 import Tickets from "@/components/summit/Tickets";
 import FAQ from "@/components/summit/FAQ";
 import FinalCTA from "@/components/summit/FinalCTA";
+import Sponsors from "@/components/summit/Sponsors";
 import Footer from "@/components/summit/Footer";
 
 export default function Home() {
@@ -65,6 +66,7 @@ export default function Home() {
       <Speakers />
       <Agenda />
       <Tickets />
+      <Sponsors />
       <FAQ />
       <FinalCTA />
       <Footer />
