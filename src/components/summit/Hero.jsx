@@ -127,10 +127,10 @@ export default function Hero() {
           <motion.div
             animate={{ x: ["0%", "-50%"] }}
             transition={{ duration: 16, repeat: Infinity, ease: "linear" }}
-            className="flex items-center gap-20 whitespace-nowrap"
+            className="flex items-center whitespace-nowrap"
           >
             {[...Array(2)].flatMap(() => ["PwC", "Basis Capital", "Maximore"]).map((name, i) => (
-              <span key={i} className="text-lg font-bold text-[#3d2d6e]/25 tracking-widest uppercase shrink-0">
+              <span key={i} className="text-lg font-bold text-[#3d2d6e]/25 tracking-widest uppercase shrink-0 w-[33.333vw] text-center">
                 {name}
               </span>
             ))}
