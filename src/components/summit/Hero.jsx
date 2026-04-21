@@ -126,13 +126,21 @@ export default function Hero() {
           <div className="absolute right-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to left, #faf8ff, transparent)" }} />
           <motion.div
             animate={{ x: ["0%", "-50%"] }}
-            transition={{ duration: 16, repeat: Infinity, ease: "linear" }}
+            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
             className="flex items-center whitespace-nowrap"
           >
-            {[...Array(2)].flatMap(() => ["PwC", "Basis Capital", "Maximore"]).map((name, i) => (
-              <span key={i} className="text-lg font-bold text-[#3d2d6e]/25 tracking-widest uppercase shrink-0 w-[33.333vw] text-center">
-                {name}
-              </span>
+            {[...Array(2)].flatMap(() => [
+              { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f1d61e1b3_Untitled-1.png" },
+              { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/9363e5c9b_Untitled-2.png" },
+              { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/df679f6b7_Untitled-3.png" },
+            ]).map((sponsor, i) => (
+              <div key={i} className="shrink-0 w-[33.333vw] flex items-center justify-center px-8">
+                <img
+                  src={sponsor.src}
+                  alt={sponsor.name}
+                  className="h-10 w-auto object-contain opacity-40 grayscale"
+                />
+              </div>
             ))}
           </motion.div>
         </div>
