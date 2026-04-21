@@ -29,7 +29,7 @@ export default function Hero() {
         <div className="absolute bottom-10 left-1/3 w-[300px] h-[250px] rounded-full" style={{ background: "radial-gradient(circle, rgba(196,181,253,0.25) 0%, transparent 65%)", filter: "blur(100px)" }} />
       </div>
 
-      <div className="mx-auto pt-32 pb-24 px-4 text-center opacity-100 relative z-10 max-w-4xl sm:px-6 lg:px-8">
+      <div className="mx-auto pt-32 pb-48 px-4 text-center opacity-100 relative z-10 max-w-4xl sm:px-6 lg:px-8">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
