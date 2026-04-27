@@ -134,11 +134,11 @@ export default function Hero() {
               { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png", invert: true },
             ];
             const SponsorItem = ({ sponsor, i }) => (
-              <div className="shrink-0 flex items-center justify-center px-12" style={{ width: "200px" }}>
+              <div className="shrink-0 flex items-center justify-center px-14" style={{ width: "240px" }}>
                 <img
                   src={sponsor.src}
                   alt={sponsor.name}
-                  className={`h-10 w-auto object-contain opacity-40 grayscale${sponsor.invert ? " invert" : ""}`}
+                  className={`h-14 w-auto object-contain opacity-40 grayscale${sponsor.invert ? " invert" : ""}`}
                 />
               </div>
             );
