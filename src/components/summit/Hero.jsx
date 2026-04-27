@@ -119,42 +119,30 @@ export default function Hero() {
 
       {/* Sponsors ticker */}
       <div className="absolute bottom-16 left-0 right-0 z-10">
-        <p className="text-center text-xs font-semibold uppercase tracking-widest text-[#3d2d6e]/30 mb-4">Sponsored by</p>
+        <p className="text-[#3d2d6e]/30 mb-8 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
         <div className="relative overflow-hidden">
           {/* Fade edges */}
           <div className="absolute left-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to right, #faf8ff, transparent)" }} />
           <div className="absolute right-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to left, #faf8ff, transparent)" }} />
-          {(() => {
-            const sponsors = [
-              { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a8a3d2338_Maximore.png", invert: true },
-              { name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
-              { name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
-              { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/41016b62d_hf_20260323_161048_2730c8d2-53bb-4728-a7d0-578593145570.png" },
-              { name: "PwC", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a6ceb2c65_PwC_logo_rgb_colour_rev.png", invert: true },
-              { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png", invert: true },
-            ];
-            const SponsorItem = ({ sponsor, i }) => (
-              <div className="shrink-0 flex items-center justify-center px-14" style={{ width: "240px" }}>
+          <motion.div
+            animate={{ x: ["0%", "-50%"] }}
+            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
+            className="flex items-center whitespace-nowrap">
+            
+            {[...Array(2)].flatMap(() => [
+            { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f1d61e1b3_Untitled-1.png" },
+            { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/9363e5c9b_Untitled-2.png" },
+            { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/df679f6b7_Untitled-3.png" }]
+            ).map((sponsor, i) =>
+            <div key={i} className="shrink-0 w-[33.333vw] flex items-center justify-center px-8">
                 <img
-                  src={sponsor.src}
-                  alt={sponsor.name}
-                  className={`h-14 w-auto object-contain opacity-40 grayscale${sponsor.invert ? " invert" : ""}`}
-                />
+                src={sponsor.src}
+                alt={sponsor.name}
+                className="h-10 w-auto object-contain opacity-40 grayscale" />
+              
               </div>
-            );
-            return (
-              <div className="flex" style={{ animation: "ticker-scroll 30s linear infinite", width: "max-content" }}>
-                {sponsors.map((s, i) => <SponsorItem key={i} sponsor={s} i={i} />)}
-                {sponsors.map((s, i) => <SponsorItem key={`dup-${i}`} sponsor={s} i={i} />)}
-              </div>
-            );
-          })()}
-          <style>{`
-            @keyframes ticker-scroll {
-              0% { transform: translateX(0); }
-              100% { transform: translateX(-50%); }
-            }
-          `}</style>
+            )}
+          </motion.div>
         </div>
       </div>
 
