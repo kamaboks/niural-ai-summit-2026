@@ -124,17 +124,22 @@ export default function Hero() {
           {/* Fade edges */}
           <div className="absolute left-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to right, #faf8ff, transparent)" }} />
           <div className="absolute right-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to left, #faf8ff, transparent)" }} />
-          <motion.div
-            animate={{ x: ["0%", "-50%"] }}
-            transition={{ duration: 20, repeat: Infinity, ease: "linear" }}
-            className="flex items-center whitespace-nowrap"
+          <div
+            className="flex items-center"
+            style={{
+              animation: "ticker-scroll 30s linear infinite",
+              width: "max-content",
+            }}
           >
             {[...Array(2)].flatMap(() => [
               { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a8a3d2338_Maximore.png" },
               { name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
               { name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
+              { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/41016b62d_hf_20260323_161048_2730c8d2-53bb-4728-a7d0-578593145570.png" },
+              { name: "PwC", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a6ceb2c65_PwC_logo_rgb_colour_rev.png" },
+              { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png" },
             ]).map((sponsor, i) => (
-              <div key={i} className="shrink-0 w-[33.333vw] flex items-center justify-center px-8">
+              <div key={i} className="shrink-0 flex items-center justify-center px-12" style={{ width: "200px" }}>
                 <img
                   src={sponsor.src}
                   alt={sponsor.name}
@@ -142,7 +147,13 @@ export default function Hero() {
                 />
               </div>
             ))}
-          </motion.div>
+          </div>
+          <style>{`
+            @keyframes ticker-scroll {
+              0% { transform: translateX(0); }
+              100% { transform: translateX(-50%); }
+            }
+          `}</style>
         </div>
       </div>
 
