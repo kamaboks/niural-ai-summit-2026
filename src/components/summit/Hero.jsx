@@ -136,14 +136,14 @@ export default function Hero() {
               { name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
               { name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
               { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/41016b62d_hf_20260323_161048_2730c8d2-53bb-4728-a7d0-578593145570.png" },
-              { name: "PwC", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a6ceb2c65_PwC_logo_rgb_colour_rev.png" },
-              { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png" },
+              { name: "PwC", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a6ceb2c65_PwC_logo_rgb_colour_rev.png", invert: true },
+              { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png", invert: true },
             ]).map((sponsor, i) => (
               <div key={i} className="shrink-0 flex items-center justify-center px-12" style={{ width: "200px" }}>
                 <img
                   src={sponsor.src}
                   alt={sponsor.name}
-                  className="h-10 w-auto object-contain opacity-40 grayscale"
+                  className={`h-10 w-auto object-contain opacity-40 grayscale${sponsor.invert ? " invert" : ""}`}
                 />
               </div>
             ))}
