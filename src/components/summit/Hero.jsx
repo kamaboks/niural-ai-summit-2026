@@ -130,9 +130,9 @@ export default function Hero() {
             className="flex items-center whitespace-nowrap"
           >
             {[...Array(2)].flatMap(() => [
-              { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f1d61e1b3_Untitled-1.png" },
-              { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/9363e5c9b_Untitled-2.png" },
-              { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/df679f6b7_Untitled-3.png" },
+              { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a8a3d2338_Maximore.png" },
+              { name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
+              { name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
             ]).map((sponsor, i) => (
               <div key={i} className="shrink-0 w-[33.333vw] flex items-center justify-center px-8">
                 <img
