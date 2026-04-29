@@ -24,6 +24,26 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
   },
   {
+    name: "Morgan Blumberg",
+    title: "Partner",
+    subtitle: "Ex Investment Banking, Morgan Stanley",
+    company: "M13",
+    description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Ex Principal at M13 and investment banking at Morgan Stanley.",
+    linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
+    alt: "Morgan Blumberg speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
+  },
+  {
+    name: "Matt Hoffman",
+    title: "Head of Talent",
+    subtitle: "Ex VP of People, DigitalOcean",
+    company: "M13",
+    description: "Partner & Head of Talent at M13. Ex VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
+    linkedin: "https://www.linkedin.com/in/mphoffman/",
+    alt: "Matt Hoffman speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
+  },
+  {
     name: "Sruthi Lanka",
     title: "CFO",
     subtitle: "Ex VP Strategic Finance, MoneyLion",
@@ -52,26 +72,6 @@ const SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/alexavontobel/",
     alt: "Alexa von Tobel speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
-  },
-  {
-    name: "Morgan Blumberg",
-    title: "Partner",
-    subtitle: "Ex Investment Banking, Morgan Stanley",
-    company: "M13",
-    description: "Partner at M13 known for a contrarian thesis on agentic workflow automation. Ex Principal at M13 and investment banking at Morgan Stanley.",
-    linkedin: "https://www.linkedin.com/in/morgan-blumberg-6a55937a/",
-    alt: "Morgan Blumberg speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
-  },
-  {
-    name: "Matt Hoffman",
-    title: "Head of Talent",
-    subtitle: "Ex VP of People, DigitalOcean",
-    company: "M13",
-    description: "Partner & Head of Talent at M13. Ex VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
-    linkedin: "https://www.linkedin.com/in/mphoffman/",
-    alt: "Matt Hoffman speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
   },
   {
     name: "Christine Choi",
@@ -152,7 +152,7 @@ export default function Speakers() {
           </p>
         </motion.div>
 
-        <div className="flex flex-wrap justify-center gap-8 mb-10">
+        <div className="grid grid-cols-2 gap-8 max-w-xl mx-auto mb-10">
           {SPEAKERS.map((speaker, i) => (
             <SpeakerCard key={i} speaker={speaker} index={i} />
           ))}
