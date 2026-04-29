@@ -152,10 +152,31 @@ export default function Speakers() {
           </p>
         </motion.div>
 
-        <div className="grid grid-cols-2 gap-8 max-w-xl mx-auto mb-10">
-          {SPEAKERS.map((speaker, i) => (
-            <SpeakerCard key={i} speaker={speaker} index={i} />
-          ))}
+        <div className="flex flex-col items-center gap-8 mb-10">
+          {/* Row 1: 2 speakers */}
+          <div className="grid grid-cols-2 gap-8">
+            {SPEAKERS.slice(0, 2).map((speaker, i) => (
+              <SpeakerCard key={i} speaker={speaker} index={i} />
+            ))}
+          </div>
+          {/* Row 2: 2 speakers */}
+          <div className="grid grid-cols-2 gap-8">
+            {SPEAKERS.slice(2, 4).map((speaker, i) => (
+              <SpeakerCard key={i + 2} speaker={speaker} index={i + 2} />
+            ))}
+          </div>
+          {/* Row 3: 4 speakers */}
+          <div className="grid grid-cols-4 gap-8">
+            {SPEAKERS.slice(4, 8).map((speaker, i) => (
+              <SpeakerCard key={i + 4} speaker={speaker} index={i + 4} />
+            ))}
+          </div>
+          {/* Row 4: 3 speakers */}
+          <div className="grid grid-cols-3 gap-8">
+            {SPEAKERS.slice(8, 11).map((speaker, i) => (
+              <SpeakerCard key={i + 8} speaker={speaker} index={i + 8} />
+            ))}
+          </div>
         </div>
 
         <motion.div
