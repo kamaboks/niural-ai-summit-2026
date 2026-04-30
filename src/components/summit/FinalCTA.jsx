@@ -2,7 +2,7 @@ import React, { useRef, useEffect, useState } from "react";
 import { motion } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-const TICKET_URL = "https://luma.com/mggz3md1";
+const TICKET_URL = "https://luma.com/mggz3md1?utm_source=summitlandingpage";
 
 function preserveUtms(baseUrl) {
   const currentParams = new URLSearchParams(window.location.search);

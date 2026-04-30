@@ -10,7 +10,7 @@ const NAV_LINKS = [
 { label: "FAQ", href: "#faq" }];
 
 
-const TICKET_URL = "https://luma.com/mggz3md1";
+const TICKET_URL = "https://luma.com/mggz3md1?utm_source=summitlandingpage";
 
 function preserveUtms(baseUrl) {
   const currentParams = new URLSearchParams(window.location.search);

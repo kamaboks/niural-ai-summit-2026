@@ -2,7 +2,7 @@ import React from "react";
 import { ArrowRight, Calendar, MapPin, Users } from "lucide-react";
 import { motion } from "framer-motion";
 
-const TICKET_URL = "https://luma.com/mggz3md1?_preview_token=WFdEXb-kAQffT2j6GMMtetx2t3q-Dmip-8vWUjJuQys&base44_data_env=prod&hide_badge=true&server_url=https%3A%2F%2Fpreview-sandbox--699dd0c3a7954b36d829e748.base44.app";
+const TICKET_URL = "https://luma.com/mggz3md1?utm_source=summitlandingpage";
 
 function preserveUtms(baseUrl) {
   const currentParams = new URLSearchParams(window.location.search);
