@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight } from "lucide-react";
 
-const TICKET_URL = "https://luma.com/mggz3md1";
+const TICKET_URL = "https://luma.com/mggz3md1?utm_source=summitlandingpage";
 
 function preserveUtms(baseUrl) {
   const currentParams = new URLSearchParams(window.location.search);
@@ -34,55 +34,55 @@ const WEDNESDAY = [
 const THURSDAY = [
 {
   time: "11:00 AM",
-  title: "Registration & Networking",
+  title: "Registration",
   description: null,
   tag: "Networking"
 },
 {
   time: "11:45 AM",
-  title: "The AI Operating Engine",
-  description:
-  "Where finance, ops, and automation converge. CFOs and fintech leaders unpack how AI is transforming forecasting, controls, risk management, and execution inside high-growth companies.",
+  title: "From Instinct to Systems: How Decisions Get Made Today",
+  description: null,
   tag: "Panel"
 },
 {
-  time: "12:30 PM",
-  title: "Lunch & Headline Keynote Fireside Chat",
-  description:
-  "An intimate conversation with one of today's most respected business leaders. From scaling teams and navigating market shifts to building culture under pressure, this session blends inspiration with real-world operating insight. Candid. Unfiltered. Keynote will be revealed soon.",
+  time: "12:20 PM",
+  title: "Keynote Fireside Chat",
+  description: null,
   tag: "Keynote"
 },
 {
-  time: "1:30 PM",
-  title: "HR & People Ops in the Age of Algorithms",
-  description:
-  "From hiring to compliance to workforce design, leaders share how AI is reshaping talent strategy while preserving culture and accountability.",
-  tag: "Panel"
-},
-{
-  time: "2:15 PM",
-  title: "Innovation Showcase: Partner Demos",
-  description:
-  "Rapid-fire, high-impact demonstrations from Niural and select partners. No fluff, just practical solutions built for modern teams.",
-  tag: "Demo"
-},
-{
-  time: "3:15 PM",
-  title: "Coffee Break & Networking",
+  time: "1:10 PM",
+  title: "Lunch",
   description: null,
-  tag: "Break",
-  sponsor: { name: "ShayCPA", link: "https://shaycpa.com/" }
+  tag: "Break"
 },
 {
-  time: "3:30 PM",
-  title: "Inside the AI Investment Playbook",
-  description:
-  "Investors and founders break down how AI infrastructure, data strategy, and deployment decisions are shaping company valuations and long-term defensibility.",
+  time: "2:00 PM",
+  title: "The End of Traditional HR: Designing Teams for What's Next",
+  description: null,
   tag: "Panel"
 },
 {
-  time: "4:15 PM",
-  title: "Networking Happy Hour Reception",
+  time: "3:10 PM",
+  title: "Coffee & Connections",
+  description: null,
+  tag: "Break"
+},
+{
+  time: "3:35 PM",
+  title: "Generations of Builders: What Changes, What Doesn't",
+  description: null,
+  tag: "Panel"
+},
+{
+  time: "3:45 PM",
+  title: "Signal Over Noise: What Actually Matters Right Now",
+  description: null,
+  tag: "Panel"
+},
+{
+  time: "4:30 PM",
+  title: "Happy Hour Networking",
   description: null,
   tag: "Networking"
 }];
