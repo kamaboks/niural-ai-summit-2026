@@ -4,24 +4,44 @@ import { Linkedin } from "lucide-react";
 
 const SPEAKERS = [
   {
+    name: "Nami Baral",
+    title: "Co-Founder & CEO",
+    subtitle: "",
+    company: "Niural",
+    description: "Co-Founder & CEO of Niural, the AI-native platform for global payroll, compliance, and workforce management.",
+    linkedin: "https://www.linkedin.com/in/namibaral/",
+    alt: "Nami Baral CEO Niural",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/namibaral.png"
+  },
+  {
     name: "Joshua Waldron",
     title: "CAO and SVP, Head of Finance",
     subtitle: "Board Member of Careem",
     company: "Scale AI",
-    description: "CAO and SVP, Head of Finance at Scale AI. Board Member. Previously at Uber and Thumbtack. Leads finance, accounting, and business operations for one of the world's leading AI companies.",
+    description: "CAO and SVP, Head of Finance at Scale AI. Board Member. Previously at Uber and Thumbtack.",
     linkedin: "https://www.linkedin.com/in/joshua-waldron-5151bb/",
     alt: "Joshua Waldron speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/0234fdde9_JoshuaWaldron_21049.png"
   },
   {
-    name: "Gokul Rajaram",
-    title: "Founding Partner",
-    subtitle: "Board Member of Coinbase,\nPinterest & The Trade Desk",
-    company: "Marathon",
-    description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Ex product exec at Google, Facebook, and Square.",
-    linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
-    alt: "Gokul Rajaram speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
+    name: "Sruthi Lanka",
+    title: "CFO",
+    subtitle: "Ex VP Strategic Finance, MoneyLion",
+    company: "Public",
+    description: "CFO at Public, the multi-asset investing platform. Ex VP of Strategic Finance at MoneyLion. Previously M&A at RBC and Goldman Sachs.",
+    linkedin: "https://www.linkedin.com/in/sruthilanka/",
+    alt: "Sruthi Lanka CFO at Public",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/6964c4b16_sruthi.png"
+  },
+  {
+    name: "Ram Palaniappan",
+    title: "Founder & Executive Chairman",
+    subtitle: "",
+    company: "EarnIn",
+    description: "Founder & Executive Chairman of EarnIn, pioneering earned wage access for millions of workers.",
+    linkedin: "https://www.linkedin.com/in/rampalaniappan/",
+    alt: "Ram Palaniappan speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
   },
   {
     name: "Morgan Blumberg",
@@ -34,8 +54,18 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
   },
   {
+    name: "Ciara Trinidad",
+    title: "Chief People Officer",
+    subtitle: "",
+    company: "Benchmark",
+    description: "Chief People Officer at Benchmark. Expert in scaling people operations and talent strategy at high-growth companies.",
+    linkedin: "https://www.linkedin.com/in/ciaratrinidad/",
+    alt: "Ciara Trinidad speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ciara.png"
+  },
+  {
     name: "Matt Hoffman",
-    title: "Head of Talent",
+    title: "Partner & Head of Talent",
     subtitle: "Ex VP of People, DigitalOcean",
     company: "M13",
     description: "Partner & Head of Talent at M13. Ex VP of People at DigitalOcean. Coaches founders on hiring, culture, and people operations.",
@@ -44,14 +74,84 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
   },
   {
-    name: "Sruthi Lanka",
-    title: "CFO",
-    subtitle: "Ex VP Strategic Finance, MoneyLion",
-    company: "Public",
-    description: "CFO at Public, the multi-asset investing platform. Ex VP of Strategic Finance at MoneyLion (first finance hire post-Series A). Previously M&A at RBC and Goldman Sachs. Board member of Women Creating Change.",
-    linkedin: "https://www.linkedin.com/in/sruthilanka/",
-    alt: "Sruthi Lanka CFO at Public",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/6964c4b16_sruthi.png"
+    name: "Robert Bua",
+    title: "CEO",
+    subtitle: "",
+    company: "Maximore",
+    description: "CEO of Maximore, building next-generation financial infrastructure for modern businesses.",
+    linkedin: "https://www.linkedin.com/in/robertbua/",
+    alt: "Robert Bua speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/robert.png"
+  },
+  {
+    name: "Chase Gilbert",
+    title: "Co-Founder & CEO",
+    subtitle: "",
+    company: "Built In",
+    description: "Co-Founder & CEO of Built In, the largest tech community platform connecting professionals and companies.",
+    linkedin: "https://www.linkedin.com/in/chasegilbert/",
+    alt: "Chase Gilbert speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/chase.png"
+  },
+  {
+    name: "Alexa von Tobel",
+    title: "Founder & Managing Partner",
+    subtitle: "Ex CIO - Northwestern Mutual",
+    company: "Inspired Capital",
+    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Named to Fortune's 40 Under 40.",
+    linkedin: "https://www.linkedin.com/in/alexavontobel/",
+    alt: "Alexa von Tobel speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
+  },
+  {
+    name: "Katrin Kauber",
+    title: "VP of People",
+    subtitle: "",
+    company: "Ramp",
+    description: "VP of People at Ramp, leading HR and talent strategy at one of the fastest-growing fintech companies.",
+    linkedin: "https://www.linkedin.com/in/katrinkauber/",
+    alt: "Katrin Kauber speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
+  },
+  {
+    name: "Parth Detroja",
+    title: "Chief of Staff",
+    subtitle: "",
+    company: "EarnIn",
+    description: "Chief of Staff at EarnIn. Author of Swipe to Unlock. Product and strategy leader at the intersection of fintech and AI.",
+    linkedin: "https://www.linkedin.com/in/parthdetroja/",
+    alt: "Parth Detroja speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
+  },
+  {
+    name: "Melia Russell",
+    title: "Senior Reporter",
+    subtitle: "",
+    company: "Business Insider",
+    description: "Senior Reporter at Business Insider covering startups, venture capital, and the future of work.",
+    linkedin: "https://www.linkedin.com/in/meliarussell/",
+    alt: "Melia Russell speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/melia.png"
+  },
+  {
+    name: "Christine Choi",
+    title: "Partner, Head of Brand & Comms",
+    subtitle: "Ex Head of Communications, Virgin Galactic",
+    company: "M13",
+    description: "Partner & Head of Brand/Communications at M13. Ex Head of Communications at Virgin Galactic and Virgin Orbit.",
+    linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
+    alt: "Christine Choi speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
+  },
+  {
+    name: "Dan Hockenmaier",
+    title: "Partner",
+    subtitle: "",
+    company: "Basis One",
+    description: "Partner at Basis One, a growth and strategy firm for consumer businesses. Former growth lead at Thumbtack and McKinsey.",
+    linkedin: "https://www.linkedin.com/in/danhockenmaier/",
+    alt: "Dan Hockenmaier speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
   },
   {
     name: "Lowell Putnam",
@@ -64,24 +164,14 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
   },
   {
-    name: "Alexa von Tobel",
-    title: "Founder & Managing Partner",
-    subtitle: "Ex CIO - Northwestern Mutual",
-    company: "Inspired Capital",
-    description: "Founder & Managing Partner at Inspired Capital. Founded LearnVest, acquired by Northwestern Mutual. Ex CIO at Northwestern Mutual. Named to Fortune's 40 Under 40 and Forbes' Most Powerful Women.",
-    linkedin: "https://www.linkedin.com/in/alexavontobel/",
-    alt: "Alexa von Tobel speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
-  },
-  {
-    name: "Christine Choi",
-    title: "Head of Brand & Communications",
-    subtitle: "Ex Head of Communications, Virgin Galactic",
-    company: "M13",
-    description: "Partner & Head of Brand/Communications at M13. Ex Head of Communications at Virgin Galactic and Virgin Orbit.",
-    linkedin: "https://www.linkedin.com/in/w-christine-choi-m13/",
-    alt: "Christine Choi speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
+    name: "Gokul Rajaram",
+    title: "Founding Partner",
+    subtitle: "Board Member of Coinbase, Pinterest & The Trade Desk",
+    company: "Marathon",
+    description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Ex product exec at Google, Facebook, and Square.",
+    linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
+    alt: "Gokul Rajaram speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
   }
 ];
 
@@ -171,26 +261,27 @@ export default function Speakers() {
               <SpeakerCard key={i + 4} speaker={speaker} index={i + 4} />
             ))}
           </div>
-          {/* Row 4: 3 speakers */}
-          <div className="grid grid-cols-3 gap-8">
-            {SPEAKERS.slice(8, 11).map((speaker, i) => (
+          {/* Row 4: 4 speakers */}
+          <div className="grid grid-cols-4 gap-8">
+            {SPEAKERS.slice(8, 12).map((speaker, i) => (
               <SpeakerCard key={i + 8} speaker={speaker} index={i + 8} />
+            ))}
+          </div>
+          {/* Row 5: 3 speakers */}
+          <div className="grid grid-cols-3 gap-8">
+            {SPEAKERS.slice(12, 15).map((speaker, i) => (
+              <SpeakerCard key={i + 12} speaker={speaker} index={i + 12} />
+            ))}
+          </div>
+          {/* Row 6: 2 speakers */}
+          <div className="grid grid-cols-2 gap-8">
+            {SPEAKERS.slice(15, 17).map((speaker, i) => (
+              <SpeakerCard key={i + 15} speaker={speaker} index={i + 15} />
             ))}
           </div>
         </div>
 
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true }}
-          transition={{ duration: 0.6, delay: 0.4 }}
-          className="mt-16 max-w-md mx-auto"
-        >
-          <div className="bg-gradient-to-r from-[#714DFF] to-[#E151FF] p-8 rounded-[64px]">
-            <p className="text-slate-50 text-xl font-semibold text-center uppercase tracking-wide">MORE SPEAKERS COMING SOON</p>
-            <p className="text-slate-50 mt-1 text-sm font-light text-center">Stay tuned for additional speaker announcements</p>
-          </div>
-        </motion.div>
+
       </div>
     </section>
   );

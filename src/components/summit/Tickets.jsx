@@ -17,9 +17,9 @@ const TIERS = [
 {
   name: "Early Bird",
   price: "$199",
-  badge: "Limited Release",
+  badge: "Sold Out",
   cta: "Get Early Bird Ticket",
-  active: true,
+  active: false,
   features: null
 },
 {
@@ -27,7 +27,7 @@ const TIERS = [
   price: "$299",
   badge: null,
   cta: "Get Priority Access",
-  active: false,
+  active: true,
   features: null
 },
 {
