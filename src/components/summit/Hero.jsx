@@ -14,7 +14,7 @@ function preserveUtms(baseUrl) {
 }
 
 const SPONSORS = [
-  { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a8a3d2338_Maximore.png", invert: true },
+  { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f2d3c692a_Maximore.png" },
   { name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
   { name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
   { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/41016b62d_hf_20260323_161048_2730c8d2-53bb-4728-a7d0-578593145570.png" },
