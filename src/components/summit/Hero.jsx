@@ -153,7 +153,7 @@ export default function Hero() {
                     width: "auto",
                     objectFit: "contain",
                     opacity: sponsor.bigger ? 0.75 : 0.45,
-                    filter: sponsor.bigger ? `grayscale(1) brightness(0)` : `grayscale(1)${sponsor.invert ? " invert(1)" : ""}`,
+                    filter: `grayscale(1) brightness(0)`,
                   }}
                 />
               </div>
