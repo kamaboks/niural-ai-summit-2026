@@ -149,7 +149,7 @@ export default function Hero() {
                   src={sponsor.src}
                   alt={sponsor.name}
                   style={{
-                    height: "64px",
+                    height: sponsor.darkgrey ? "90px" : "64px",
                     width: "auto",
                     objectFit: "contain",
                     opacity: 0.45,
