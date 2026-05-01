@@ -121,7 +121,7 @@ export default function Hero() {
 
       {/* Sponsors ticker */}
       <div className="absolute bottom-16 left-0 right-0 z-10">
-        <p className="text-[#3d2d6e]/30 mb-1 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
+        <p className="text-[#3d2d6e]/30 mb-3 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
         <div className="relative overflow-hidden">
           {/* Fade edges */}
           <div className="absolute left-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to right, #faf8ff, transparent)" }} />
