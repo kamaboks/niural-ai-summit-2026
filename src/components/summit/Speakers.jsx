@@ -12,7 +12,7 @@ const SPEAKERS = [
     description: "Founder & CEO of Niural, an agentic AI platform for global payroll, compliance, and workforce management. Serial entrepreneur with two successful exits. Former Head of Product Partnerships at Twitter. Harvard alum and prolific angel investor.",
     linkedin: "https://www.linkedin.com/in/namibaral/",
     alt: "Nami Baral CEO Niural",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/namibaral.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e01da95a1_Nami.png"
   },
   {
     name: "Joshua Waldron",
@@ -42,7 +42,7 @@ const SPEAKERS = [
     description: "Founder & President of Niural, an AI-native global PEO platform. Over 20 years of leadership across financial services, healthcare, and tech. Co-founded Niural alongside Nami Baral to modernize global workforce management.",
     linkedin: "https://www.linkedin.com/in/nabinbanskota/",
     alt: "Nabin Baral CTO Niural",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/nabinbaral.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a3b7d5a1d_Nabin.png"
   },
   // Row 2
   {
@@ -63,7 +63,7 @@ const SPEAKERS = [
     description: "CEO & Co-founder of Maximor, an agentic AI platform for corporate finance. Former Microsoft executive. Raised $9M seed to help mid-market finance teams ditch Excel and automate month-end operations.",
     linkedin: "https://www.linkedin.com/in/ramnandan/",
     alt: "Ramnandan Krishnamurthy speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/c856acd95_Ramnandan.png"
   },
   {
     name: "Jason Bond",
@@ -73,7 +73,7 @@ const SPEAKERS = [
     description: "CFO and SVP of Strategy at Sevaro, transforming neurological care delivery. Previously Chief Corporate Development Officer at CareAbout Health and VP of Corporate Development & FP&A at CityMD.",
     linkedin: "https://www.linkedin.com/in/jjbond/",
     alt: "Jason Bond speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/1e1205947_JasonBond.png"
   },
   {
     name: "Peter Phelan",
@@ -83,7 +83,7 @@ const SPEAKERS = [
     description: "Founder & CEO of ValuesCulture, an executive HR search firm. 20+ years in People & Culture including Chief People Officer roles at leading global tech companies. Placed 60+ senior HR leaders in the last 30 months.",
     linkedin: "https://www.linkedin.com/in/peterphelanhr/",
     alt: "Peter Phelan speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/peter.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/975a0914d_Peter.png"
   },
   // Row 3
   {
@@ -104,7 +104,7 @@ const SPEAKERS = [
     description: "Senior Director of People at Bilt Rewards, responsible for the full employee lifecycle at one of the fastest-growing fintech companies. Previously Head of People at Kairos. Expert in building people-first cultures in high-growth startups.",
     linkedin: "https://www.linkedin.com/in/caosullivan/",
     alt: "Ciara O'Sullivan speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ciara.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/9cda34d8b_Ciara.png"
   },
   {
     name: "Matt Hoffman",
@@ -124,7 +124,7 @@ const SPEAKERS = [
     description: "CEO of 401GO, modernizing retirement planning for small and mid-size businesses. Extensive background in the payroll and retirement industry, on a mission to make 401(k) benefits accessible and affordable for all employers.",
     linkedin: "https://www.linkedin.com/in/rob-mcdermott/",
     alt: "Robert McDermott speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/robert.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8ac617e2f_RobertMcDermott.png"
   },
   // Row 4
   {
@@ -135,7 +135,7 @@ const SPEAKERS = [
     description: "Founding Partner at Marathon Management Partners, a venture firm built by alumni of Coatue Management, NEA, TCV, and Google. Previously led fintech investments at Coatue. University of Chicago alum.",
     linkedin: "https://www.linkedin.com/in/chasepackard/",
     alt: "Chase Packard speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/chase.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/65472cfdd_Chase.png"
   },
   {
     name: "Alexa von Tobel",
