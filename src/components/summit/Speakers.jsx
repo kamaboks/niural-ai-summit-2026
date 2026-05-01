@@ -39,7 +39,7 @@ const SPEAKERS = [
     title: "Founder & COO",
     subtitle: "",
     company: "Niural",
-    description: "Founder & COO of Niural, building AI-native infrastructure for global payroll and workforce compliance.",
+    description: "Founder & President of Niural, an AI-native global PEO platform. Over 20 years of leadership across financial services, healthcare, and tech. Co-founded Niural alongside Nami Baral to modernize global workforce management.",
     linkedin: "https://www.linkedin.com/in/nabinbanskota/",
     alt: "Nabin Baral CTO Niural",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/nabinbaral.png"
@@ -60,7 +60,7 @@ const SPEAKERS = [
     title: "CEO",
     subtitle: "",
     company: "Maximore",
-    description: "CEO of Maximore, an AI platform for corporate finance transforming how companies manage financial operations.",
+    description: "CEO & Co-founder of Maximor, an agentic AI platform for corporate finance. Former Microsoft executive. Raised $9M seed to help mid-market finance teams ditch Excel and automate month-end operations.",
     linkedin: "https://www.linkedin.com/in/ramnandan/",
     alt: "Ramnandan Krishnamurthy speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
@@ -70,7 +70,7 @@ const SPEAKERS = [
     title: "CFO and SVP of Strategy",
     subtitle: "",
     company: "Sevaro",
-    description: "CFO and SVP of Strategy at Sevaro. Previously Chief Corporate Development Officer at CareAbout Health and VP of Corporate Development at CityMD.",
+    description: "CFO and SVP of Strategy at Sevaro, transforming neurological care delivery. Previously Chief Corporate Development Officer at CareAbout Health and VP of Corporate Development & FP&A at CityMD.",
     linkedin: "https://www.linkedin.com/in/jjbond/",
     alt: "Jason Bond speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
@@ -80,7 +80,7 @@ const SPEAKERS = [
     title: "Head of Insights",
     subtitle: "",
     company: "ValuesCulture",
-    description: "Head of Insights at ValuesCulture, helping organizations build high-performing cultures through values-driven leadership.",
+    description: "Founder & CEO of ValuesCulture, an executive HR search firm. 20+ years in People & Culture including Chief People Officer roles at leading global tech companies. Placed 60+ senior HR leaders in the last 30 months.",
     linkedin: "https://www.linkedin.com/in/peterphelanhr/",
     alt: "Peter Phelan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/peter.png"
@@ -101,7 +101,7 @@ const SPEAKERS = [
     title: "Chief People Officer",
     subtitle: "",
     company: "Bilt",
-    description: "Chief People Officer at Bilt, leading people strategy at the rewards platform transforming how people pay rent.",
+    description: "Senior Director of People at Bilt Rewards, responsible for the full employee lifecycle at one of the fastest-growing fintech companies. Previously Head of People at Kairos. Expert in building people-first cultures in high-growth startups.",
     linkedin: "https://www.linkedin.com/in/caosullivan/",
     alt: "Ciara O'Sullivan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ciara.png"
@@ -121,7 +121,7 @@ const SPEAKERS = [
     title: "CEO",
     subtitle: "",
     company: "401GO",
-    description: "CEO of 401GO, making retirement benefits accessible and simple for small businesses across America.",
+    description: "CEO of 401GO, modernizing retirement planning for small and mid-size businesses. Extensive background in the payroll and retirement industry, on a mission to make 401(k) benefits accessible and affordable for all employers.",
     linkedin: "https://www.linkedin.com/in/rob-mcdermott/",
     alt: "Robert McDermott speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/robert.png"
@@ -132,7 +132,7 @@ const SPEAKERS = [
     title: "Co-Founder & CEO",
     subtitle: "",
     company: "Marathon",
-    description: "Co-Founder & CEO of Marathon, building the next generation of financial infrastructure for ambitious founders.",
+    description: "Founding Partner at Marathon Management Partners, a venture firm built by alumni of Coatue Management, NEA, TCV, and Google. Previously led fintech investments at Coatue. University of Chicago alum.",
     linkedin: "https://www.linkedin.com/in/chasepackard/",
     alt: "Chase Packard speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/chase.png"
@@ -152,7 +152,7 @@ const SPEAKERS = [
     title: "Chief of Staff",
     subtitle: "",
     company: "Polimorphic",
-    description: "Chief of Staff at Polimorphic, driving strategy and operations at the cutting-edge AI product studio.",
+    description: "Co-Founder & CEO of Polimorphic, an AI platform transforming customer service for government agencies. Previously Deep Learning engineer at NVIDIA. Named to New York's Who's Who in Emerging Tech. MIT alum.",
     linkedin: "https://www.linkedin.com/in/parthhemalshah/",
     alt: "Parth Shah speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
@@ -162,7 +162,7 @@ const SPEAKERS = [
     title: "VP of People",
     subtitle: "",
     company: "Frich Money",
-    description: "VP of People at Frich Money, building people-first culture at the social finance platform helping Gen Z manage money.",
+    description: "Co-Founder & CEO of Frich, the social finance app helping Gen Z manage and talk about money. Former teen model turned fintech founder. Harvard alum and immigrant entrepreneur redefining financial transparency for a new generation.",
     linkedin: "https://www.linkedin.com/in/katrin-kaurov-160972194/",
     alt: "Katrin Kaurov speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
@@ -183,7 +183,7 @@ const SPEAKERS = [
     title: "Partner",
     subtitle: "",
     company: "Every",
-    description: "Co-founder of Every, the media company at the frontier of AI and knowledge work, writing about how AI transforms how we think and create.",
+    description: "Co-Founder & CEO of Every, the premier AI media company publishing daily newsletters and shipping AI products with a team of 15. Writes the 'Chain of Thought' column and hosts the 'AI & I' podcast exploring the frontier of AI. Penn alum.",
     linkedin: "https://www.linkedin.com/in/danshipper/",
     alt: "Dan Shipper speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
