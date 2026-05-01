@@ -7,7 +7,7 @@ const SPEAKERS = [
   {
     name: "Nami Baral",
     title: "Founder & CEO",
-    subtitle: "",
+    subtitle: "Ex Head of Product Partnerships, Twitter",
     company: "Niural",
     description: "Founder & CEO of Niural, an agentic AI platform for global payroll, compliance, and workforce management. Serial entrepreneur with two successful exits. Former Head of Product Partnerships at Twitter. Harvard alum and prolific angel investor.",
     linkedin: "https://www.linkedin.com/in/namibaral/",
@@ -36,8 +36,8 @@ const SPEAKERS = [
   },
   {
     name: "Nabin Banskota",
-    title: "Founder & COO",
-    subtitle: "",
+    title: "Founder & President",
+    subtitle: "20+ Years in Financial Services & Tech",
     company: "Niural",
     description: "Founder & President of Niural, an AI-native global PEO platform. Over 20 years of leadership across financial services, healthcare, and tech. Co-founded Niural alongside Nami Baral to modernize global workforce management.",
     linkedin: "https://www.linkedin.com/in/nabinbanskota/",
@@ -58,7 +58,7 @@ const SPEAKERS = [
   {
     name: "Ramnandan Krishnamurthy",
     title: "CEO",
-    subtitle: "",
+    subtitle: "Ex Microsoft Executive",
     company: "Maximore",
     description: "CEO & Co-founder of Maximor, an agentic AI platform for corporate finance. Former Microsoft executive. Raised $9M seed to help mid-market finance teams ditch Excel and automate month-end operations.",
     linkedin: "https://www.linkedin.com/in/ramnandan/",
@@ -68,7 +68,7 @@ const SPEAKERS = [
   {
     name: "Jason Bond",
     title: "CFO and SVP of Strategy",
-    subtitle: "",
+    subtitle: "Ex VP Corporate Development & FP&A, CityMD",
     company: "Sevaro",
     description: "CFO and SVP of Strategy at Sevaro, transforming neurological care delivery. Previously Chief Corporate Development Officer at CareAbout Health and VP of Corporate Development & FP&A at CityMD.",
     linkedin: "https://www.linkedin.com/in/jjbond/",
@@ -77,8 +77,8 @@ const SPEAKERS = [
   },
   {
     name: "Peter Phelan",
-    title: "Head of Insights",
-    subtitle: "",
+    title: "Founder & CEO",
+    subtitle: "Ex Chief People Officer, Global Tech Companies",
     company: "ValuesCulture",
     description: "Founder & CEO of ValuesCulture, an executive HR search firm. 20+ years in People & Culture including Chief People Officer roles at leading global tech companies. Placed 60+ senior HR leaders in the last 30 months.",
     linkedin: "https://www.linkedin.com/in/peterphelanhr/",
@@ -98,8 +98,8 @@ const SPEAKERS = [
   },
   {
     name: "Ciara O'Sullivan",
-    title: "Chief People Officer",
-    subtitle: "",
+    title: "Senior Director of People",
+    subtitle: "Ex Head of People, Kairos",
     company: "Bilt",
     description: "Senior Director of People at Bilt Rewards, responsible for the full employee lifecycle at one of the fastest-growing fintech companies. Previously Head of People at Kairos. Expert in building people-first cultures in high-growth startups.",
     linkedin: "https://www.linkedin.com/in/caosullivan/",
@@ -119,7 +119,7 @@ const SPEAKERS = [
   {
     name: "Robert McDermott",
     title: "CEO",
-    subtitle: "",
+    subtitle: "Modernizing Retirement for SMBs",
     company: "401GO",
     description: "CEO of 401GO, modernizing retirement planning for small and mid-size businesses. Extensive background in the payroll and retirement industry, on a mission to make 401(k) benefits accessible and affordable for all employers.",
     linkedin: "https://www.linkedin.com/in/rob-mcdermott/",
@@ -129,8 +129,8 @@ const SPEAKERS = [
   // Row 4
   {
     name: "Chase Packard",
-    title: "Co-Founder & CEO",
-    subtitle: "",
+    title: "Founding Partner",
+    subtitle: "Ex Fintech Investor, Coatue Management",
     company: "Marathon",
     description: "Founding Partner at Marathon Management Partners, a venture firm built by alumni of Coatue Management, NEA, TCV, and Google. Previously led fintech investments at Coatue. University of Chicago alum.",
     linkedin: "https://www.linkedin.com/in/chasepackard/",
@@ -149,8 +149,8 @@ const SPEAKERS = [
   },
   {
     name: "Parth Shah",
-    title: "Chief of Staff",
-    subtitle: "",
+    title: "Co-Founder & CEO",
+    subtitle: "Ex Deep Learning Engineer, NVIDIA",
     company: "Polimorphic",
     description: "Co-Founder & CEO of Polimorphic, an AI platform transforming customer service for government agencies. Previously Deep Learning engineer at NVIDIA. Named to New York's Who's Who in Emerging Tech. MIT alum.",
     linkedin: "https://www.linkedin.com/in/parthhemalshah/",
@@ -159,9 +159,9 @@ const SPEAKERS = [
   },
   {
     name: "Katrin Kaurov",
-    title: "VP of People",
-    subtitle: "",
-    company: "Frich Money",
+    title: "Co-Founder & CEO",
+    subtitle: "Harvard Alum & Forbes 30 Under 30",
+    company: "Frich",
     description: "Co-Founder & CEO of Frich, the social finance app helping Gen Z manage and talk about money. Former teen model turned fintech founder. Harvard alum and immigrant entrepreneur redefining financial transparency for a new generation.",
     linkedin: "https://www.linkedin.com/in/katrin-kaurov-160972194/",
     alt: "Katrin Kaurov speaking at AI Conference NYC",
@@ -180,8 +180,8 @@ const SPEAKERS = [
   },
   {
     name: "Dan Shipper",
-    title: "Partner",
-    subtitle: "",
+    title: "Co-Founder & CEO",
+    subtitle: "Host of 'AI & I' Podcast",
     company: "Every",
     description: "Co-Founder & CEO of Every, the premier AI media company publishing daily newsletters and shipping AI products with a team of 15. Writes the 'Chain of Thought' column and hosts the 'AI & I' podcast exploring the frontier of AI. Penn alum.",
     linkedin: "https://www.linkedin.com/in/danshipper/",
@@ -191,7 +191,7 @@ const SPEAKERS = [
   {
     name: "Melia Russell",
     title: "Senior Reporter",
-    subtitle: "",
+    subtitle: "Covering Startups, VC & Future of Work",
     company: "Business Insider",
     description: "Senior Reporter at Business Insider covering startups, venture capital, and the future of work.",
     linkedin: "https://www.linkedin.com/in/meliarussell/",
