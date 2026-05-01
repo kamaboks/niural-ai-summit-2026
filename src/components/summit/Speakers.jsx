@@ -155,7 +155,7 @@ const SPEAKERS = [
     description: "Co-Founder & CEO of Polimorphic, an AI platform transforming customer service for government agencies. Previously Deep Learning engineer at NVIDIA. Named to New York's Who's Who in Emerging Tech. MIT alum.",
     linkedin: "https://www.linkedin.com/in/parthhemalshah/",
     alt: "Parth Shah speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/1b022daef_polymorphics.png"
   },
   {
     name: "Katrin Kaurov",
@@ -165,7 +165,7 @@ const SPEAKERS = [
     description: "Co-Founder & CEO of Frich, the social finance app helping Gen Z manage and talk about money. Former teen model turned fintech founder. Harvard alum and immigrant entrepreneur redefining financial transparency for a new generation.",
     linkedin: "https://www.linkedin.com/in/katrin-kaurov-160972194/",
     alt: "Katrin Kaurov speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a229f63c3_katrine.png"
   },
   // Row 5
   {
