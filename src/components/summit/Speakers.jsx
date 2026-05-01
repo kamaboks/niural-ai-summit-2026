@@ -6,7 +6,7 @@ const SPEAKERS = [
   // Row 1
   {
     name: "Nami Baral",
-    title: "Co-Founder & CEO",
+    title: "Founder & CEO",
     subtitle: "",
     company: "Niural",
     description: "Co-Founder & CEO of Niural, the AI-native platform for global payroll, compliance, and workforce management.",
@@ -36,10 +36,10 @@ const SPEAKERS = [
   },
   {
     name: "Nabin Banskota",
-    title: "Co-Founder & CTO",
+    title: "Founder & COO",
     subtitle: "",
     company: "Niural",
-    description: "Co-Founder & CTO of Niural, building AI-native infrastructure for global payroll and workforce compliance.",
+    description: "Founder & COO of Niural, building AI-native infrastructure for global payroll and workforce compliance.",
     linkedin: "https://www.linkedin.com/in/nabinbanskota/",
     alt: "Nabin Baral CTO Niural",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/nabinbaral.png"
@@ -57,20 +57,20 @@ const SPEAKERS = [
   },
   {
     name: "Ramnandan Krishnamurthy",
-    title: "Founder & Executive Chairman",
+    title: "CEO",
     subtitle: "",
     company: "Maximore",
-    description: "Founder & Executive Chairman of Maximore, building next-generation financial infrastructure for modern businesses.",
+    description: "CEO of Maximore, an AI platform for corporate finance transforming how companies manage financial operations.",
     linkedin: "https://www.linkedin.com/in/ramnandan/",
     alt: "Ramnandan Krishnamurthy speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
   },
   {
     name: "Jason Bond",
-    title: "Chief Strategy Officer",
+    title: "CFO and SVP of Strategy",
     subtitle: "",
     company: "Sevaro",
-    description: "Chief Strategy Officer at Sevaro, shaping strategic direction at the intersection of healthcare and technology.",
+    description: "CFO and SVP of Strategy at Sevaro. Previously Chief Corporate Development Officer at CareAbout Health and VP of Corporate Development at CityMD.",
     linkedin: "https://www.linkedin.com/in/jjbond/",
     alt: "Jason Bond speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
