@@ -14,13 +14,13 @@ function preserveUtms(baseUrl) {
 }
 
 const SPONSORS = [
-  { name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f2d3c692a_Maximore.png", darkgrey: true },
-  { name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
-  { name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
-  { name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/41016b62d_hf_20260323_161048_2730c8d2-53bb-4728-a7d0-578593145570.png" },
-  { name: "PwC", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a6ceb2c65_PwC_logo_rgb_colour_rev.png", invert: true },
-  { name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png", invert: true },
-];
+{ name: "Maximore", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/f2d3c692a_Maximore.png", darkgrey: true },
+{ name: "Aetna", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/de097caa8_Aetna-Logo.jpg" },
+{ name: "401GO", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/8d2450bf9_401go-logo.png" },
+{ name: "Basic Capital", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/41016b62d_hf_20260323_161048_2730c8d2-53bb-4728-a7d0-578593145570.png" },
+{ name: "PwC", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a6ceb2c65_PwC_logo_rgb_colour_rev.png", invert: true },
+{ name: "Shay CPA", src: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/bb7409efa_ShayCPALogo.png", invert: true }];
+
 
 const SLOT_WIDTH = 280; // px per sponsor slot
 const TOTAL_WIDTH = SPONSORS.length * SLOT_WIDTH; // width of one full set
@@ -121,7 +121,7 @@ export default function Hero() {
 
       {/* Sponsors ticker */}
       <div className="absolute bottom-16 left-0 right-0 z-10">
-        <p className="text-[#3d2d6e]/30 mb-8 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
+        <p className="text-[#3d2d6e]/30 mb-1 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
         <div className="relative overflow-hidden">
           {/* Fade edges */}
           <div className="absolute left-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to right, #faf8ff, transparent)" }} />
@@ -141,29 +141,29 @@ export default function Hero() {
 
           {/* Render 3 copies so the loop is always seamless regardless of viewport width */}
           <div className="sponsor-ticker">
-            {[...SPONSORS, ...SPONSORS, ...SPONSORS].map((sponsor, i) => (
-              <div
-                key={i}
-                style={{ width: `${SLOT_WIDTH}px`, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", padding: "0 40px" }}>
+            {[...SPONSORS, ...SPONSORS, ...SPONSORS].map((sponsor, i) =>
+            <div
+              key={i}
+              style={{ width: `${SLOT_WIDTH}px`, flexShrink: 0, display: "flex", alignItems: "center", justifyContent: "center", padding: "0 40px" }}>
                 <img
-                  src={sponsor.src}
-                  alt={sponsor.name}
-                  style={{
-                    height: sponsor.darkgrey ? "90px" : "64px",
-                    width: "auto",
-                    objectFit: "contain",
-                    opacity: 0.45,
-                    filter: sponsor.darkgrey ? `grayscale(1) brightness(0.25)` : `grayscale(1)${sponsor.invert ? " invert(1)" : ""}`,
-                  }}
-                />
+                src={sponsor.src}
+                alt={sponsor.name}
+                style={{
+                  height: sponsor.darkgrey ? "90px" : "64px",
+                  width: "auto",
+                  objectFit: "contain",
+                  opacity: 0.45,
+                  filter: sponsor.darkgrey ? `grayscale(1) brightness(0.25)` : `grayscale(1)${sponsor.invert ? " invert(1)" : ""}`
+                }} />
+              
               </div>
-            ))}
+            )}
           </div>
         </div>
       </div>
 
       {/* Bottom fade */}
       <div className="absolute bottom-0 left-0 right-0 h-48 bg-gradient-to-t from-white to-transparent" />
-    </section>
-  );
+    </section>);
+
 }
