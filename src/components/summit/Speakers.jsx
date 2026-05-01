@@ -56,33 +56,33 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/6964c4b16_sruthi.png"
   },
   {
-    name: "Ram Palaniappan",
+    name: "Ramnandan Krishnamurthy",
     title: "Founder & Executive Chairman",
     subtitle: "",
     company: "EarnIn",
     description: "Founder & Executive Chairman of EarnIn, pioneering earned wage access for millions of workers.",
     linkedin: "https://www.linkedin.com/in/ramnandan/",
-    alt: "Ram Palaniappan speaking at AI Conference NYC",
+    alt: "Ramnandan Krishnamurthy speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
   },
   {
-    name: "Jason Kwon",
+    name: "Jason Bond",
     title: "Chief Strategy Officer",
     subtitle: "",
     company: "OpenAI",
     description: "Chief Strategy Officer at OpenAI, shaping the strategic direction of one of the world's leading AI research companies.",
     linkedin: "https://www.linkedin.com/in/jjbond/",
-    alt: "Jason Kwon speaking at AI Conference NYC",
+    alt: "Jason Bond speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
   },
   {
-    name: "Peter Walker",
+    name: "Peter Phelan",
     title: "Head of Insights",
     subtitle: "",
     company: "Carta",
     description: "Head of Insights at Carta, translating equity and startup data into actionable intelligence for founders and investors.",
     linkedin: "https://www.linkedin.com/in/peterphelanhr/",
-    alt: "Peter Walker speaking at AI Conference NYC",
+    alt: "Peter Phelan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/peter.png"
   },
   // Row 3
@@ -97,13 +97,13 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a61f9abfd_MorganBlumberg.png"
   },
   {
-    name: "Ciara Trinidad",
+    name: "Ciara O'Sullivan",
     title: "Chief People Officer",
     subtitle: "",
     company: "Benchmark",
     description: "Chief People Officer at Benchmark. Expert in scaling people operations and talent strategy at high-growth companies.",
-    linkedin: "https://www.linkedin.com/in/ciaratrinidad/",
-    alt: "Ciara Trinidad speaking at AI Conference NYC",
+    linkedin: "https://www.linkedin.com/in/caosullivan/",
+    alt: "Ciara O'Sullivan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ciara.png"
   },
   {
@@ -117,24 +117,24 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/855a06a22_Matthoffman.png"
   },
   {
-    name: "Robert Bua",
+    name: "Robert McDermott",
     title: "CEO",
     subtitle: "",
     company: "Maximore",
     description: "CEO of Maximore, building next-generation financial infrastructure for modern businesses.",
-    linkedin: "https://www.linkedin.com/in/robertbua/",
-    alt: "Robert Bua speaking at AI Conference NYC",
+    linkedin: "https://www.linkedin.com/in/rob-mcdermott/",
+    alt: "Robert McDermott speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/robert.png"
   },
   // Row 4
   {
-    name: "Chase Gilbert",
+    name: "Chase Packard",
     title: "Co-Founder & CEO",
     subtitle: "",
     company: "Built In",
     description: "Co-Founder & CEO of Built In, the largest tech community platform connecting professionals and companies.",
     linkedin: "https://www.linkedin.com/in/chasepackard/",
-    alt: "Chase Gilbert speaking at AI Conference NYC",
+    alt: "Chase Packard speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/chase.png"
   },
   {
@@ -148,23 +148,23 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
   },
   {
-    name: "Parth Detroja",
+    name: "Parth Shah",
     title: "Chief of Staff",
     subtitle: "",
     company: "EarnIn",
     description: "Chief of Staff at EarnIn. Author of Swipe to Unlock. Product and strategy leader at the intersection of fintech and AI.",
     linkedin: "https://www.linkedin.com/in/parthhemalshah/",
-    alt: "Parth Detroja speaking at AI Conference NYC",
+    alt: "Parth Shah speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
   },
   {
-    name: "Katrin Kauber",
+    name: "Katrin Kaurov",
     title: "VP of People",
     subtitle: "",
     company: "Ramp",
     description: "VP of People at Ramp, leading HR and talent strategy at one of the fastest-growing fintech companies.",
     linkedin: "https://www.linkedin.com/in/katrin-kaurov-160972194/",
-    alt: "Katrin Kauber speaking at AI Conference NYC",
+    alt: "Katrin Kaurov speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
   },
   // Row 5
@@ -179,13 +179,13 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/01600afd1_Chrstine.png"
   },
   {
-    name: "Dan Hockenmaier",
+    name: "Dan Shipper",
     title: "Partner",
     subtitle: "",
     company: "Basis One",
     description: "Partner at Basis One, a growth and strategy firm for consumer businesses. Former growth lead at Thumbtack and McKinsey.",
     linkedin: "https://www.linkedin.com/in/danshipper/",
-    alt: "Dan Hockenmaier speaking at AI Conference NYC",
+    alt: "Dan Shipper speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
   },
   {
