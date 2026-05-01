@@ -9,7 +9,7 @@ const SPEAKERS = [
     title: "Founder & CEO",
     subtitle: "",
     company: "Niural",
-    description: "Co-Founder & CEO of Niural, the AI-native platform for global payroll, compliance, and workforce management.",
+    description: "Founder & CEO of Niural, an agentic AI platform for global payroll, compliance, and workforce management. Serial entrepreneur with two successful exits. Former Head of Product Partnerships at Twitter. Harvard alum and prolific angel investor.",
     linkedin: "https://www.linkedin.com/in/namibaral/",
     alt: "Nami Baral CEO Niural",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/namibaral.png"
