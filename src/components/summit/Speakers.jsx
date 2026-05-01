@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { Linkedin } from "lucide-react";
 
 const SPEAKERS = [
+  // Row 1
   {
     name: "Nami Baral",
     title: "Co-Founder & CEO",
@@ -43,6 +44,7 @@ const SPEAKERS = [
     alt: "Nabin Baral CTO Niural",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/nabinbaral.png"
   },
+  // Row 2
   {
     name: "Sruthi Lanka",
     title: "CFO",
@@ -63,6 +65,27 @@ const SPEAKERS = [
     alt: "Ram Palaniappan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
   },
+  {
+    name: "Jason Kwon",
+    title: "Chief Strategy Officer",
+    subtitle: "",
+    company: "OpenAI",
+    description: "Chief Strategy Officer at OpenAI, shaping the strategic direction of one of the world's leading AI research companies.",
+    linkedin: "https://www.linkedin.com/in/jasonkwon/",
+    alt: "Jason Kwon speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
+  },
+  {
+    name: "Peter Walker",
+    title: "Head of Insights",
+    subtitle: "",
+    company: "Carta",
+    description: "Head of Insights at Carta, translating equity and startup data into actionable intelligence for founders and investors.",
+    linkedin: "https://www.linkedin.com/in/peterwalker/",
+    alt: "Peter Walker speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/peter.png"
+  },
+  // Row 3
   {
     name: "Morgan Blumberg",
     title: "Partner",
@@ -103,6 +126,7 @@ const SPEAKERS = [
     alt: "Robert Bua speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/robert.png"
   },
+  // Row 4
   {
     name: "Chase Gilbert",
     title: "Co-Founder & CEO",
@@ -124,16 +148,6 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/959653110_alexas.png"
   },
   {
-    name: "Katrin Kauber",
-    title: "VP of People",
-    subtitle: "",
-    company: "Ramp",
-    description: "VP of People at Ramp, leading HR and talent strategy at one of the fastest-growing fintech companies.",
-    linkedin: "https://www.linkedin.com/in/katrinkauber/",
-    alt: "Katrin Kauber speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
-  },
-  {
     name: "Parth Detroja",
     title: "Chief of Staff",
     subtitle: "",
@@ -144,15 +158,16 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
   },
   {
-    name: "Melia Russell",
-    title: "Senior Reporter",
+    name: "Katrin Kauber",
+    title: "VP of People",
     subtitle: "",
-    company: "Business Insider",
-    description: "Senior Reporter at Business Insider covering startups, venture capital, and the future of work.",
-    linkedin: "https://www.linkedin.com/in/meliarussell/",
-    alt: "Melia Russell speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/melia.png"
+    company: "Ramp",
+    description: "VP of People at Ramp, leading HR and talent strategy at one of the fastest-growing fintech companies.",
+    linkedin: "https://www.linkedin.com/in/katrinkauber/",
+    alt: "Katrin Kauber speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
   },
+  // Row 5
   {
     name: "Christine Choi",
     title: "Partner, Head of Brand & Comms",
@@ -172,6 +187,16 @@ const SPEAKERS = [
     linkedin: "https://www.linkedin.com/in/danhockenmaier/",
     alt: "Dan Hockenmaier speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
+  },
+  {
+    name: "Melia Russell",
+    title: "Senior Reporter",
+    subtitle: "",
+    company: "Business Insider",
+    description: "Senior Reporter at Business Insider covering startups, venture capital, and the future of work.",
+    linkedin: "https://www.linkedin.com/in/meliarussell/",
+    alt: "Melia Russell speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/melia.png"
   },
   {
     name: "Lowell Putnam",
