@@ -41,7 +41,7 @@ export default function Hero() {
         <div className="absolute bottom-10 left-1/3 w-[300px] h-[250px] rounded-full" style={{ background: "radial-gradient(circle, rgba(196,181,253,0.25) 0%, transparent 65%)", filter: "blur(100px)" }} />
       </div>
 
-      <div className="mx-auto pt-32 pb-48 px-4 text-center opacity-100 relative z-10 max-w-4xl sm:px-6 lg:px-8">
+      <div className="mx-auto pt-32 pb-64 px-4 text-center opacity-100 relative z-10 max-w-4xl sm:px-6 lg:px-8">
         {/* Badge */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -120,8 +120,8 @@ export default function Hero() {
       </div>
 
       {/* Sponsors ticker */}
-      <div className="absolute bottom-16 left-0 right-0 z-10">
-        <p className="text-[#3d2d6e]/30 mb-3 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
+      <div className="absolute bottom-6 left-0 right-0 z-10">
+        <p className="text-[#3d2d6e]/30 mb-6 text-xs font-semibold text-center uppercase tracking-widest">SPONSORED BY</p>
         <div className="relative overflow-hidden">
           {/* Fade edges */}
           <div className="absolute left-0 top-0 bottom-0 w-24 z-10" style={{ background: "linear-gradient(to right, #faf8ff, transparent)" }} />
