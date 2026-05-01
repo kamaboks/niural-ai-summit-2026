@@ -35,7 +35,7 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
   },
   {
-    name: "Nabin Baral",
+    name: "Nabin Banskota",
     title: "Co-Founder & CTO",
     subtitle: "",
     company: "Niural",
