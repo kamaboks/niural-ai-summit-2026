@@ -61,7 +61,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "EarnIn",
     description: "Founder & Executive Chairman of EarnIn, pioneering earned wage access for millions of workers.",
-    linkedin: "https://www.linkedin.com/in/rampalaniappan/",
+    linkedin: "https://www.linkedin.com/in/ramnandan/",
     alt: "Ram Palaniappan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
   },
@@ -71,7 +71,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "OpenAI",
     description: "Chief Strategy Officer at OpenAI, shaping the strategic direction of one of the world's leading AI research companies.",
-    linkedin: "https://www.linkedin.com/in/jasonkwon/",
+    linkedin: "https://www.linkedin.com/in/jjbond/",
     alt: "Jason Kwon speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
   },
@@ -81,7 +81,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "Carta",
     description: "Head of Insights at Carta, translating equity and startup data into actionable intelligence for founders and investors.",
-    linkedin: "https://www.linkedin.com/in/peterwalker/",
+    linkedin: "https://www.linkedin.com/in/peterphelanhr/",
     alt: "Peter Walker speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/peter.png"
   },
@@ -133,7 +133,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "Built In",
     description: "Co-Founder & CEO of Built In, the largest tech community platform connecting professionals and companies.",
-    linkedin: "https://www.linkedin.com/in/chasegilbert/",
+    linkedin: "https://www.linkedin.com/in/chasepackard/",
     alt: "Chase Gilbert speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/chase.png"
   },
@@ -153,7 +153,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "EarnIn",
     description: "Chief of Staff at EarnIn. Author of Swipe to Unlock. Product and strategy leader at the intersection of fintech and AI.",
-    linkedin: "https://www.linkedin.com/in/parthdetroja/",
+    linkedin: "https://www.linkedin.com/in/parthhemalshah/",
     alt: "Parth Detroja speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
   },
@@ -163,7 +163,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "Ramp",
     description: "VP of People at Ramp, leading HR and talent strategy at one of the fastest-growing fintech companies.",
-    linkedin: "https://www.linkedin.com/in/katrinkauber/",
+    linkedin: "https://www.linkedin.com/in/katrin-kaurov-160972194/",
     alt: "Katrin Kauber speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
   },
@@ -184,7 +184,7 @@ const SPEAKERS = [
     subtitle: "",
     company: "Basis One",
     description: "Partner at Basis One, a growth and strategy firm for consumer businesses. Former growth lead at Thumbtack and McKinsey.",
-    linkedin: "https://www.linkedin.com/in/danhockenmaier/",
+    linkedin: "https://www.linkedin.com/in/danshipper/",
     alt: "Dan Hockenmaier speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
   },
