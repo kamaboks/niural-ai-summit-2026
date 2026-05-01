@@ -60,7 +60,7 @@ const SPEAKERS = [
     title: "Founder & Executive Chairman",
     subtitle: "",
     company: "Maximore",
-    description: "Founder & Executive Chairman of EarnIn, pioneering earned wage access for millions of workers.",
+    description: "Founder & Executive Chairman of Maximore, building next-generation financial infrastructure for modern businesses.",
     linkedin: "https://www.linkedin.com/in/ramnandan/",
     alt: "Ramnandan Krishnamurthy speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
@@ -70,7 +70,7 @@ const SPEAKERS = [
     title: "Chief Strategy Officer",
     subtitle: "",
     company: "Sevaro",
-    description: "Chief Strategy Officer at OpenAI, shaping the strategic direction of one of the world's leading AI research companies.",
+    description: "Chief Strategy Officer at Sevaro, shaping strategic direction at the intersection of healthcare and technology.",
     linkedin: "https://www.linkedin.com/in/jjbond/",
     alt: "Jason Bond speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
@@ -80,7 +80,7 @@ const SPEAKERS = [
     title: "Head of Insights",
     subtitle: "",
     company: "ValuesCulture",
-    description: "Head of Insights at Carta, translating equity and startup data into actionable intelligence for founders and investors.",
+    description: "Head of Insights at ValuesCulture, helping organizations build high-performing cultures through values-driven leadership.",
     linkedin: "https://www.linkedin.com/in/peterphelanhr/",
     alt: "Peter Phelan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/peter.png"
@@ -101,7 +101,7 @@ const SPEAKERS = [
     title: "Chief People Officer",
     subtitle: "",
     company: "Bilt",
-    description: "Chief People Officer at Benchmark. Expert in scaling people operations and talent strategy at high-growth companies.",
+    description: "Chief People Officer at Bilt, leading people strategy at the rewards platform transforming how people pay rent.",
     linkedin: "https://www.linkedin.com/in/caosullivan/",
     alt: "Ciara O'Sullivan speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ciara.png"
@@ -121,7 +121,7 @@ const SPEAKERS = [
     title: "CEO",
     subtitle: "",
     company: "401GO",
-    description: "CEO of Maximore, building next-generation financial infrastructure for modern businesses.",
+    description: "CEO of 401GO, making retirement benefits accessible and simple for small businesses across America.",
     linkedin: "https://www.linkedin.com/in/rob-mcdermott/",
     alt: "Robert McDermott speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/robert.png"
@@ -132,7 +132,7 @@ const SPEAKERS = [
     title: "Co-Founder & CEO",
     subtitle: "",
     company: "Marathon",
-    description: "Co-Founder & CEO of Built In, the largest tech community platform connecting professionals and companies.",
+    description: "Co-Founder & CEO of Marathon, building the next generation of financial infrastructure for ambitious founders.",
     linkedin: "https://www.linkedin.com/in/chasepackard/",
     alt: "Chase Packard speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/chase.png"
@@ -152,7 +152,7 @@ const SPEAKERS = [
     title: "Chief of Staff",
     subtitle: "",
     company: "Polimorphic",
-    description: "Chief of Staff at EarnIn. Author of Swipe to Unlock. Product and strategy leader at the intersection of fintech and AI.",
+    description: "Chief of Staff at Polimorphic, driving strategy and operations at the cutting-edge AI product studio.",
     linkedin: "https://www.linkedin.com/in/parthhemalshah/",
     alt: "Parth Shah speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/parth.png"
@@ -162,7 +162,7 @@ const SPEAKERS = [
     title: "VP of People",
     subtitle: "",
     company: "Frich Money",
-    description: "VP of People at Ramp, leading HR and talent strategy at one of the fastest-growing fintech companies.",
+    description: "VP of People at Frich Money, building people-first culture at the social finance platform helping Gen Z manage money.",
     linkedin: "https://www.linkedin.com/in/katrin-kaurov-160972194/",
     alt: "Katrin Kaurov speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/katrin.png"
@@ -183,7 +183,7 @@ const SPEAKERS = [
     title: "Partner",
     subtitle: "",
     company: "Every",
-    description: "Partner at Basis One, a growth and strategy firm for consumer businesses. Former growth lead at Thumbtack and McKinsey.",
+    description: "Co-founder of Every, the media company at the frontier of AI and knowledge work, writing about how AI transforms how we think and create.",
     linkedin: "https://www.linkedin.com/in/danshipper/",
     alt: "Dan Shipper speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
