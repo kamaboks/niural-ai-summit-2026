@@ -24,6 +24,26 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/0234fdde9_JoshuaWaldron_21049.png"
   },
   {
+    name: "Gokul Rajaram",
+    title: "Founding Partner",
+    subtitle: "Board Member of Coinbase, Pinterest & The Trade Desk",
+    company: "Marathon",
+    description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Ex product exec at Google, Facebook, and Square.",
+    linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
+    alt: "Gokul Rajaram speaking at AI Conference NYC",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
+  },
+  {
+    name: "Nabin Baral",
+    title: "Co-Founder & CTO",
+    subtitle: "",
+    company: "Niural",
+    description: "Co-Founder & CTO of Niural, building AI-native infrastructure for global payroll and workforce compliance.",
+    linkedin: "https://www.linkedin.com/in/nabinbaral/",
+    alt: "Nabin Baral CTO Niural",
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/nabinbaral.png"
+  },
+  {
     name: "Sruthi Lanka",
     title: "CFO",
     subtitle: "Ex VP Strategic Finance, MoneyLion",
@@ -163,16 +183,6 @@ const SPEAKERS = [
     alt: "Lowell Putnam speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/a5928cf85_Lowell.png"
   },
-  {
-    name: "Gokul Rajaram",
-    title: "Founding Partner",
-    subtitle: "Board Member of Coinbase, Pinterest & The Trade Desk",
-    company: "Marathon",
-    description: "Founding Partner at Marathon. Board member at Coinbase & Pinterest. Ex product exec at Google, Facebook, and Square.",
-    linkedin: "https://www.linkedin.com/in/gokulrajaram1/",
-    alt: "Gokul Rajaram speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/e042563d1_Gokul.png"
-  }
 ];
 
 function SpeakerCard({ speaker, index }) {
@@ -243,42 +253,38 @@ export default function Speakers() {
         </motion.div>
 
         <div className="flex flex-col items-center gap-8 mb-10">
-          {/* Row 1: 2 speakers */}
-          <div className="grid grid-cols-2 gap-8">
-            {SPEAKERS.slice(0, 2).map((speaker, i) => (
+          {/* Row 1: 4 speakers - Nami, Joshua, Gokul, Nabin */}
+          <div className="grid grid-cols-4 gap-8">
+            {SPEAKERS.slice(0, 4).map((speaker, i) => (
               <SpeakerCard key={i} speaker={speaker} index={i} />
             ))}
           </div>
-          {/* Row 2: 2 speakers */}
-          <div className="grid grid-cols-2 gap-8">
-            {SPEAKERS.slice(2, 4).map((speaker, i) => (
-              <SpeakerCard key={i + 2} speaker={speaker} index={i + 2} />
-            ))}
-          </div>
-          {/* Row 3: 4 speakers */}
+          {/* Row 2: 4 speakers */}
           <div className="grid grid-cols-4 gap-8">
             {SPEAKERS.slice(4, 8).map((speaker, i) => (
               <SpeakerCard key={i + 4} speaker={speaker} index={i + 4} />
             ))}
           </div>
-          {/* Row 4: 4 speakers */}
+          {/* Row 3: 4 speakers */}
           <div className="grid grid-cols-4 gap-8">
             {SPEAKERS.slice(8, 12).map((speaker, i) => (
               <SpeakerCard key={i + 8} speaker={speaker} index={i + 8} />
             ))}
           </div>
-          {/* Row 5: 3 speakers */}
-          <div className="grid grid-cols-3 gap-8">
-            {SPEAKERS.slice(12, 15).map((speaker, i) => (
+          {/* Row 4: 4 speakers */}
+          <div className="grid grid-cols-4 gap-8">
+            {SPEAKERS.slice(12, 16).map((speaker, i) => (
               <SpeakerCard key={i + 12} speaker={speaker} index={i + 12} />
             ))}
           </div>
-          {/* Row 6: 2 speakers */}
-          <div className="grid grid-cols-2 gap-8">
-            {SPEAKERS.slice(15, 17).map((speaker, i) => (
-              <SpeakerCard key={i + 15} speaker={speaker} index={i + 15} />
-            ))}
-          </div>
+          {/* Row 5: remaining */}
+          {SPEAKERS.slice(16).length > 0 && (
+            <div className="grid grid-cols-4 gap-8">
+              {SPEAKERS.slice(16).map((speaker, i) => (
+                <SpeakerCard key={i + 16} speaker={speaker} index={i + 16} />
+              ))}
+            </div>
+          )}
         </div>
 
 
