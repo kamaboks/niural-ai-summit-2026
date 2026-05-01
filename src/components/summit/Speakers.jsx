@@ -66,11 +66,11 @@ const SPEAKERS = [
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/ram.png"
   },
   {
-    name: "Jason Kwon",
-    title: "Chief Strategy Officer",
+    name: "Jason Bond",
+    title: "",
     subtitle: "",
-    company: "OpenAI",
-    description: "Chief Strategy Officer at OpenAI, shaping the strategic direction of one of the world's leading AI research companies.",
+    company: "",
+    description: "",
     linkedin: "https://www.linkedin.com/in/jjbond/",
     alt: "Jason Kwon speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/jason.png"
