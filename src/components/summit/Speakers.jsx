@@ -186,7 +186,7 @@ const SPEAKERS = [
     description: "Co-Founder & CEO of Every, the premier AI media company publishing daily newsletters and shipping AI products with a team of 15. Writes the 'Chain of Thought' column and hosts the 'AI & I' podcast exploring the frontier of AI. Penn alum.",
     linkedin: "https://www.linkedin.com/in/danshipper/",
     alt: "Dan Shipper speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/dan.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/d51dec02b_Danshipper.png"
   },
   {
     name: "Melia Russell",
@@ -196,7 +196,7 @@ const SPEAKERS = [
     description: "Senior Reporter at Business Insider covering startups, venture capital, and the future of work.",
     linkedin: "https://www.linkedin.com/in/meliarussell/",
     alt: "Melia Russell speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/melia.png"
+    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/b0a84c0a1_MeliaRusell.png"
   },
   {
     name: "Lowell Putnam",
