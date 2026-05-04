@@ -188,16 +188,7 @@ const SPEAKERS = [
     alt: "Dan Shipper speaking at AI Conference NYC",
     image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/d51dec02b_Danshipper.png"
   },
-  {
-    name: "Melia Russell",
-    title: "Senior Reporter",
-    subtitle: "Covering Startups, VC & Future of Work",
-    company: "Business Insider",
-    description: "Senior Reporter at Business Insider covering startups, venture capital, and the future of work.",
-    linkedin: "https://www.linkedin.com/in/meliarussell/",
-    alt: "Melia Russell speaking at AI Conference NYC",
-    image: "https://media.base44.com/images/public/699dd0c3a7954b36d829e748/b0a84c0a1_MeliaRusell.png"
-  },
+
   {
     name: "Lowell Putnam",
     title: "Co-Founder & CEO",
