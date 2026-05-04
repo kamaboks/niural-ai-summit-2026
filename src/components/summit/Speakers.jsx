@@ -268,39 +268,12 @@ export default function Speakers() {
           </p>
         </motion.div>
 
-        <div className="flex flex-col items-center gap-8 mb-10">
-          {/* Row 1: 4 speakers - Nami, Joshua, Gokul, Nabin */}
-          <div className="grid grid-cols-4 gap-8">
-            {SPEAKERS.slice(0, 4).map((speaker, i) => (
-              <SpeakerCard key={i} speaker={speaker} index={i} />
-            ))}
-          </div>
-          {/* Row 2: 4 speakers */}
-          <div className="grid grid-cols-4 gap-8">
-            {SPEAKERS.slice(4, 8).map((speaker, i) => (
-              <SpeakerCard key={i + 4} speaker={speaker} index={i + 4} />
-            ))}
-          </div>
-          {/* Row 3: 4 speakers */}
-          <div className="grid grid-cols-4 gap-8">
-            {SPEAKERS.slice(8, 12).map((speaker, i) => (
-              <SpeakerCard key={i + 8} speaker={speaker} index={i + 8} />
-            ))}
-          </div>
-          {/* Row 4: 4 speakers */}
-          <div className="grid grid-cols-4 gap-8">
-            {SPEAKERS.slice(12, 16).map((speaker, i) => (
-              <SpeakerCard key={i + 12} speaker={speaker} index={i + 12} />
-            ))}
-          </div>
-          {/* Row 5: remaining */}
-          {SPEAKERS.slice(16).length > 0 && (
-            <div className="grid grid-cols-4 gap-8">
-              {SPEAKERS.slice(16).map((speaker, i) => (
-                <SpeakerCard key={i + 16} speaker={speaker} index={i + 16} />
-              ))}
+        <div className="flex flex-wrap justify-center gap-8 mb-10">
+          {SPEAKERS.map((speaker, i) => (
+            <div key={i} className="w-52">
+              <SpeakerCard speaker={speaker} index={i} />
             </div>
-          )}
+          ))}
         </div>
 
 
